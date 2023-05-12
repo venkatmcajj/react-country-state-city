@@ -24,7 +24,9 @@ const StateSelect = ({
   const [states, setStates] = useState<State[]>([]);
   useEffect(() => {
     if (countryid) {
-      setStates(GetState(countryid));
+      GetState(countryid).then((data) => {
+        setStates(data);
+      });
     }
   }, [countryid]);
   return (

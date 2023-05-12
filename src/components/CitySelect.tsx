@@ -26,7 +26,9 @@ const CitySelect = ({
   const [cities, setCities] = useState<City[]>([]);
   useEffect(() => {
     if (countryid) {
-      setCities(GetCity(countryid, stateid));
+      GetCity(countryid, stateid).then((data) => {
+        setCities(data);
+      });
     }
   }, [countryid, stateid]);
   return (

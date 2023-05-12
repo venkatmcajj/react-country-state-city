@@ -1,9 +1,8 @@
-import React, { ChangeEvent } from "react";
+import React, { ChangeEvent, useEffect, useState } from "react";
 import { Country } from "../types";
 import { GetCountries } from "../utils";
 import Dropdown from "./Dropdown";
 
-const countriesunfiltered = GetCountries();
 type PageProps = {
   defaultValue?: Country;
   containerClassName?: string;
@@ -22,6 +21,12 @@ const CountrySelect = ({
   placeHolder,
   showFlag,
 }: PageProps) => {
+  const [countriesunfiltered, setCountries] = useState<Country[]>([]);
+  useEffect(() => {
+    GetCountries().then((data) => {
+      setCountries(data);
+    });
+  }, []);
   return (
     <>
       <div className={containerClassName} style={{ position: "relative" }}>
