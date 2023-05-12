@@ -1,5 +1,6 @@
 import React, { ChangeEvent, useEffect, useRef, useState } from "react";
 import { City, Country, State } from "../types";
+import "../styles/style.scss";
 const Icon = () => {
   return (
     <svg height="20" width="20" viewBox="0 0 20 20">

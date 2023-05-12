@@ -16,7 +16,7 @@ module.exports = {
         },
         {
             file: pkg.module,
-            format: "es",
+            format: "esm",
             sourcemap: true
         },
         {
