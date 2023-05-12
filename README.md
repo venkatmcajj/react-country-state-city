@@ -63,11 +63,17 @@ function App() {
 }
 ```
 
-<img src="https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/example/src/example1.png" alt="React country state city example screenshot">
+### City Example
 
-<img src="https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/example/src/example2.png" alt="React country state city example screenshot">
+<img src="https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/example/src/example1.png" alt="React country state city example screenshot"/>
 
-<img src="https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/example/src/example3.png" alt="React country state city example screenshot">
+### State Example
+
+<img src="https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/example/src/example2.png" alt="React country state city example screenshot"/>
+
+### Country Example
+
+<img src="https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/example/src/example3.png" alt="React country state city example screenshot"/>
 
 ## The Country Select Properties
 
