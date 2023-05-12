@@ -1,8 +1,37 @@
 import { City, Country, CountryState, CountryStateCity, State } from "../types";
-import countries from "./countriesminified.json";
-import states from "./statesminified.json";
-import cities from "./citiesminified.json";
+import axios from "axios";
 
+let countries: Country[] = [];
+let states: CountryState[] = [];
+let cities: CountryStateCity[] = [];
+
+axios
+  .get(
+    "https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/data/countriesminified.json"
+  )
+  .then((res) => {
+    if (res.data) {
+      countries = res.data;
+    }
+  });
+axios
+  .get(
+    "https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/data/statesminified.json"
+  )
+  .then((res) => {
+    if (res.data) {
+      states = res.data;
+    }
+  });
+axios
+  .get(
+    "https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/data/citiesminified.json"
+  )
+  .then((res) => {
+    if (res.data) {
+      cities = res.data;
+    }
+  });
 export const GetCountries = (): Country[] | [] => {
   return countries as Array<Country>;
 };
