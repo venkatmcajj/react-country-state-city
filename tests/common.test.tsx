@@ -2,7 +2,8 @@ import React from "react";
 import "jest-canvas-mock";
 import renderer from "react-test-renderer";
 import { CountrySelect, GetCity, GetCountries, GetState } from "../src";
-
+import fetchmock from "jest-fetch-mock";
+fetchmock.dontMock();
 describe("Common render", () => {
   it("fetching records", async () => {
     const country = await GetCountries();
