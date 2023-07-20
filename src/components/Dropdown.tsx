@@ -90,10 +90,11 @@ const Dropdown = ({
     if (!searchValue) {
       return options;
     }
-    return options.filter(
+    let filteredOptions = options.filter(
       (option) =>
         option.name.toLowerCase().indexOf(searchValue.toLowerCase()) >= 0
     );
+    return filteredOptions.length > 0 ? filteredOptions : ["No Results Found"];
   };
 
   return (
@@ -118,18 +119,26 @@ const Dropdown = ({
       </div>
       {showMenu && (
         <div className={"stdropdown-menu"}>
-          {getOptions().map((option) => (
-            <div
-              onClick={() => onItemClick(option)}
-              key={option.id}
-              className={`${"stdropdown-item"} ${
-                isSelected(option) && "selected"
-              }`}
-            >
-              {showFlag && <span>{"emoji" in option ? option.emoji : ""}</span>}{" "}
-              {option.name}
-            </div>
-          ))}
+          {getOptions().map((option) =>
+            typeof option === "string" ? (
+              <div key={option} className={`${"stdropdown-item"}`}>
+                {option}
+              </div>
+            ) : (
+              <div
+                onClick={() => onItemClick(option)}
+                key={option.id}
+                className={`${"stdropdown-item"} ${
+                  isSelected(option) && "selected"
+                }`}
+              >
+                {showFlag && (
+                  <span>{"emoji" in option ? option.emoji : ""}</span>
+                )}{" "}
+                {option.name}
+              </div>
+            )
+          )}
         </div>
       )}
     </div>

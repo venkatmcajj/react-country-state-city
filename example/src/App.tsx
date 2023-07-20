@@ -4,8 +4,8 @@ import {
   CitySelect,
   CountrySelect,
   StateSelect,
-} from "react-country-state-city";
-import "react-country-state-city/dist/react-country-state-city.css";
+} from "@davzon/react-country-state-city";
+import "@davzon/react-country-state-city/dist/react-country-state-city.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 export default function App() {
   const [countryid, setCountryid] = useState(0);
