@@ -1,5 +1,5 @@
 {
-  "name": "react-country-state-city",
+  "name": "@davzon/react-country-state-city",
   "version": "1.0.5",
   "description": "React-country-state-city allows you to create a Select dropdown for countries, states, cities with search options.",
   "main": "dist/cjs/index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/venkatmcajj/react-country-state-city.git"
+    "url": "git+https://github.com/David-Solutions/react-country-state-city.git"
   },
   "keywords": [
     "react",
@@ -39,9 +39,9 @@
   "author": "Venkatesh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/venkatmcajj/react-country-state-city/issues"
+    "url": "https://github.com/David-Solutions/react-country-state-city/issues"
   },
-  "homepage": "https://github.com/venkatmcajj/react-country-state-city#readme",
+  "homepage": "https://github.com/David-Solutions/react-country-state-city#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.1.0",
     "@rollup/plugin-json": "^6.0.0",
