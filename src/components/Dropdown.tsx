@@ -90,7 +90,7 @@ const Dropdown = ({
     if (!searchValue) {
       return options;
     }
-    let filteredOptions = options.filter(
+    const filteredOptions = options.filter(
       (option) =>
         option.name.toLowerCase().indexOf(searchValue.toLowerCase()) >= 0
     );
