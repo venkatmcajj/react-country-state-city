@@ -110,6 +110,7 @@ const Dropdown = ({
           value={getDisplay()}
           placeholder={placeHolder}
           ref={searchRef}
+          autoComplete="off"
         />
         <div className={"stdropdown-tools"}>
           <div className={"stdropdown-tool"}>
