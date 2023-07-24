@@ -62,7 +62,7 @@ export default function App() {
         onTextChange={(e) => {
           console.log(e);
         }}
-        displayNative={true}
+        displayNative={false}
         placeHolder="Select Language"
       />
     </div>
