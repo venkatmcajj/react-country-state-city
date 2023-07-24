@@ -61,7 +61,7 @@ function App() {
         placeHolder="Select City"
       />
       <h6>Language</h6>
-      <CitySelect
+      <LanguageSelect
         onChange={(e) => {
           console.log(e);
         }}
