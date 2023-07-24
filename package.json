@@ -1,7 +1,7 @@
 {
   "name": "react-country-state-city",
-  "version": "1.0.5",
-  "description": "React-country-state-city allows you to create a Select dropdown for countries, states, cities with search options.And also provide the language select bar.",
+  "version": "1.0.6",
+  "description": "React-country-state-city allows you to create a Select dropdown for countries, states, cities with search options.And also provide the option to create a language select dropdown to list all Languages.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "browser": "dist/umd/index.js",

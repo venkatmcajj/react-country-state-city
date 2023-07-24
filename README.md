@@ -1,6 +1,6 @@
 # React-country-state-city
 
-React-country-state-city allows you to create a responsive country, state, city dropdown with search options.
+React-country-state-city allows you to create a responsive country, state, city dropdown with search options. And also provide the option to create a language select dropdown to list all Languages.
 
 ## Installation
 
@@ -18,6 +18,7 @@ $ yarn add react-country-state-city
 - Country flag icons.
 - onChange and onTextChange callbacks.
 - And much more !
+- Language dropdown to list and search all languages in English and native too.
 
 ## The gist
 
@@ -26,6 +27,7 @@ import {
   CitySelect,
   CountrySelect,
   StateSelect,
+  LanguageSelect,
 } from "react-country-state-city";
 import "react-country-state-city/dist/react-country-state-city.css";
 
@@ -57,6 +59,13 @@ function App() {
           console.log(e);
         }}
         placeHolder="Select City"
+      />
+      <h6>Language</h6>
+      <CitySelect
+        onChange={(e) => {
+          console.log(e);
+        }}
+        placeHolder="Select Language"
       />
     </div>
   );
