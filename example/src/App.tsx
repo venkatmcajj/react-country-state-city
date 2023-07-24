@@ -4,7 +4,7 @@ import {
   CitySelect,
   CountrySelect,
   StateSelect,
-  LanguageSelect
+  LanguageSelect,
 } from "react-country-state-city";
 import "react-country-state-city/dist/react-country-state-city.css";
 import "bootstrap/dist/css/bootstrap.min.css";

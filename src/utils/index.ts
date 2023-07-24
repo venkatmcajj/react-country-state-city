@@ -1,4 +1,11 @@
-import { City, Country, CountryState, CountryStateCity, Language, State } from "../types";
+import {
+  City,
+  Country,
+  CountryState,
+  CountryStateCity,
+  Language,
+  State,
+} from "../types";
 
 export const GetCountries = async (): Promise<Country[] | []> => {
   const countries = await fetch(
