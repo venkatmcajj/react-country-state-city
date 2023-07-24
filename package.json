@@ -1,7 +1,7 @@
 {
   "name": "react-country-state-city",
   "version": "1.0.4",
-  "description": "React-country-state-city allows you to create a Select dropdown for countries, states, cities with search options.",
+  "description": "React-country-state-city allows you to create a Select dropdown for countries, states, cities with search options.And also provide the language select bar.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "browser": "dist/umd/index.js",
@@ -34,7 +34,11 @@
     "component",
     "country select",
     "state select",
-    "city select"
+    "city select",
+    "language",
+    "language select",
+    "multilingual",
+    "multi language"
   ],
   "author": "Venkatesh",
   "license": "MIT",

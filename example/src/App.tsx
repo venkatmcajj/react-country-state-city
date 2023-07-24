@@ -4,6 +4,7 @@ import {
   CitySelect,
   CountrySelect,
   StateSelect,
+  LanguageSelect
 } from "react-country-state-city";
 import "react-country-state-city/dist/react-country-state-city.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -50,6 +51,19 @@ export default function App() {
           console.log(e);
         }}
         placeHolder="Select City"
+      />
+      <h6 className="mt-3 mb-3">Language</h6>
+      <LanguageSelect
+        containerClassName="form-group"
+        inputClassName="form-control"
+        onChange={(e) => {
+          console.log(e);
+        }}
+        onTextChange={(e) => {
+          console.log(e);
+        }}
+        displayNative={true}
+        placeHolder="Select Language"
       />
     </div>
   );

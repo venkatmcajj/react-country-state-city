@@ -106,6 +106,20 @@ The same country select properties and additionally
 | countryid | number | `required` The id of the selected country object |
 | stateid   | number | `required` The id of the selected state object   |
 
+## The Language Select Properties
+
+Properties used to customise the rendering:
+
+| Name               | Type     | Description                                                                                                                                |
+| ------------------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| defaultValue       | Country  | `optional` The current value: a country object                                                                                             |
+| containerClassName | string   | `optional` styles for a container                                                                                                          |
+| inputClassName     | string   | `optional` styles for input box                                                                                                            |
+| onChange           | function | `optional` The current value: a country object.The argument is the country object                                                          |
+| onTextChange       | function | `optional` A callback fired when the input text changes.                                                                                   |
+| placeHolder        | string   | `optional` Placeholder text displayed in empty input                                                                                       |
+| displayNative      | boolean  | `optional` value are used to display the languages in native language when is true and display in english when is false. default is false. |
+
 ## Demo
 
 [A demo is worth a thousand words](https://venkatmcajj.github.io/react-country-state-city/example)
@@ -116,8 +130,7 @@ Show your ❤️ and support by giving a ⭐. Any suggestions are welcome! venka
 
 ## Financial Contributors
 
-Become a financial contributor and help us sustain our community. [Contribute](https://opencollective.com/react-country-state-city) 
-
+Become a financial contributor and help us sustain our community. [Contribute](https://opencollective.com/react-country-state-city)
 
 ## License
 

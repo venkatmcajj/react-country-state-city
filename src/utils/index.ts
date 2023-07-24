@@ -1,10 +1,17 @@
-import { City, Country, CountryState, CountryStateCity, State } from "../types";
+import { City, Country, CountryState, CountryStateCity, Language, State } from "../types";
 
 export const GetCountries = async (): Promise<Country[] | []> => {
   const countries = await fetch(
     "https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/data/countriesminified.json"
   ).then((res) => res.json());
   return countries as Array<Country>;
+};
+
+export const GetLanguages = async (): Promise<Language[] | []> => {
+  const countries = await fetch(
+    "https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/data/languagesminified.json"
+  ).then((res) => res.json());
+  return countries as Array<Language>;
 };
 
 export const GetState = async (id: number): Promise<Array<State> | []> => {

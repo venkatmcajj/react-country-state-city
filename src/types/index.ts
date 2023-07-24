@@ -25,6 +25,11 @@ export interface State {
   latitude: string;
   longitude: string;
 }
+export interface Language {
+  code: string;
+  name: string;
+  native: string;
+}
 export interface CountryState {
   id: number;
   states: [State];
