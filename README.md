@@ -7,12 +7,22 @@ React-country-state-city allows you to create a responsive country, state, city 
 ```
 $ npm install --save react-country-state-city
 $ yarn add react-country-state-city
+
+$ import {
+  CitySelect,
+  CountrySelect,
+  StateSelect,
+  LanguageSelect,
+} from "react-country-state-city";
+
+$ import "react-country-state-city/dist/react-country-state-city.css";
 ```
 
 ## Features
 
 - Easy to set up for real, you can make it work in less than 1minute!
 - Super easy to customize
+- Can also use it in your own custom UI.
 - Autosuggest: a list of matching countries is displayed when the input text changes.
 - Country data is provided, State data is provided based on given country id, City data is provided based on given country id and state id.
 - Country flag icons.
@@ -21,6 +31,8 @@ $ yarn add react-country-state-city
 - Language dropdown to list and search all languages in English and native too.
 
 ## The gist
+
+### Default
 
 ```jsx
 import {
@@ -72,17 +84,174 @@ function App() {
 }
 ```
 
+### Custom
+
+```jsx
+import {
+  GetCountries,
+  GetState,
+  GetCity,
+  GetLanguages, //async functions
+} from "react-country-state-city";
+
+function App() {
+  const [countryid, setCountryid] = useState(0);
+  const [stateid, setStateid] = useState(0);
+  const [cityid, setCityid] = useState(0);
+  const [language, setLanguage] = useState(0);
+
+  const [countriesList, setCountriesList] = useState([]);
+  const [stateList, setStateList] = useState([]);
+  const [cityList, setCityList] = useState([]);
+  const [languageList, setLanguageList] = useState([]);
+
+  useEffect(() => {
+    GetCountries().then((result) => {
+      setCountries(result);
+    });
+
+    GetLanguages().then((result) => {
+      setLanguageList(result);
+    });
+  }, []);
+  return (
+    <div>
+      <h6>Country</h6>
+      <select
+        onChange={(e) => {
+          setCountryid(e.id);
+          GetState(e.id).then((result) => {
+            setStateList(result);
+          });
+        }}
+        value={countryid}
+      >
+        {countryList.map((item, index) => (
+          <option key={index} value={item.id}>
+            {item.name}
+          </option>
+        ))}
+      </select>
+      <h6>State</h6>
+      <select
+        onChange={(e) => {
+          setStateid(e.id);
+          GetCity(countryid, e.id).then((result) => {
+            setCityList(result);
+          });
+        }}
+        value={stateid}
+      >
+        {stateList.map((item, index) => (
+          <option key={index} value={item.id}>
+            {item.name}
+          </option>
+        ))}
+      </select>
+      <h6>City</h6>
+      <select
+        onChange={(e) => {
+          setCityid(e.id);
+        }}
+        value={cityid}
+      >
+        {cityList.map((item, index) => (
+          <option key={index} value={item.id}>
+            {item.name}
+          </option>
+        ))}
+      </select>
+      <h6>Language</h6>
+      <select
+        onChange={(e) => {
+          setLanguage(e);
+        }}
+        value={language}
+      >
+        {languageList.map((item, index) => (
+          <option key={index} value={item.id}>
+            {item.name}
+          </option>
+        ))}
+      </select>
+    </div>
+  );
+}
+```
+
 ### City Example
 
 <img src="https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/example/src/example1.png" alt="React country state city example screenshot"/>
+
+### GetCity - Result
+
+[
+{
+id: number;
+name: string;
+latitude: string;
+longitude: string;
+},
+...
+]
 
 ### State Example
 
 <img src="https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/example/src/example2.png" alt="React country state city example screenshot"/>
 
+### GetState - Result
+
+[
+{
+id: number;
+name: string;
+state_code: string;
+latitude: string;
+longitude: string;
+},
+...
+]
+
 ### Country Example
 
 <img src="https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/example/src/example3.png" alt="React country state city example screenshot"/>
+
+### GetCountries - Result
+
+[
+{
+id: number;
+name: string;
+iso3: string;
+iso2: string;
+numeric_code: string;
+phone_code: number;
+capital: string;
+currency: string;
+currency_name: string;
+currency_symbol: string;
+native: string;
+region: string;
+subregion: string;
+emoji: string;
+emojiU: string;
+tld: string;
+latitude: string;
+longitude: string;
+},
+...
+]
+
+### GetLanguages - Result
+
+[
+{
+code: string;
+name: string;
+native: string;
+},
+...
+]
 
 ## The Country Select Properties
 
