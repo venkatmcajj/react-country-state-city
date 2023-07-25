@@ -12,5 +12,5 @@ export {
   GetCountries,
   GetState,
   GetCity,
-  GetLanguages
+  GetLanguages,
 };
