@@ -119,8 +119,9 @@ function App() {
       <h6>Country</h6>
       <select
         onChange={(e) => {
-          setCountryid(e.id);
-          GetState(e.id).then((result) => {
+          const selectedID = parseInt(e.target.value)
+          setCountryid(selectedID);
+          GetState(selectedID).then((result) => {
             setStateList(result);
           });
         }}
