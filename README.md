@@ -119,15 +119,16 @@ function App() {
       <h6>Country</h6>
       <select
         onChange={(e) => {
-          setCountryid(e.id);
-          GetState(e.id).then((result) => {
+          const country = stateList[e.target.value]; //here you will get full country object.
+          setCountryid(country.id);
+          GetState(country.id).then((result) => {
             setStateList(result);
           });
         }}
         value={countryid}
       >
         {countryList.map((item, index) => (
-          <option key={index} value={item.id}>
+          <option key={index} value={index}>
             {item.name}
           </option>
         ))}
@@ -135,15 +136,16 @@ function App() {
       <h6>State</h6>
       <select
         onChange={(e) => {
-          setStateid(e.id);
-          GetCity(countryid, e.id).then((result) => {
+          const state = stateList[e.target.value]; //here you will get full state object.
+          setStateid(state.id);
+          GetCity(countryid, state.id).then((result) => {
             setCityList(result);
           });
         }}
         value={stateid}
       >
         {stateList.map((item, index) => (
-          <option key={index} value={item.id}>
+          <option key={index} value={index}>
             {item.name}
           </option>
         ))}
@@ -151,12 +153,13 @@ function App() {
       <h6>City</h6>
       <select
         onChange={(e) => {
-          setCityid(e.id);
+          const city = cityList[e.target.value]; //here you will get full city object.
+          setCityid(city.id);
         }}
         value={cityid}
       >
         {cityList.map((item, index) => (
-          <option key={index} value={item.id}>
+          <option key={index} value={index}>
             {item.name}
           </option>
         ))}
