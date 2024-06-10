@@ -1,18 +1,30 @@
+@font-face {
+  font-family: 'Twemoji Mozilla';
+  src: url(./fonts/TwemojiMozilla.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+  
 .stdropdown-container {
   text-align: left;
   border: 1px solid #ccc;
   position: relative;
   border-radius: 5px;
+  font-family: "Twemoji Mozilla" !important;
 }
+
 .stdropdown-menu::-webkit-scrollbar {
   width: 2px;
 }
+
 .stdropdown-menu::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
+
 .stdropdown-menu::-webkit-scrollbar-thumb {
   background: #888;
 }
+
 .stdropdown-menu::-webkit-scrollbar-thumb:hover {
   background: #555;
 }

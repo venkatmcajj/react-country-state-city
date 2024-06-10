@@ -6,6 +6,7 @@ const peerDepsExternal = require("rollup-plugin-peer-deps-external");
 const resolve = require("@rollup/plugin-node-resolve");
 const commonjs = require("@rollup/plugin-commonjs");
 const sass = require("rollup-plugin-sass");
+const copy = require("rollup-plugin-copy");
 module.exports = {
     input: "src/index.ts",
     output: [
@@ -30,8 +31,16 @@ module.exports = {
         peerDepsExternal(),
         resolve(),
         commonjs(),
+        sass({
+            output: './dist/react-country-state-city.css',
+            // Ensure the CSS output folder exists, or create it as part of your build process
+        }),
+        copy({
+            targets: [
+                { src: 'src/styles/fonts', dest: 'dist' }
+            ]
+        }),
         typescript({ useTsconfigDeclarationDir: true }),
-        sass({ output: './dist/react-country-state-city.css' }),
         json(),
         terser()
     ]

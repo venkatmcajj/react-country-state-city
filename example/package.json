@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prestart": "npm install",
     "start": "parcel src/index.html"
   },
   "devDependencies": {
@@ -20,7 +21,6 @@
     "punycode": "^1.4.1",
     "querystring-es3": "^0.2.1",
     "react": "^18.2.0",
-    "react-country-state-city": "^1.0.5",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.11.1",
@@ -29,5 +29,8 @@
     "tty-browserify": "^0.0.1",
     "url": "^0.11.0",
     "util": "^0.12.5"
+  },
+  "dependencies": {
+    "react-country-state-city": "file:../react-country-state-city-1.1.2.tgz"
   }
 }

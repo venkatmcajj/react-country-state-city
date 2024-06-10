@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useEffect, useRef, useState } from "react";
+import React, { ChangeEvent, InputHTMLAttributes, useEffect, useRef, useState } from "react";
 import { Language } from "../types";
 const Icon = () => {
   return (
@@ -8,7 +8,7 @@ const Icon = () => {
   );
 };
 
-type ComponentProps = {
+type ComponentProps = InputHTMLAttributes<HTMLInputElement> & {
   placeHolder?: string;
   options: Array<Language>;
   inputClassName?: string;

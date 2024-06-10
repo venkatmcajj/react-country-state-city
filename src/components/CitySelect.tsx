@@ -1,8 +1,8 @@
-import React, { ChangeEvent, useEffect, useState } from "react";
+import React, { ChangeEvent, InputHTMLAttributes, useEffect, useState } from "react";
 import { City } from "../types";
 import { GetCity } from "../utils";
 import Dropdown from "./Dropdown";
-type PageProps = {
+type PageProps = InputHTMLAttributes<HTMLInputElement> & {
   containerClassName?: string;
   inputClassName?: string;
   onChange?: (e: City) => void;

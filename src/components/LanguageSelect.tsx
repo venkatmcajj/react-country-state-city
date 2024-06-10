@@ -1,9 +1,9 @@
-import React, { ChangeEvent, useEffect, useState } from "react";
+import React, { ChangeEvent, InputHTMLAttributes, useEffect, useState } from "react";
 import { Language } from "../types";
 import { GetLanguages } from "../utils";
 import LanguageDropdown from "./LanguageDropdown";
 
-type PageProps = {
+type PageProps = InputHTMLAttributes<HTMLInputElement> & {
   defaultValue?: Language;
   containerClassName?: string;
   inputClassName?: string;

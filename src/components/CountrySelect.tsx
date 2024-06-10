@@ -1,9 +1,9 @@
-import React, { ChangeEvent, useEffect, useState } from "react";
+import React, { ChangeEvent, InputHTMLAttributes, useEffect, useState } from "react";
 import { Country } from "../types";
 import { GetCountries } from "../utils";
 import Dropdown from "./Dropdown";
 
-type PageProps = {
+type PageProps = InputHTMLAttributes<HTMLInputElement> & {
   defaultValue?: Country;
   containerClassName?: string;
   inputClassName?: string;
