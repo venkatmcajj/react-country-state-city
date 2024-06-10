@@ -1,4 +1,9 @@
-import React, { ChangeEvent, InputHTMLAttributes, useEffect, useState } from "react";
+import React, {
+  ChangeEvent,
+  InputHTMLAttributes,
+  useEffect,
+  useState,
+} from "react";
 import { Language } from "../types";
 import { GetLanguages } from "../utils";
 import LanguageDropdown from "./LanguageDropdown";

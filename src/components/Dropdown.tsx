@@ -1,4 +1,10 @@
-import React, { ChangeEvent, InputHTMLAttributes, useEffect, useRef, useState } from "react";
+import React, {
+  ChangeEvent,
+  InputHTMLAttributes,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import { City, Country, State } from "../types";
 const Icon = () => {
   return (
@@ -61,8 +67,9 @@ const Dropdown = ({
     if (!selectedValue) {
       return searchValue ? searchValue : "";
     }
-    return `${showFlag && "emoji" in selectedValue ? selectedValue.emoji : ""
-      } ${selectedValue.name}`;
+    return `${
+      showFlag && "emoji" in selectedValue ? selectedValue.emoji : ""
+    } ${selectedValue.name}`;
   };
 
   const onItemClick = (option: Country | State | City) => {
@@ -121,8 +128,9 @@ const Dropdown = ({
             <div
               onClick={() => onItemClick(option)}
               key={option.id}
-              className={`${"stdropdown-item"} ${isSelected(option) && "selected"
-                }`}
+              className={`${"stdropdown-item"} ${
+                isSelected(option) && "selected"
+              }`}
             >
               {/* {showFlag && <span className={`fi fi-${"iso2" in option ? option.iso2.toLowerCase() : ""}`}></span>} */}
               {showFlag && <span>{"emoji" in option ? option.emoji : ""}</span>}

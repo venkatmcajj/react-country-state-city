@@ -1,4 +1,9 @@
-import React, { ChangeEvent, InputHTMLAttributes, useEffect, useState } from "react";
+import React, {
+  ChangeEvent,
+  InputHTMLAttributes,
+  useEffect,
+  useState,
+} from "react";
 import { City } from "../types";
 import { GetCity } from "../utils";
 import Dropdown from "./Dropdown";

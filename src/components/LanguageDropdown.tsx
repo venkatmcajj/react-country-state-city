@@ -1,4 +1,10 @@
-import React, { ChangeEvent, InputHTMLAttributes, useEffect, useRef, useState } from "react";
+import React, {
+  ChangeEvent,
+  InputHTMLAttributes,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import { Language } from "../types";
 const Icon = () => {
   return (
