@@ -15810,6 +15810,16 @@
         "state_code": "42"
       },
       {
+        "id": 1012,
+        "name": "Akershus",
+        "state_code": "32"
+      },
+      {
+        "id": 1016,
+        "name": "Buskerud",
+        "state_code": "33"
+      },
+      {
         "id": 1009,
         "name": "Innlandet",
         "state_code": "34"
@@ -15833,6 +15843,11 @@
         "id": 1007,
         "name": "Oslo",
         "state_code": "03"
+      },
+      {
+        "id": 1011,
+        "name": "Østfold",
+        "state_code": "31"
       },
       {
         "id": 1021,
@@ -15863,11 +15878,6 @@
         "id": 1018,
         "name": "Vestland",
         "state_code": "46"
-      },
-      {
-        "id": 1011,
-        "name": "Viken",
-        "state_code": "30"
       }
     ]
   },
