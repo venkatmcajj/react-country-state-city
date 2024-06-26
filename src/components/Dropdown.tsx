@@ -68,8 +68,9 @@ const Dropdown = ({
     if (!selectedValue) {
       return searchValue ? searchValue : "";
     }
-    return `${showFlag && "emoji" in selectedValue ? selectedValue.emoji : ""
-      } ${selectedValue.name}`;
+    return `${
+      showFlag && "emoji" in selectedValue ? selectedValue.emoji : ""
+    } ${selectedValue.name}`;
   };
 
   const onItemClick = (option: Country | State | City) => {
@@ -129,8 +130,9 @@ const Dropdown = ({
             <div
               onClick={() => onItemClick(option)}
               key={option.id}
-              className={`${"stdropdown-item"} ${isSelected(option) && "selected"
-                }`}
+              className={`${"stdropdown-item"} ${
+                isSelected(option) && "selected"
+              }`}
             >
               {showFlag && <span>{"emoji" in option ? option.emoji : ""}</span>}
               {option.name}
