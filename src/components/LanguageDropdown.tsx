@@ -31,6 +31,7 @@ const LanguageDropdown = ({
   onTextChange,
   defaultValue,
   displayNative,
+  ...props
 }: ComponentProps) => {
   const [showMenu, setShowMenu] = useState(false);
   const [selectedValue, setSelectedValue] = useState<Language>();
@@ -108,6 +109,7 @@ const LanguageDropdown = ({
         className={"stdropdown-input stsearch-box"}
       >
         <input
+          {...props}
           className={inputClassName}
           onChange={onSearch}
           value={getDisplay()}

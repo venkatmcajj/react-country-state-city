@@ -31,6 +31,7 @@ const Dropdown = ({
   onTextChange,
   defaultValue,
   showFlag = true,
+  ...props
 }: ComponentProps) => {
   const [showMenu, setShowMenu] = useState(false);
   const [selectedValue, setSelectedValue] = useState<Country | State | City>();
@@ -67,9 +68,8 @@ const Dropdown = ({
     if (!selectedValue) {
       return searchValue ? searchValue : "";
     }
-    return `${
-      showFlag && "emoji" in selectedValue ? selectedValue.emoji : ""
-    } ${selectedValue.name}`;
+    return `${showFlag && "emoji" in selectedValue ? selectedValue.emoji : ""
+      } ${selectedValue.name}`;
   };
 
   const onItemClick = (option: Country | State | City) => {
@@ -110,6 +110,7 @@ const Dropdown = ({
         className={"stdropdown-input stsearch-box"}
       >
         <input
+          {...props}
           className={inputClassName}
           onChange={onSearch}
           value={getDisplay()}
@@ -128,11 +129,9 @@ const Dropdown = ({
             <div
               onClick={() => onItemClick(option)}
               key={option.id}
-              className={`${"stdropdown-item"} ${
-                isSelected(option) && "selected"
-              }`}
+              className={`${"stdropdown-item"} ${isSelected(option) && "selected"
+                }`}
             >
-              {/* {showFlag && <span className={`fi fi-${"iso2" in option ? option.iso2.toLowerCase() : ""}`}></span>} */}
               {showFlag && <span>{"emoji" in option ? option.emoji : ""}</span>}
               {option.name}
             </div>

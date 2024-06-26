@@ -25,6 +25,7 @@ const CountrySelect = ({
   onChange,
   placeHolder,
   showFlag,
+  ...props
 }: PageProps) => {
   const [countriesunfiltered, setCountries] = useState<Country[]>([]);
   useEffect(() => {
@@ -36,6 +37,7 @@ const CountrySelect = ({
     <>
       <div className={containerClassName} style={{ position: "relative" }}>
         <Dropdown
+          {...props}
           placeHolder={placeHolder}
           options={countriesunfiltered}
           onChange={(value) => {

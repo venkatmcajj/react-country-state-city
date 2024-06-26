@@ -25,6 +25,7 @@ const LanguageSelect = ({
   onChange,
   placeHolder,
   displayNative,
+  ...props
 }: PageProps) => {
   const [languagesunfiltered, setLanguages] = useState<Language[]>([]);
   useEffect(() => {
@@ -36,6 +37,7 @@ const LanguageSelect = ({
     <>
       <div className={containerClassName} style={{ position: "relative" }}>
         <LanguageDropdown
+          {...props}
           placeHolder={placeHolder}
           options={languagesunfiltered}
           onChange={(value) => {

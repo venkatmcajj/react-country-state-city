@@ -25,6 +25,7 @@ const StateSelect = ({
   onChange,
   countryid,
   placeHolder,
+  ...props
 }: PageProps) => {
   const [states, setStates] = useState<State[]>([]);
   useEffect(() => {
@@ -38,6 +39,7 @@ const StateSelect = ({
     <>
       <div className={containerClassName} style={{ position: "relative" }}>
         <Dropdown
+          {...props}
           placeHolder={placeHolder}
           options={states}
           onChange={(value) => {

@@ -27,6 +27,7 @@ const CitySelect = ({
   countryid,
   stateid,
   placeHolder,
+  ...props
 }: PageProps) => {
   const [cities, setCities] = useState<City[]>([]);
   useEffect(() => {
@@ -40,6 +41,7 @@ const CitySelect = ({
     <>
       <div className={containerClassName} style={{ position: "relative" }}>
         <Dropdown
+          {...props}
           placeHolder={placeHolder}
           options={cities}
           onChange={(value) => {
