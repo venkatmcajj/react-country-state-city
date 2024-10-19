@@ -24,9 +24,13 @@ module.exports = {
             file: pkg.browser,
             format: "umd",
             sourcemap: true,
-            name: 'ReactCountryStateCity'
+            name: 'ReactCountryStateCity',
+            globals: {
+                react: 'React', // Ensure React is correctly recognized as a global variable
+              },
         }
     ],
+    external: ['react'],
     plugins: [
         peerDepsExternal(),
         resolve(),
@@ -40,7 +44,9 @@ module.exports = {
                 { src: 'src/styles/fonts', dest: 'dist' }
             ]
         }),
-        typescript({ useTsconfigDeclarationDir: true }),
+        typescript({
+            tsconfig: './tsconfig.json'
+          }),
         json(),
         terser()
     ]
