@@ -145,7 +145,7 @@ function App() {
       <select
         onChange={(e) => {
           const _region = regionsList[e.target.value];
-          setRegion(country.name);
+          setRegion(_region.name);
         }}
         value={region}
       >
@@ -237,6 +237,7 @@ longitude: string;
 ...
 ]
 
+
 ### State Example
 
 <img src="https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/example/src/example2.png" alt="React country state city example screenshot"/>
@@ -253,6 +254,7 @@ longitude: string;
 },
 ...
 ]
+
 
 ### Country Example
 

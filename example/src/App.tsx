@@ -23,7 +23,7 @@ export default function App() {
         placeHolder="Select Region"
       />
 
-      <h6 className="mt-3 mb-3">Country</h6>
+      {/* <h6 className="mt-3 mb-3">Country</h6>
       <CountrySelect
         region={region}
         containerClassName="form-group"
@@ -87,7 +87,7 @@ export default function App() {
         }}
         displayNative={false}
         placeHolder="Select Language"
-      />
+      /> */}
     </div>
   );
 }
