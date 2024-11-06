@@ -5,7 +5,7 @@ import React, {
   useRef,
   useState,
 } from "react";
-import { City, Country, State } from "../types";
+import { City, Country, Region, State } from "../types";
 const Icon = () => {
   return (
     <svg height="20" width="20" viewBox="0 0 20 20">
@@ -16,11 +16,11 @@ const Icon = () => {
 
 type ComponentProps = InputHTMLAttributes<HTMLInputElement> & {
   placeHolder?: string;
-  options: Array<Country | State | City>;
+  options: Array<Region | Country | State | City>;
   inputClassName?: string;
   onTextChange?: (e: ChangeEvent<HTMLInputElement>) => void;
-  defaultValue?: Country | State | City;
-  onChange: (e: Country | State | City) => void;
+  defaultValue?: Region | Country | State | City;
+  onChange: (e: Region | Country | State | City) => void;
   showFlag?: boolean;
 };
 const Dropdown = ({
@@ -34,7 +34,7 @@ const Dropdown = ({
   ...props
 }: ComponentProps) => {
   const [showMenu, setShowMenu] = useState(false);
-  const [selectedValue, setSelectedValue] = useState<Country | State | City>();
+  const [selectedValue, setSelectedValue] = useState<Region | Country | State | City>();
   const [searchValue, setSearchValue] = useState("");
   const searchRef = useRef<HTMLInputElement>(null);
   const inputRef = useRef<HTMLDivElement>(null);
@@ -73,12 +73,12 @@ const Dropdown = ({
     } ${selectedValue.name}`;
   };
 
-  const onItemClick = (option: Country | State | City) => {
+  const onItemClick = (option: Region | Country | State | City) => {
     setSelectedValue(option);
     onChange(option);
   };
 
-  const isSelected = (option: Country | State | City) => {
+  const isSelected = (option: Region | Country | State | City) => {
     if (!selectedValue) {
       return false;
     }

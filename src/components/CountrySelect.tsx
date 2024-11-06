@@ -16,6 +16,7 @@ type PageProps = InputHTMLAttributes<HTMLInputElement> & {
   onTextChange?: (e: ChangeEvent<HTMLInputElement>) => void;
   placeHolder?: string;
   showFlag?: boolean;
+  region?:string;
 };
 const CountrySelect = ({
   containerClassName,
@@ -25,11 +26,12 @@ const CountrySelect = ({
   onChange,
   placeHolder,
   showFlag,
+  region,
   ...props
 }: PageProps) => {
   const [countriesunfiltered, setCountries] = useState<Country[]>([]);
   useEffect(() => {
-    GetCountries().then((data) => {
+    GetCountries(region).then((data) => {
       setCountries(data);
     });
   }, []);

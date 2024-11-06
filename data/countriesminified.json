@@ -16,7 +16,8 @@
     "subregion": "Southern Asia",
     "latitude": "33.00000000",
     "longitude": "65.00000000",
-    "emoji": "🇦🇫"
+    "emoji": "🇦🇫",
+    "regionid": "111"
   },
   {
     "id": 2,
@@ -35,7 +36,8 @@
     "subregion": "Northern Europe",
     "latitude": "60.11666700",
     "longitude": "19.90000000",
-    "emoji": "🇦🇽"
+    "emoji": "🇦🇽",
+    "regionid": "112"
   },
   {
     "id": 3,
@@ -54,7 +56,8 @@
     "subregion": "Southern Europe",
     "latitude": "41.00000000",
     "longitude": "20.00000000",
-    "emoji": "🇦🇱"
+    "emoji": "🇦🇱",
+    "regionid": "112"
   },
   {
     "id": 4,
@@ -73,7 +76,8 @@
     "subregion": "Northern Africa",
     "latitude": "28.00000000",
     "longitude": "3.00000000",
-    "emoji": "🇩🇿"
+    "emoji": "🇩🇿",
+    "regionid": "113"
   },
   {
     "id": 5,
@@ -92,7 +96,8 @@
     "subregion": "Polynesia",
     "latitude": "-14.33333333",
     "longitude": "-170.00000000",
-    "emoji": "🇦🇸"
+    "emoji": "🇦🇸",
+    "regionid": "114"
   },
   {
     "id": 6,
@@ -111,7 +116,8 @@
     "subregion": "Southern Europe",
     "latitude": "42.50000000",
     "longitude": "1.50000000",
-    "emoji": "🇦🇩"
+    "emoji": "🇦🇩",
+    "regionid": "112"
   },
   {
     "id": 7,
@@ -130,7 +136,8 @@
     "subregion": "Middle Africa",
     "latitude": "-12.50000000",
     "longitude": "18.50000000",
-    "emoji": "🇦🇴"
+    "emoji": "🇦🇴",
+    "regionid": "113"
   },
   {
     "id": 8,
@@ -149,7 +156,8 @@
     "subregion": "Caribbean",
     "latitude": "18.25000000",
     "longitude": "-63.16666666",
-    "emoji": "🇦🇮"
+    "emoji": "🇦🇮",
+    "regionid": "115"
   },
   {
     "id": 9,
@@ -168,7 +176,8 @@
     "subregion": "",
     "latitude": "-74.65000000",
     "longitude": "4.48000000",
-    "emoji": "🇦🇶"
+    "emoji": "🇦🇶",
+    "regionid": "116"
   },
   {
     "id": 10,
@@ -187,7 +196,8 @@
     "subregion": "Caribbean",
     "latitude": "17.05000000",
     "longitude": "-61.80000000",
-    "emoji": "🇦🇬"
+    "emoji": "🇦🇬",
+    "regionid": "115"
   },
   {
     "id": 11,
@@ -206,7 +216,8 @@
     "subregion": "South America",
     "latitude": "-34.00000000",
     "longitude": "-64.00000000",
-    "emoji": "🇦🇷"
+    "emoji": "🇦🇷",
+    "regionid": "115"
   },
   {
     "id": 12,
@@ -225,7 +236,8 @@
     "subregion": "Western Asia",
     "latitude": "40.00000000",
     "longitude": "45.00000000",
-    "emoji": "🇦🇲"
+    "emoji": "🇦🇲",
+    "regionid": "111"
   },
   {
     "id": 13,
@@ -244,7 +256,8 @@
     "subregion": "Caribbean",
     "latitude": "12.50000000",
     "longitude": "-69.96666666",
-    "emoji": "🇦🇼"
+    "emoji": "🇦🇼",
+    "regionid": "115"
   },
   {
     "id": 14,
@@ -263,7 +276,8 @@
     "subregion": "Australia and New Zealand",
     "latitude": "-27.00000000",
     "longitude": "133.00000000",
-    "emoji": "🇦🇺"
+    "emoji": "🇦🇺",
+    "regionid": "114"
   },
   {
     "id": 15,
@@ -282,7 +296,8 @@
     "subregion": "Western Europe",
     "latitude": "47.33333333",
     "longitude": "13.33333333",
-    "emoji": "🇦🇹"
+    "emoji": "🇦🇹",
+    "regionid": "112"
   },
   {
     "id": 16,
@@ -301,7 +316,8 @@
     "subregion": "Western Asia",
     "latitude": "40.50000000",
     "longitude": "47.50000000",
-    "emoji": "🇦🇿"
+    "emoji": "🇦🇿",
+    "regionid": "111"
   },
   {
     "id": 18,
@@ -320,7 +336,8 @@
     "subregion": "Western Asia",
     "latitude": "26.00000000",
     "longitude": "50.55000000",
-    "emoji": "🇧🇭"
+    "emoji": "🇧🇭",
+    "regionid": "111"
   },
   {
     "id": 19,
@@ -339,7 +356,8 @@
     "subregion": "Southern Asia",
     "latitude": "24.00000000",
     "longitude": "90.00000000",
-    "emoji": "🇧🇩"
+    "emoji": "🇧🇩",
+    "regionid": "111"
   },
   {
     "id": 20,
@@ -358,7 +376,8 @@
     "subregion": "Caribbean",
     "latitude": "13.16666666",
     "longitude": "-59.53333333",
-    "emoji": "🇧🇧"
+    "emoji": "🇧🇧",
+    "regionid": "115"
   },
   {
     "id": 21,
@@ -377,7 +396,8 @@
     "subregion": "Eastern Europe",
     "latitude": "53.00000000",
     "longitude": "28.00000000",
-    "emoji": "🇧🇾"
+    "emoji": "🇧🇾",
+    "regionid": "112"
   },
   {
     "id": 22,
@@ -396,7 +416,8 @@
     "subregion": "Western Europe",
     "latitude": "50.83333333",
     "longitude": "4.00000000",
-    "emoji": "🇧🇪"
+    "emoji": "🇧🇪",
+    "regionid": "112"
   },
   {
     "id": 23,
@@ -415,7 +436,8 @@
     "subregion": "Central America",
     "latitude": "17.25000000",
     "longitude": "-88.75000000",
-    "emoji": "🇧🇿"
+    "emoji": "🇧🇿",
+    "regionid": "115"
   },
   {
     "id": 24,
@@ -434,7 +456,8 @@
     "subregion": "Western Africa",
     "latitude": "9.50000000",
     "longitude": "2.25000000",
-    "emoji": "🇧🇯"
+    "emoji": "🇧🇯",
+    "regionid": "113"
   },
   {
     "id": 25,
@@ -453,7 +476,8 @@
     "subregion": "Northern America",
     "latitude": "32.33333333",
     "longitude": "-64.75000000",
-    "emoji": "🇧🇲"
+    "emoji": "🇧🇲",
+    "regionid": "115"
   },
   {
     "id": 26,
@@ -472,7 +496,8 @@
     "subregion": "Southern Asia",
     "latitude": "27.50000000",
     "longitude": "90.50000000",
-    "emoji": "🇧🇹"
+    "emoji": "🇧🇹",
+    "regionid": "111"
   },
   {
     "id": 27,
@@ -491,7 +516,8 @@
     "subregion": "South America",
     "latitude": "-17.00000000",
     "longitude": "-65.00000000",
-    "emoji": "🇧🇴"
+    "emoji": "🇧🇴",
+    "regionid": "115"
   },
   {
     "id": 155,
@@ -510,7 +536,8 @@
     "subregion": "Caribbean",
     "latitude": "12.15000000",
     "longitude": "-68.26666700",
-    "emoji": "🇧🇶"
+    "emoji": "🇧🇶",
+    "regionid": "115"
   },
   {
     "id": 28,
@@ -529,7 +556,8 @@
     "subregion": "Southern Europe",
     "latitude": "44.00000000",
     "longitude": "18.00000000",
-    "emoji": "🇧🇦"
+    "emoji": "🇧🇦",
+    "regionid": "112"
   },
   {
     "id": 29,
@@ -548,7 +576,8 @@
     "subregion": "Southern Africa",
     "latitude": "-22.00000000",
     "longitude": "24.00000000",
-    "emoji": "🇧🇼"
+    "emoji": "🇧🇼",
+    "regionid": "113"
   },
   {
     "id": 30,
@@ -563,11 +592,12 @@
     "currency_symbol": "kr",
     "tld": ".bv",
     "native": "Bouvetøya",
-    "region": "",
+    "region": "Antarctic",
     "subregion": "",
     "latitude": "-54.43333333",
     "longitude": "3.40000000",
-    "emoji": "🇧🇻"
+    "emoji": "🇧🇻",
+    "regionid": "117"
   },
   {
     "id": 31,
@@ -586,7 +616,8 @@
     "subregion": "South America",
     "latitude": "-10.00000000",
     "longitude": "-55.00000000",
-    "emoji": "🇧🇷"
+    "emoji": "🇧🇷",
+    "regionid": "115"
   },
   {
     "id": 32,
@@ -605,7 +636,8 @@
     "subregion": "Eastern Africa",
     "latitude": "-6.00000000",
     "longitude": "71.50000000",
-    "emoji": "🇮🇴"
+    "emoji": "🇮🇴",
+    "regionid": "113"
   },
   {
     "id": 33,
@@ -624,7 +656,8 @@
     "subregion": "South-Eastern Asia",
     "latitude": "4.50000000",
     "longitude": "114.66666666",
-    "emoji": "🇧🇳"
+    "emoji": "🇧🇳",
+    "regionid": "111"
   },
   {
     "id": 34,
@@ -643,7 +676,8 @@
     "subregion": "Eastern Europe",
     "latitude": "43.00000000",
     "longitude": "25.00000000",
-    "emoji": "🇧🇬"
+    "emoji": "🇧🇬",
+    "regionid": "112"
   },
   {
     "id": 35,
@@ -662,7 +696,8 @@
     "subregion": "Western Africa",
     "latitude": "13.00000000",
     "longitude": "-2.00000000",
-    "emoji": "🇧🇫"
+    "emoji": "🇧🇫",
+    "regionid": "113"
   },
   {
     "id": 36,
@@ -681,7 +716,8 @@
     "subregion": "Eastern Africa",
     "latitude": "-3.50000000",
     "longitude": "30.00000000",
-    "emoji": "🇧🇮"
+    "emoji": "🇧🇮",
+    "regionid": "113"
   },
   {
     "id": 37,
@@ -700,7 +736,8 @@
     "subregion": "South-Eastern Asia",
     "latitude": "13.00000000",
     "longitude": "105.00000000",
-    "emoji": "🇰🇭"
+    "emoji": "🇰🇭",
+    "regionid": "111"
   },
   {
     "id": 38,
@@ -719,7 +756,8 @@
     "subregion": "Middle Africa",
     "latitude": "6.00000000",
     "longitude": "12.00000000",
-    "emoji": "🇨🇲"
+    "emoji": "🇨🇲",
+    "regionid": "113"
   },
   {
     "id": 39,
@@ -738,7 +776,8 @@
     "subregion": "Northern America",
     "latitude": "60.00000000",
     "longitude": "-95.00000000",
-    "emoji": "🇨🇦"
+    "emoji": "🇨🇦",
+    "regionid": "115"
   },
   {
     "id": 40,
@@ -757,7 +796,8 @@
     "subregion": "Western Africa",
     "latitude": "16.00000000",
     "longitude": "-24.00000000",
-    "emoji": "🇨🇻"
+    "emoji": "🇨🇻",
+    "regionid": "113"
   },
   {
     "id": 41,
@@ -776,7 +816,8 @@
     "subregion": "Caribbean",
     "latitude": "19.50000000",
     "longitude": "-80.50000000",
-    "emoji": "🇰🇾"
+    "emoji": "🇰🇾",
+    "regionid": "115"
   },
   {
     "id": 42,
@@ -795,7 +836,8 @@
     "subregion": "Middle Africa",
     "latitude": "7.00000000",
     "longitude": "21.00000000",
-    "emoji": "🇨🇫"
+    "emoji": "🇨🇫",
+    "regionid": "113"
   },
   {
     "id": 43,
@@ -814,7 +856,8 @@
     "subregion": "Middle Africa",
     "latitude": "15.00000000",
     "longitude": "19.00000000",
-    "emoji": "🇹🇩"
+    "emoji": "🇹🇩",
+    "regionid": "113"
   },
   {
     "id": 44,
@@ -833,7 +876,8 @@
     "subregion": "South America",
     "latitude": "-30.00000000",
     "longitude": "-71.00000000",
-    "emoji": "🇨🇱"
+    "emoji": "🇨🇱",
+    "regionid": "115"
   },
   {
     "id": 45,
@@ -852,7 +896,8 @@
     "subregion": "Eastern Asia",
     "latitude": "35.00000000",
     "longitude": "105.00000000",
-    "emoji": "🇨🇳"
+    "emoji": "🇨🇳",
+    "regionid": "111"
   },
   {
     "id": 46,
@@ -871,7 +916,8 @@
     "subregion": "Australia and New Zealand",
     "latitude": "-10.50000000",
     "longitude": "105.66666666",
-    "emoji": "🇨🇽"
+    "emoji": "🇨🇽",
+    "regionid": "114"
   },
   {
     "id": 47,
@@ -890,7 +936,8 @@
     "subregion": "Australia and New Zealand",
     "latitude": "-12.50000000",
     "longitude": "96.83333333",
-    "emoji": "🇨🇨"
+    "emoji": "🇨🇨",
+    "regionid": "114"
   },
   {
     "id": 48,
@@ -909,7 +956,8 @@
     "subregion": "South America",
     "latitude": "4.00000000",
     "longitude": "-72.00000000",
-    "emoji": "🇨🇴"
+    "emoji": "🇨🇴",
+    "regionid": "115"
   },
   {
     "id": 49,
@@ -928,7 +976,8 @@
     "subregion": "Eastern Africa",
     "latitude": "-12.16666666",
     "longitude": "44.25000000",
-    "emoji": "🇰🇲"
+    "emoji": "🇰🇲",
+    "regionid": "113"
   },
   {
     "id": 50,
@@ -947,7 +996,8 @@
     "subregion": "Middle Africa",
     "latitude": "-1.00000000",
     "longitude": "15.00000000",
-    "emoji": "🇨🇬"
+    "emoji": "🇨🇬",
+    "regionid": "113"
   },
   {
     "id": 52,
@@ -966,7 +1016,8 @@
     "subregion": "Polynesia",
     "latitude": "-21.23333333",
     "longitude": "-159.76666666",
-    "emoji": "🇨🇰"
+    "emoji": "🇨🇰",
+    "regionid": "114"
   },
   {
     "id": 53,
@@ -985,7 +1036,8 @@
     "subregion": "Central America",
     "latitude": "10.00000000",
     "longitude": "-84.00000000",
-    "emoji": "🇨🇷"
+    "emoji": "🇨🇷",
+    "regionid": "115"
   },
   {
     "id": 54,
@@ -1004,7 +1056,8 @@
     "subregion": "Western Africa",
     "latitude": "8.00000000",
     "longitude": "-5.00000000",
-    "emoji": "🇨🇮"
+    "emoji": "🇨🇮",
+    "regionid": "113"
   },
   {
     "id": 55,
@@ -1023,7 +1076,8 @@
     "subregion": "Southern Europe",
     "latitude": "45.16666666",
     "longitude": "15.50000000",
-    "emoji": "🇭🇷"
+    "emoji": "🇭🇷",
+    "regionid": "112"
   },
   {
     "id": 56,
@@ -1042,7 +1096,8 @@
     "subregion": "Caribbean",
     "latitude": "21.50000000",
     "longitude": "-80.00000000",
-    "emoji": "🇨🇺"
+    "emoji": "🇨🇺",
+    "regionid": "115"
   },
   {
     "id": 249,
@@ -1061,7 +1116,8 @@
     "subregion": "Caribbean",
     "latitude": "12.11666700",
     "longitude": "-68.93333300",
-    "emoji": "🇨🇼"
+    "emoji": "🇨🇼",
+    "regionid": "115"
   },
   {
     "id": 57,
@@ -1080,7 +1136,8 @@
     "subregion": "Southern Europe",
     "latitude": "35.00000000",
     "longitude": "33.00000000",
-    "emoji": "🇨🇾"
+    "emoji": "🇨🇾",
+    "regionid": "112"
   },
   {
     "id": 58,
@@ -1099,7 +1156,8 @@
     "subregion": "Eastern Europe",
     "latitude": "49.75000000",
     "longitude": "15.50000000",
-    "emoji": "🇨🇿"
+    "emoji": "🇨🇿",
+    "regionid": "112"
   },
   {
     "id": 51,
@@ -1118,7 +1176,8 @@
     "subregion": "Middle Africa",
     "latitude": "0.00000000",
     "longitude": "25.00000000",
-    "emoji": "🇨🇩"
+    "emoji": "🇨🇩",
+    "regionid": "113"
   },
   {
     "id": 59,
@@ -1137,7 +1196,8 @@
     "subregion": "Northern Europe",
     "latitude": "56.00000000",
     "longitude": "10.00000000",
-    "emoji": "🇩🇰"
+    "emoji": "🇩🇰",
+    "regionid": "112"
   },
   {
     "id": 60,
@@ -1156,7 +1216,8 @@
     "subregion": "Eastern Africa",
     "latitude": "11.50000000",
     "longitude": "43.00000000",
-    "emoji": "🇩🇯"
+    "emoji": "🇩🇯",
+    "regionid": "113"
   },
   {
     "id": 61,
@@ -1175,7 +1236,8 @@
     "subregion": "Caribbean",
     "latitude": "15.41666666",
     "longitude": "-61.33333333",
-    "emoji": "🇩🇲"
+    "emoji": "🇩🇲",
+    "regionid": "115"
   },
   {
     "id": 62,
@@ -1194,7 +1256,8 @@
     "subregion": "Caribbean",
     "latitude": "19.00000000",
     "longitude": "-70.66666666",
-    "emoji": "🇩🇴"
+    "emoji": "🇩🇴",
+    "regionid": "115"
   },
   {
     "id": 63,
@@ -1213,7 +1276,8 @@
     "subregion": "South-Eastern Asia",
     "latitude": "-8.83333333",
     "longitude": "125.91666666",
-    "emoji": "🇹🇱"
+    "emoji": "🇹🇱",
+    "regionid": "111"
   },
   {
     "id": 64,
@@ -1232,7 +1296,8 @@
     "subregion": "South America",
     "latitude": "-2.00000000",
     "longitude": "-77.50000000",
-    "emoji": "🇪🇨"
+    "emoji": "🇪🇨",
+    "regionid": "115"
   },
   {
     "id": 65,
@@ -1251,7 +1316,8 @@
     "subregion": "Northern Africa",
     "latitude": "27.00000000",
     "longitude": "30.00000000",
-    "emoji": "🇪🇬"
+    "emoji": "🇪🇬",
+    "regionid": "113"
   },
   {
     "id": 66,
@@ -1270,7 +1336,8 @@
     "subregion": "Central America",
     "latitude": "13.83333333",
     "longitude": "-88.91666666",
-    "emoji": "🇸🇻"
+    "emoji": "🇸🇻",
+    "regionid": "115"
   },
   {
     "id": 67,
@@ -1289,7 +1356,8 @@
     "subregion": "Middle Africa",
     "latitude": "2.00000000",
     "longitude": "10.00000000",
-    "emoji": "🇬🇶"
+    "emoji": "🇬🇶",
+    "regionid": "113"
   },
   {
     "id": 68,
@@ -1308,7 +1376,8 @@
     "subregion": "Eastern Africa",
     "latitude": "15.00000000",
     "longitude": "39.00000000",
-    "emoji": "🇪🇷"
+    "emoji": "🇪🇷",
+    "regionid": "113"
   },
   {
     "id": 69,
@@ -1327,7 +1396,8 @@
     "subregion": "Northern Europe",
     "latitude": "59.00000000",
     "longitude": "26.00000000",
-    "emoji": "🇪🇪"
+    "emoji": "🇪🇪",
+    "regionid": "112"
   },
   {
     "id": 70,
@@ -1346,7 +1416,8 @@
     "subregion": "Eastern Africa",
     "latitude": "8.00000000",
     "longitude": "38.00000000",
-    "emoji": "🇪🇹"
+    "emoji": "🇪🇹",
+    "regionid": "113"
   },
   {
     "id": 71,
@@ -1365,7 +1436,8 @@
     "subregion": "South America",
     "latitude": "-51.75000000",
     "longitude": "-59.00000000",
-    "emoji": "🇫🇰"
+    "emoji": "🇫🇰",
+    "regionid": "115"
   },
   {
     "id": 72,
@@ -1384,7 +1456,8 @@
     "subregion": "Northern Europe",
     "latitude": "62.00000000",
     "longitude": "-7.00000000",
-    "emoji": "🇫🇴"
+    "emoji": "🇫🇴",
+    "regionid": "112"
   },
   {
     "id": 73,
@@ -1403,7 +1476,8 @@
     "subregion": "Melanesia",
     "latitude": "-18.00000000",
     "longitude": "175.00000000",
-    "emoji": "🇫🇯"
+    "emoji": "🇫🇯",
+    "regionid": "114"
   },
   {
     "id": 74,
@@ -1422,7 +1496,8 @@
     "subregion": "Northern Europe",
     "latitude": "64.00000000",
     "longitude": "26.00000000",
-    "emoji": "🇫🇮"
+    "emoji": "🇫🇮",
+    "regionid": "112"
   },
   {
     "id": 75,
@@ -1441,7 +1516,8 @@
     "subregion": "Western Europe",
     "latitude": "46.00000000",
     "longitude": "2.00000000",
-    "emoji": "🇫🇷"
+    "emoji": "🇫🇷",
+    "regionid": "112"
   },
   {
     "id": 76,
@@ -1460,7 +1536,8 @@
     "subregion": "South America",
     "latitude": "4.00000000",
     "longitude": "-53.00000000",
-    "emoji": "🇬🇫"
+    "emoji": "🇬🇫",
+    "regionid": "115"
   },
   {
     "id": 77,
@@ -1479,7 +1556,8 @@
     "subregion": "Polynesia",
     "latitude": "-15.00000000",
     "longitude": "-140.00000000",
-    "emoji": "🇵🇫"
+    "emoji": "🇵🇫",
+    "regionid": "114"
   },
   {
     "id": 78,
@@ -1498,7 +1576,8 @@
     "subregion": "Southern Africa",
     "latitude": "-49.25000000",
     "longitude": "69.16700000",
-    "emoji": "🇹🇫"
+    "emoji": "🇹🇫",
+    "regionid": "113"
   },
   {
     "id": 79,
@@ -1517,7 +1596,8 @@
     "subregion": "Middle Africa",
     "latitude": "-1.00000000",
     "longitude": "11.75000000",
-    "emoji": "🇬🇦"
+    "emoji": "🇬🇦",
+    "regionid": "113"
   },
   {
     "id": 80,
@@ -1536,7 +1616,8 @@
     "subregion": "Western Africa",
     "latitude": "13.46666666",
     "longitude": "-16.56666666",
-    "emoji": "🇬🇲"
+    "emoji": "🇬🇲",
+    "regionid": "113"
   },
   {
     "id": 81,
@@ -1555,7 +1636,8 @@
     "subregion": "Western Asia",
     "latitude": "42.00000000",
     "longitude": "43.50000000",
-    "emoji": "🇬🇪"
+    "emoji": "🇬🇪",
+    "regionid": "111"
   },
   {
     "id": 82,
@@ -1574,7 +1656,8 @@
     "subregion": "Western Europe",
     "latitude": "51.00000000",
     "longitude": "9.00000000",
-    "emoji": "🇩🇪"
+    "emoji": "🇩🇪",
+    "regionid": "112"
   },
   {
     "id": 83,
@@ -1593,7 +1676,8 @@
     "subregion": "Western Africa",
     "latitude": "8.00000000",
     "longitude": "-2.00000000",
-    "emoji": "🇬🇭"
+    "emoji": "🇬🇭",
+    "regionid": "113"
   },
   {
     "id": 84,
@@ -1612,7 +1696,8 @@
     "subregion": "Southern Europe",
     "latitude": "36.13333333",
     "longitude": "-5.35000000",
-    "emoji": "🇬🇮"
+    "emoji": "🇬🇮",
+    "regionid": "112"
   },
   {
     "id": 85,
@@ -1631,7 +1716,8 @@
     "subregion": "Southern Europe",
     "latitude": "39.00000000",
     "longitude": "22.00000000",
-    "emoji": "🇬🇷"
+    "emoji": "🇬🇷",
+    "regionid": "112"
   },
   {
     "id": 86,
@@ -1650,7 +1736,8 @@
     "subregion": "Northern America",
     "latitude": "72.00000000",
     "longitude": "-40.00000000",
-    "emoji": "🇬🇱"
+    "emoji": "🇬🇱",
+    "regionid": "115"
   },
   {
     "id": 87,
@@ -1669,7 +1756,8 @@
     "subregion": "Caribbean",
     "latitude": "12.11666666",
     "longitude": "-61.66666666",
-    "emoji": "🇬🇩"
+    "emoji": "🇬🇩",
+    "regionid": "115"
   },
   {
     "id": 88,
@@ -1688,7 +1776,8 @@
     "subregion": "Caribbean",
     "latitude": "16.25000000",
     "longitude": "-61.58333300",
-    "emoji": "🇬🇵"
+    "emoji": "🇬🇵",
+    "regionid": "115"
   },
   {
     "id": 89,
@@ -1707,7 +1796,8 @@
     "subregion": "Micronesia",
     "latitude": "13.46666666",
     "longitude": "144.78333333",
-    "emoji": "🇬🇺"
+    "emoji": "🇬🇺",
+    "regionid": "114"
   },
   {
     "id": 90,
@@ -1726,7 +1816,8 @@
     "subregion": "Central America",
     "latitude": "15.50000000",
     "longitude": "-90.25000000",
-    "emoji": "🇬🇹"
+    "emoji": "🇬🇹",
+    "regionid": "115"
   },
   {
     "id": 91,
@@ -1745,7 +1836,8 @@
     "subregion": "Northern Europe",
     "latitude": "49.46666666",
     "longitude": "-2.58333333",
-    "emoji": "🇬🇬"
+    "emoji": "🇬🇬",
+    "regionid": "112"
   },
   {
     "id": 92,
@@ -1764,7 +1856,8 @@
     "subregion": "Western Africa",
     "latitude": "11.00000000",
     "longitude": "-10.00000000",
-    "emoji": "🇬🇳"
+    "emoji": "🇬🇳",
+    "regionid": "113"
   },
   {
     "id": 93,
@@ -1783,7 +1876,8 @@
     "subregion": "Western Africa",
     "latitude": "12.00000000",
     "longitude": "-15.00000000",
-    "emoji": "🇬🇼"
+    "emoji": "🇬🇼",
+    "regionid": "113"
   },
   {
     "id": 94,
@@ -1802,7 +1896,8 @@
     "subregion": "South America",
     "latitude": "5.00000000",
     "longitude": "-59.00000000",
-    "emoji": "🇬🇾"
+    "emoji": "🇬🇾",
+    "regionid": "115"
   },
   {
     "id": 95,
@@ -1821,7 +1916,8 @@
     "subregion": "Caribbean",
     "latitude": "19.00000000",
     "longitude": "-72.41666666",
-    "emoji": "🇭🇹"
+    "emoji": "🇭🇹",
+    "regionid": "115"
   },
   {
     "id": 96,
@@ -1836,11 +1932,12 @@
     "currency_symbol": "$",
     "tld": ".hm",
     "native": "Heard Island and McDonald Islands",
-    "region": "",
+    "region": "Oceania",
     "subregion": "",
     "latitude": "-53.10000000",
     "longitude": "72.51666666",
-    "emoji": "🇭🇲"
+    "emoji": "🇭🇲",
+    "regionid": "114"
   },
   {
     "id": 97,
@@ -1859,7 +1956,8 @@
     "subregion": "Central America",
     "latitude": "15.00000000",
     "longitude": "-86.50000000",
-    "emoji": "🇭🇳"
+    "emoji": "🇭🇳",
+    "regionid": "115"
   },
   {
     "id": 98,
@@ -1878,7 +1976,8 @@
     "subregion": "Eastern Asia",
     "latitude": "22.25000000",
     "longitude": "114.16666666",
-    "emoji": "🇭🇰"
+    "emoji": "🇭🇰",
+    "regionid": "111"
   },
   {
     "id": 99,
@@ -1897,7 +1996,8 @@
     "subregion": "Eastern Europe",
     "latitude": "47.00000000",
     "longitude": "20.00000000",
-    "emoji": "🇭🇺"
+    "emoji": "🇭🇺",
+    "regionid": "112"
   },
   {
     "id": 100,
@@ -1916,7 +2016,8 @@
     "subregion": "Northern Europe",
     "latitude": "65.00000000",
     "longitude": "-18.00000000",
-    "emoji": "🇮🇸"
+    "emoji": "🇮🇸",
+    "regionid": "112"
   },
   {
     "id": 101,
@@ -1935,7 +2036,8 @@
     "subregion": "Southern Asia",
     "latitude": "20.00000000",
     "longitude": "77.00000000",
-    "emoji": "🇮🇳"
+    "emoji": "🇮🇳",
+    "regionid": "111"
   },
   {
     "id": 102,
@@ -1954,7 +2056,8 @@
     "subregion": "South-Eastern Asia",
     "latitude": "-5.00000000",
     "longitude": "120.00000000",
-    "emoji": "🇮🇩"
+    "emoji": "🇮🇩",
+    "regionid": "111"
   },
   {
     "id": 103,
@@ -1973,7 +2076,8 @@
     "subregion": "Southern Asia",
     "latitude": "32.00000000",
     "longitude": "53.00000000",
-    "emoji": "🇮🇷"
+    "emoji": "🇮🇷",
+    "regionid": "111"
   },
   {
     "id": 104,
@@ -1992,7 +2096,8 @@
     "subregion": "Western Asia",
     "latitude": "33.00000000",
     "longitude": "44.00000000",
-    "emoji": "🇮🇶"
+    "emoji": "🇮🇶",
+    "regionid": "111"
   },
   {
     "id": 105,
@@ -2011,7 +2116,8 @@
     "subregion": "Northern Europe",
     "latitude": "53.00000000",
     "longitude": "-8.00000000",
-    "emoji": "🇮🇪"
+    "emoji": "🇮🇪",
+    "regionid": "112"
   },
   {
     "id": 106,
@@ -2030,7 +2136,8 @@
     "subregion": "Western Asia",
     "latitude": "31.50000000",
     "longitude": "34.75000000",
-    "emoji": "🇮🇱"
+    "emoji": "🇮🇱",
+    "regionid": "111"
   },
   {
     "id": 107,
@@ -2049,7 +2156,8 @@
     "subregion": "Southern Europe",
     "latitude": "42.83333333",
     "longitude": "12.83333333",
-    "emoji": "🇮🇹"
+    "emoji": "🇮🇹",
+    "regionid": "112"
   },
   {
     "id": 108,
@@ -2068,7 +2176,8 @@
     "subregion": "Caribbean",
     "latitude": "18.25000000",
     "longitude": "-77.50000000",
-    "emoji": "🇯🇲"
+    "emoji": "🇯🇲",
+    "regionid": "115"
   },
   {
     "id": 109,
@@ -2087,7 +2196,8 @@
     "subregion": "Eastern Asia",
     "latitude": "36.00000000",
     "longitude": "138.00000000",
-    "emoji": "🇯🇵"
+    "emoji": "🇯🇵",
+    "regionid": "111"
   },
   {
     "id": 110,
@@ -2106,7 +2216,8 @@
     "subregion": "Northern Europe",
     "latitude": "49.25000000",
     "longitude": "-2.16666666",
-    "emoji": "🇯🇪"
+    "emoji": "🇯🇪",
+    "regionid": "112"
   },
   {
     "id": 111,
@@ -2125,7 +2236,8 @@
     "subregion": "Western Asia",
     "latitude": "31.00000000",
     "longitude": "36.00000000",
-    "emoji": "🇯🇴"
+    "emoji": "🇯🇴",
+    "regionid": "111"
   },
   {
     "id": 112,
@@ -2144,7 +2256,8 @@
     "subregion": "Central Asia",
     "latitude": "48.00000000",
     "longitude": "68.00000000",
-    "emoji": "🇰🇿"
+    "emoji": "🇰🇿",
+    "regionid": "111"
   },
   {
     "id": 113,
@@ -2163,7 +2276,8 @@
     "subregion": "Eastern Africa",
     "latitude": "1.00000000",
     "longitude": "38.00000000",
-    "emoji": "🇰🇪"
+    "emoji": "🇰🇪",
+    "regionid": "113"
   },
   {
     "id": 114,
@@ -2182,7 +2296,8 @@
     "subregion": "Micronesia",
     "latitude": "1.41666666",
     "longitude": "173.00000000",
-    "emoji": "🇰🇮"
+    "emoji": "🇰🇮",
+    "regionid": "114"
   },
   {
     "id": 248,
@@ -2201,7 +2316,8 @@
     "subregion": "Eastern Europe",
     "latitude": "42.56129090",
     "longitude": "20.34030350",
-    "emoji": "🇽🇰"
+    "emoji": "🇽🇰",
+    "regionid": "112"
   },
   {
     "id": 117,
@@ -2220,7 +2336,8 @@
     "subregion": "Western Asia",
     "latitude": "29.50000000",
     "longitude": "45.75000000",
-    "emoji": "🇰🇼"
+    "emoji": "🇰🇼",
+    "regionid": "111"
   },
   {
     "id": 118,
@@ -2239,7 +2356,8 @@
     "subregion": "Central Asia",
     "latitude": "41.00000000",
     "longitude": "75.00000000",
-    "emoji": "🇰🇬"
+    "emoji": "🇰🇬",
+    "regionid": "111"
   },
   {
     "id": 119,
@@ -2258,7 +2376,8 @@
     "subregion": "South-Eastern Asia",
     "latitude": "18.00000000",
     "longitude": "105.00000000",
-    "emoji": "🇱🇦"
+    "emoji": "🇱🇦",
+    "regionid": "111"
   },
   {
     "id": 120,
@@ -2277,7 +2396,8 @@
     "subregion": "Northern Europe",
     "latitude": "57.00000000",
     "longitude": "25.00000000",
-    "emoji": "🇱🇻"
+    "emoji": "🇱🇻",
+    "regionid": "112"
   },
   {
     "id": 121,
@@ -2296,7 +2416,8 @@
     "subregion": "Western Asia",
     "latitude": "33.83333333",
     "longitude": "35.83333333",
-    "emoji": "🇱🇧"
+    "emoji": "🇱🇧",
+    "regionid": "111"
   },
   {
     "id": 122,
@@ -2315,7 +2436,8 @@
     "subregion": "Southern Africa",
     "latitude": "-29.50000000",
     "longitude": "28.50000000",
-    "emoji": "🇱🇸"
+    "emoji": "🇱🇸",
+    "regionid": "113"
   },
   {
     "id": 123,
@@ -2334,7 +2456,8 @@
     "subregion": "Western Africa",
     "latitude": "6.50000000",
     "longitude": "-9.50000000",
-    "emoji": "🇱🇷"
+    "emoji": "🇱🇷",
+    "regionid": "113"
   },
   {
     "id": 124,
@@ -2353,7 +2476,8 @@
     "subregion": "Northern Africa",
     "latitude": "25.00000000",
     "longitude": "17.00000000",
-    "emoji": "🇱🇾"
+    "emoji": "🇱🇾",
+    "regionid": "113"
   },
   {
     "id": 125,
@@ -2372,7 +2496,8 @@
     "subregion": "Western Europe",
     "latitude": "47.26666666",
     "longitude": "9.53333333",
-    "emoji": "🇱🇮"
+    "emoji": "🇱🇮",
+    "regionid": "112"
   },
   {
     "id": 126,
@@ -2391,7 +2516,8 @@
     "subregion": "Northern Europe",
     "latitude": "56.00000000",
     "longitude": "24.00000000",
-    "emoji": "🇱🇹"
+    "emoji": "🇱🇹",
+    "regionid": "112"
   },
   {
     "id": 127,
@@ -2410,7 +2536,8 @@
     "subregion": "Western Europe",
     "latitude": "49.75000000",
     "longitude": "6.16666666",
-    "emoji": "🇱🇺"
+    "emoji": "🇱🇺",
+    "regionid": "112"
   },
   {
     "id": 128,
@@ -2429,7 +2556,8 @@
     "subregion": "Eastern Asia",
     "latitude": "22.16666666",
     "longitude": "113.55000000",
-    "emoji": "🇲🇴"
+    "emoji": "🇲🇴",
+    "regionid": "111"
   },
   {
     "id": 129,
@@ -2448,7 +2576,8 @@
     "subregion": "Southern Europe",
     "latitude": "41.83333333",
     "longitude": "22.00000000",
-    "emoji": "🇲🇰"
+    "emoji": "🇲🇰",
+    "regionid": "112"
   },
   {
     "id": 130,
@@ -2467,7 +2596,8 @@
     "subregion": "Eastern Africa",
     "latitude": "-20.00000000",
     "longitude": "47.00000000",
-    "emoji": "🇲🇬"
+    "emoji": "🇲🇬",
+    "regionid": "113"
   },
   {
     "id": 131,
@@ -2486,7 +2616,8 @@
     "subregion": "Eastern Africa",
     "latitude": "-13.50000000",
     "longitude": "34.00000000",
-    "emoji": "🇲🇼"
+    "emoji": "🇲🇼",
+    "regionid": "113"
   },
   {
     "id": 132,
@@ -2505,7 +2636,8 @@
     "subregion": "South-Eastern Asia",
     "latitude": "2.50000000",
     "longitude": "112.50000000",
-    "emoji": "🇲🇾"
+    "emoji": "🇲🇾",
+    "regionid": "111"
   },
   {
     "id": 133,
@@ -2524,7 +2656,8 @@
     "subregion": "Southern Asia",
     "latitude": "3.25000000",
     "longitude": "73.00000000",
-    "emoji": "🇲🇻"
+    "emoji": "🇲🇻",
+    "regionid": "111"
   },
   {
     "id": 134,
@@ -2543,7 +2676,8 @@
     "subregion": "Western Africa",
     "latitude": "17.00000000",
     "longitude": "-4.00000000",
-    "emoji": "🇲🇱"
+    "emoji": "🇲🇱",
+    "regionid": "113"
   },
   {
     "id": 135,
@@ -2562,7 +2696,8 @@
     "subregion": "Southern Europe",
     "latitude": "35.83333333",
     "longitude": "14.58333333",
-    "emoji": "🇲🇹"
+    "emoji": "🇲🇹",
+    "regionid": "112"
   },
   {
     "id": 136,
@@ -2581,7 +2716,8 @@
     "subregion": "Northern Europe",
     "latitude": "54.25000000",
     "longitude": "-4.50000000",
-    "emoji": "🇮🇲"
+    "emoji": "🇮🇲",
+    "regionid": "112"
   },
   {
     "id": 137,
@@ -2600,7 +2736,8 @@
     "subregion": "Micronesia",
     "latitude": "9.00000000",
     "longitude": "168.00000000",
-    "emoji": "🇲🇭"
+    "emoji": "🇲🇭",
+    "regionid": "114"
   },
   {
     "id": 138,
@@ -2619,7 +2756,8 @@
     "subregion": "Caribbean",
     "latitude": "14.66666700",
     "longitude": "-61.00000000",
-    "emoji": "🇲🇶"
+    "emoji": "🇲🇶",
+    "regionid": "115"
   },
   {
     "id": 139,
@@ -2638,7 +2776,8 @@
     "subregion": "Western Africa",
     "latitude": "20.00000000",
     "longitude": "-12.00000000",
-    "emoji": "🇲🇷"
+    "emoji": "🇲🇷",
+    "regionid": "113"
   },
   {
     "id": 140,
@@ -2657,7 +2796,8 @@
     "subregion": "Eastern Africa",
     "latitude": "-20.28333333",
     "longitude": "57.55000000",
-    "emoji": "🇲🇺"
+    "emoji": "🇲🇺",
+    "regionid": "113"
   },
   {
     "id": 141,
@@ -2676,7 +2816,8 @@
     "subregion": "Eastern Africa",
     "latitude": "-12.83333333",
     "longitude": "45.16666666",
-    "emoji": "🇾🇹"
+    "emoji": "🇾🇹",
+    "regionid": "113"
   },
   {
     "id": 142,
@@ -2695,7 +2836,8 @@
     "subregion": "Central America",
     "latitude": "23.00000000",
     "longitude": "-102.00000000",
-    "emoji": "🇲🇽"
+    "emoji": "🇲🇽",
+    "regionid": "115"
   },
   {
     "id": 143,
@@ -2714,7 +2856,8 @@
     "subregion": "Micronesia",
     "latitude": "6.91666666",
     "longitude": "158.25000000",
-    "emoji": "🇫🇲"
+    "emoji": "🇫🇲",
+    "regionid": "114"
   },
   {
     "id": 144,
@@ -2733,7 +2876,8 @@
     "subregion": "Eastern Europe",
     "latitude": "47.00000000",
     "longitude": "29.00000000",
-    "emoji": "🇲🇩"
+    "emoji": "🇲🇩",
+    "regionid": "112"
   },
   {
     "id": 145,
@@ -2752,7 +2896,8 @@
     "subregion": "Western Europe",
     "latitude": "43.73333333",
     "longitude": "7.40000000",
-    "emoji": "🇲🇨"
+    "emoji": "🇲🇨",
+    "regionid": "112"
   },
   {
     "id": 146,
@@ -2771,7 +2916,8 @@
     "subregion": "Eastern Asia",
     "latitude": "46.00000000",
     "longitude": "105.00000000",
-    "emoji": "🇲🇳"
+    "emoji": "🇲🇳",
+    "regionid": "111"
   },
   {
     "id": 147,
@@ -2790,7 +2936,8 @@
     "subregion": "Southern Europe",
     "latitude": "42.50000000",
     "longitude": "19.30000000",
-    "emoji": "🇲🇪"
+    "emoji": "🇲🇪",
+    "regionid": "112"
   },
   {
     "id": 148,
@@ -2809,7 +2956,8 @@
     "subregion": "Caribbean",
     "latitude": "16.75000000",
     "longitude": "-62.20000000",
-    "emoji": "🇲🇸"
+    "emoji": "🇲🇸",
+    "regionid": "115"
   },
   {
     "id": 149,
@@ -2828,7 +2976,8 @@
     "subregion": "Northern Africa",
     "latitude": "32.00000000",
     "longitude": "-5.00000000",
-    "emoji": "🇲🇦"
+    "emoji": "🇲🇦",
+    "regionid": "113"
   },
   {
     "id": 150,
@@ -2847,7 +2996,8 @@
     "subregion": "Eastern Africa",
     "latitude": "-18.25000000",
     "longitude": "35.00000000",
-    "emoji": "🇲🇿"
+    "emoji": "🇲🇿",
+    "regionid": "113"
   },
   {
     "id": 151,
@@ -2866,7 +3016,8 @@
     "subregion": "South-Eastern Asia",
     "latitude": "22.00000000",
     "longitude": "98.00000000",
-    "emoji": "🇲🇲"
+    "emoji": "🇲🇲",
+    "regionid": "111"
   },
   {
     "id": 152,
@@ -2885,7 +3036,8 @@
     "subregion": "Southern Africa",
     "latitude": "-22.00000000",
     "longitude": "17.00000000",
-    "emoji": "🇳🇦"
+    "emoji": "🇳🇦",
+    "regionid": "113"
   },
   {
     "id": 153,
@@ -2904,7 +3056,8 @@
     "subregion": "Micronesia",
     "latitude": "-0.53333333",
     "longitude": "166.91666666",
-    "emoji": "🇳🇷"
+    "emoji": "🇳🇷",
+    "regionid": "114"
   },
   {
     "id": 154,
@@ -2923,7 +3076,8 @@
     "subregion": "Southern Asia",
     "latitude": "28.00000000",
     "longitude": "84.00000000",
-    "emoji": "🇳🇵"
+    "emoji": "🇳🇵",
+    "regionid": "111"
   },
   {
     "id": 156,
@@ -2942,7 +3096,8 @@
     "subregion": "Western Europe",
     "latitude": "52.50000000",
     "longitude": "5.75000000",
-    "emoji": "🇳🇱"
+    "emoji": "🇳🇱",
+    "regionid": "112"
   },
   {
     "id": 157,
@@ -2961,7 +3116,8 @@
     "subregion": "Melanesia",
     "latitude": "-21.50000000",
     "longitude": "165.50000000",
-    "emoji": "🇳🇨"
+    "emoji": "🇳🇨",
+    "regionid": "114"
   },
   {
     "id": 158,
@@ -2980,7 +3136,8 @@
     "subregion": "Australia and New Zealand",
     "latitude": "-41.00000000",
     "longitude": "174.00000000",
-    "emoji": "🇳🇿"
+    "emoji": "🇳🇿",
+    "regionid": "114"
   },
   {
     "id": 159,
@@ -2999,7 +3156,8 @@
     "subregion": "Central America",
     "latitude": "13.00000000",
     "longitude": "-85.00000000",
-    "emoji": "🇳🇮"
+    "emoji": "🇳🇮",
+    "regionid": "115"
   },
   {
     "id": 160,
@@ -3018,7 +3176,8 @@
     "subregion": "Western Africa",
     "latitude": "16.00000000",
     "longitude": "8.00000000",
-    "emoji": "🇳🇪"
+    "emoji": "🇳🇪",
+    "regionid": "113"
   },
   {
     "id": 161,
@@ -3037,7 +3196,8 @@
     "subregion": "Western Africa",
     "latitude": "10.00000000",
     "longitude": "8.00000000",
-    "emoji": "🇳🇬"
+    "emoji": "🇳🇬",
+    "regionid": "113"
   },
   {
     "id": 162,
@@ -3056,7 +3216,8 @@
     "subregion": "Polynesia",
     "latitude": "-19.03333333",
     "longitude": "-169.86666666",
-    "emoji": "🇳🇺"
+    "emoji": "🇳🇺",
+    "regionid": "114"
   },
   {
     "id": 163,
@@ -3075,7 +3236,8 @@
     "subregion": "Australia and New Zealand",
     "latitude": "-29.03333333",
     "longitude": "167.95000000",
-    "emoji": "🇳🇫"
+    "emoji": "🇳🇫",
+    "regionid": "114"
   },
   {
     "id": 115,
@@ -3094,7 +3256,8 @@
     "subregion": "Eastern Asia",
     "latitude": "40.00000000",
     "longitude": "127.00000000",
-    "emoji": "🇰🇵"
+    "emoji": "🇰🇵",
+    "regionid": "111"
   },
   {
     "id": 164,
@@ -3113,7 +3276,8 @@
     "subregion": "Micronesia",
     "latitude": "15.20000000",
     "longitude": "145.75000000",
-    "emoji": "🇲🇵"
+    "emoji": "🇲🇵",
+    "regionid": "114"
   },
   {
     "id": 165,
@@ -3132,7 +3296,8 @@
     "subregion": "Northern Europe",
     "latitude": "62.00000000",
     "longitude": "10.00000000",
-    "emoji": "🇳🇴"
+    "emoji": "🇳🇴",
+    "regionid": "112"
   },
   {
     "id": 166,
@@ -3151,7 +3316,8 @@
     "subregion": "Western Asia",
     "latitude": "21.00000000",
     "longitude": "57.00000000",
-    "emoji": "🇴🇲"
+    "emoji": "🇴🇲",
+    "regionid": "111"
   },
   {
     "id": 167,
@@ -3170,7 +3336,8 @@
     "subregion": "Southern Asia",
     "latitude": "30.00000000",
     "longitude": "70.00000000",
-    "emoji": "🇵🇰"
+    "emoji": "🇵🇰",
+    "regionid": "111"
   },
   {
     "id": 168,
@@ -3189,7 +3356,8 @@
     "subregion": "Micronesia",
     "latitude": "7.50000000",
     "longitude": "134.50000000",
-    "emoji": "🇵🇼"
+    "emoji": "🇵🇼",
+    "regionid": "114"
   },
   {
     "id": 169,
@@ -3208,7 +3376,8 @@
     "subregion": "Western Asia",
     "latitude": "31.90000000",
     "longitude": "35.20000000",
-    "emoji": "🇵🇸"
+    "emoji": "🇵🇸",
+    "regionid": "111"
   },
   {
     "id": 170,
@@ -3227,7 +3396,8 @@
     "subregion": "Central America",
     "latitude": "9.00000000",
     "longitude": "-80.00000000",
-    "emoji": "🇵🇦"
+    "emoji": "🇵🇦",
+    "regionid": "115"
   },
   {
     "id": 171,
@@ -3246,7 +3416,8 @@
     "subregion": "Melanesia",
     "latitude": "-6.00000000",
     "longitude": "147.00000000",
-    "emoji": "🇵🇬"
+    "emoji": "🇵🇬",
+    "regionid": "114"
   },
   {
     "id": 172,
@@ -3265,7 +3436,8 @@
     "subregion": "South America",
     "latitude": "-23.00000000",
     "longitude": "-58.00000000",
-    "emoji": "🇵🇾"
+    "emoji": "🇵🇾",
+    "regionid": "115"
   },
   {
     "id": 173,
@@ -3284,7 +3456,8 @@
     "subregion": "South America",
     "latitude": "-10.00000000",
     "longitude": "-76.00000000",
-    "emoji": "🇵🇪"
+    "emoji": "🇵🇪",
+    "regionid": "115"
   },
   {
     "id": 174,
@@ -3303,7 +3476,8 @@
     "subregion": "South-Eastern Asia",
     "latitude": "13.00000000",
     "longitude": "122.00000000",
-    "emoji": "🇵🇭"
+    "emoji": "🇵🇭",
+    "regionid": "111"
   },
   {
     "id": 175,
@@ -3322,7 +3496,8 @@
     "subregion": "Polynesia",
     "latitude": "-25.06666666",
     "longitude": "-130.10000000",
-    "emoji": "🇵🇳"
+    "emoji": "🇵🇳",
+    "regionid": "114"
   },
   {
     "id": 176,
@@ -3341,7 +3516,8 @@
     "subregion": "Eastern Europe",
     "latitude": "52.00000000",
     "longitude": "20.00000000",
-    "emoji": "🇵🇱"
+    "emoji": "🇵🇱",
+    "regionid": "112"
   },
   {
     "id": 177,
@@ -3360,7 +3536,8 @@
     "subregion": "Southern Europe",
     "latitude": "39.50000000",
     "longitude": "-8.00000000",
-    "emoji": "🇵🇹"
+    "emoji": "🇵🇹",
+    "regionid": "112"
   },
   {
     "id": 178,
@@ -3379,7 +3556,8 @@
     "subregion": "Caribbean",
     "latitude": "18.25000000",
     "longitude": "-66.50000000",
-    "emoji": "🇵🇷"
+    "emoji": "🇵🇷",
+    "regionid": "115"
   },
   {
     "id": 179,
@@ -3398,7 +3576,8 @@
     "subregion": "Western Asia",
     "latitude": "25.50000000",
     "longitude": "51.25000000",
-    "emoji": "🇶🇦"
+    "emoji": "🇶🇦",
+    "regionid": "111"
   },
   {
     "id": 180,
@@ -3417,7 +3596,8 @@
     "subregion": "Eastern Africa",
     "latitude": "-21.15000000",
     "longitude": "55.50000000",
-    "emoji": "🇷🇪"
+    "emoji": "🇷🇪",
+    "regionid": "113"
   },
   {
     "id": 181,
@@ -3436,7 +3616,8 @@
     "subregion": "Eastern Europe",
     "latitude": "46.00000000",
     "longitude": "25.00000000",
-    "emoji": "🇷🇴"
+    "emoji": "🇷🇴",
+    "regionid": "112"
   },
   {
     "id": 182,
@@ -3455,7 +3636,8 @@
     "subregion": "Eastern Europe",
     "latitude": "60.00000000",
     "longitude": "100.00000000",
-    "emoji": "🇷🇺"
+    "emoji": "🇷🇺",
+    "regionid": "112"
   },
   {
     "id": 183,
@@ -3474,7 +3656,8 @@
     "subregion": "Eastern Africa",
     "latitude": "-2.00000000",
     "longitude": "30.00000000",
-    "emoji": "🇷🇼"
+    "emoji": "🇷🇼",
+    "regionid": "113"
   },
   {
     "id": 184,
@@ -3493,7 +3676,8 @@
     "subregion": "Western Africa",
     "latitude": "-15.95000000",
     "longitude": "-5.70000000",
-    "emoji": "🇸🇭"
+    "emoji": "🇸🇭",
+    "regionid": "113"
   },
   {
     "id": 185,
@@ -3512,7 +3696,8 @@
     "subregion": "Caribbean",
     "latitude": "17.33333333",
     "longitude": "-62.75000000",
-    "emoji": "🇰🇳"
+    "emoji": "🇰🇳",
+    "regionid": "115"
   },
   {
     "id": 186,
@@ -3531,7 +3716,8 @@
     "subregion": "Caribbean",
     "latitude": "13.88333333",
     "longitude": "-60.96666666",
-    "emoji": "🇱🇨"
+    "emoji": "🇱🇨",
+    "regionid": "115"
   },
   {
     "id": 187,
@@ -3550,7 +3736,8 @@
     "subregion": "Northern America",
     "latitude": "46.83333333",
     "longitude": "-56.33333333",
-    "emoji": "🇵🇲"
+    "emoji": "🇵🇲",
+    "regionid": "115"
   },
   {
     "id": 188,
@@ -3569,7 +3756,8 @@
     "subregion": "Caribbean",
     "latitude": "13.25000000",
     "longitude": "-61.20000000",
-    "emoji": "🇻🇨"
+    "emoji": "🇻🇨",
+    "regionid": "115"
   },
   {
     "id": 189,
@@ -3588,7 +3776,8 @@
     "subregion": "Caribbean",
     "latitude": "18.50000000",
     "longitude": "-63.41666666",
-    "emoji": "🇧🇱"
+    "emoji": "🇧🇱",
+    "regionid": "115"
   },
   {
     "id": 190,
@@ -3607,7 +3796,8 @@
     "subregion": "Caribbean",
     "latitude": "18.08333333",
     "longitude": "-63.95000000",
-    "emoji": "🇲🇫"
+    "emoji": "🇲🇫",
+    "regionid": "115"
   },
   {
     "id": 191,
@@ -3626,7 +3816,8 @@
     "subregion": "Polynesia",
     "latitude": "-13.58333333",
     "longitude": "-172.33333333",
-    "emoji": "🇼🇸"
+    "emoji": "🇼🇸",
+    "regionid": "114"
   },
   {
     "id": 192,
@@ -3645,7 +3836,8 @@
     "subregion": "Southern Europe",
     "latitude": "43.76666666",
     "longitude": "12.41666666",
-    "emoji": "🇸🇲"
+    "emoji": "🇸🇲",
+    "regionid": "112"
   },
   {
     "id": 193,
@@ -3664,7 +3856,8 @@
     "subregion": "Middle Africa",
     "latitude": "1.00000000",
     "longitude": "7.00000000",
-    "emoji": "🇸🇹"
+    "emoji": "🇸🇹",
+    "regionid": "113"
   },
   {
     "id": 194,
@@ -3683,7 +3876,8 @@
     "subregion": "Western Asia",
     "latitude": "25.00000000",
     "longitude": "45.00000000",
-    "emoji": "🇸🇦"
+    "emoji": "🇸🇦",
+    "regionid": "111"
   },
   {
     "id": 195,
@@ -3702,7 +3896,8 @@
     "subregion": "Western Africa",
     "latitude": "14.00000000",
     "longitude": "-14.00000000",
-    "emoji": "🇸🇳"
+    "emoji": "🇸🇳",
+    "regionid": "113"
   },
   {
     "id": 196,
@@ -3721,7 +3916,8 @@
     "subregion": "Southern Europe",
     "latitude": "44.00000000",
     "longitude": "21.00000000",
-    "emoji": "🇷🇸"
+    "emoji": "🇷🇸",
+    "regionid": "112"
   },
   {
     "id": 197,
@@ -3740,7 +3936,8 @@
     "subregion": "Eastern Africa",
     "latitude": "-4.58333333",
     "longitude": "55.66666666",
-    "emoji": "🇸🇨"
+    "emoji": "🇸🇨",
+    "regionid": "113"
   },
   {
     "id": 198,
@@ -3759,7 +3956,8 @@
     "subregion": "Western Africa",
     "latitude": "8.50000000",
     "longitude": "-11.50000000",
-    "emoji": "🇸🇱"
+    "emoji": "🇸🇱",
+    "regionid": "113"
   },
   {
     "id": 199,
@@ -3778,7 +3976,8 @@
     "subregion": "South-Eastern Asia",
     "latitude": "1.36666666",
     "longitude": "103.80000000",
-    "emoji": "🇸🇬"
+    "emoji": "🇸🇬",
+    "regionid": "111"
   },
   {
     "id": 250,
@@ -3797,7 +3996,8 @@
     "subregion": "Caribbean",
     "latitude": "18.03333300",
     "longitude": "-63.05000000",
-    "emoji": "🇸🇽"
+    "emoji": "🇸🇽",
+    "regionid": "115"
   },
   {
     "id": 200,
@@ -3816,7 +4016,8 @@
     "subregion": "Eastern Europe",
     "latitude": "48.66666666",
     "longitude": "19.50000000",
-    "emoji": "🇸🇰"
+    "emoji": "🇸🇰",
+    "regionid": "112"
   },
   {
     "id": 201,
@@ -3835,7 +4036,8 @@
     "subregion": "Southern Europe",
     "latitude": "46.11666666",
     "longitude": "14.81666666",
-    "emoji": "🇸🇮"
+    "emoji": "🇸🇮",
+    "regionid": "112"
   },
   {
     "id": 202,
@@ -3854,7 +4056,8 @@
     "subregion": "Melanesia",
     "latitude": "-8.00000000",
     "longitude": "159.00000000",
-    "emoji": "🇸🇧"
+    "emoji": "🇸🇧",
+    "regionid": "114"
   },
   {
     "id": 203,
@@ -3873,7 +4076,8 @@
     "subregion": "Eastern Africa",
     "latitude": "10.00000000",
     "longitude": "49.00000000",
-    "emoji": "🇸🇴"
+    "emoji": "🇸🇴",
+    "regionid": "113"
   },
   {
     "id": 204,
@@ -3892,7 +4096,8 @@
     "subregion": "Southern Africa",
     "latitude": "-29.00000000",
     "longitude": "24.00000000",
-    "emoji": "🇿🇦"
+    "emoji": "🇿🇦",
+    "regionid": "113"
   },
   {
     "id": 205,
@@ -3911,7 +4116,8 @@
     "subregion": "South America",
     "latitude": "-54.50000000",
     "longitude": "-37.00000000",
-    "emoji": "🇬🇸"
+    "emoji": "🇬🇸",
+    "regionid": "115"
   },
   {
     "id": 116,
@@ -3930,7 +4136,8 @@
     "subregion": "Eastern Asia",
     "latitude": "37.00000000",
     "longitude": "127.50000000",
-    "emoji": "🇰🇷"
+    "emoji": "🇰🇷",
+    "regionid": "111"
   },
   {
     "id": 206,
@@ -3949,7 +4156,8 @@
     "subregion": "Middle Africa",
     "latitude": "7.00000000",
     "longitude": "30.00000000",
-    "emoji": "🇸🇸"
+    "emoji": "🇸🇸",
+    "regionid": "113"
   },
   {
     "id": 207,
@@ -3968,7 +4176,8 @@
     "subregion": "Southern Europe",
     "latitude": "40.00000000",
     "longitude": "-4.00000000",
-    "emoji": "🇪🇸"
+    "emoji": "🇪🇸",
+    "regionid": "112"
   },
   {
     "id": 208,
@@ -3987,7 +4196,8 @@
     "subregion": "Southern Asia",
     "latitude": "7.00000000",
     "longitude": "81.00000000",
-    "emoji": "🇱🇰"
+    "emoji": "🇱🇰",
+    "regionid": "111"
   },
   {
     "id": 209,
@@ -4006,7 +4216,8 @@
     "subregion": "Northern Africa",
     "latitude": "15.00000000",
     "longitude": "30.00000000",
-    "emoji": "🇸🇩"
+    "emoji": "🇸🇩",
+    "regionid": "113"
   },
   {
     "id": 210,
@@ -4025,7 +4236,8 @@
     "subregion": "South America",
     "latitude": "4.00000000",
     "longitude": "-56.00000000",
-    "emoji": "🇸🇷"
+    "emoji": "🇸🇷",
+    "regionid": "115"
   },
   {
     "id": 211,
@@ -4044,7 +4256,8 @@
     "subregion": "Northern Europe",
     "latitude": "78.00000000",
     "longitude": "20.00000000",
-    "emoji": "🇸🇯"
+    "emoji": "🇸🇯",
+    "regionid": "112"
   },
   {
     "id": 212,
@@ -4063,7 +4276,8 @@
     "subregion": "Southern Africa",
     "latitude": "-26.50000000",
     "longitude": "31.50000000",
-    "emoji": "🇸🇿"
+    "emoji": "🇸🇿",
+    "regionid": "113"
   },
   {
     "id": 213,
@@ -4082,7 +4296,8 @@
     "subregion": "Northern Europe",
     "latitude": "62.00000000",
     "longitude": "15.00000000",
-    "emoji": "🇸🇪"
+    "emoji": "🇸🇪",
+    "regionid": "112"
   },
   {
     "id": 214,
@@ -4101,7 +4316,8 @@
     "subregion": "Western Europe",
     "latitude": "47.00000000",
     "longitude": "8.00000000",
-    "emoji": "🇨🇭"
+    "emoji": "🇨🇭",
+    "regionid": "112"
   },
   {
     "id": 215,
@@ -4120,7 +4336,8 @@
     "subregion": "Western Asia",
     "latitude": "35.00000000",
     "longitude": "38.00000000",
-    "emoji": "🇸🇾"
+    "emoji": "🇸🇾",
+    "regionid": "111"
   },
   {
     "id": 216,
@@ -4139,7 +4356,8 @@
     "subregion": "Eastern Asia",
     "latitude": "23.50000000",
     "longitude": "121.00000000",
-    "emoji": "🇹🇼"
+    "emoji": "🇹🇼",
+    "regionid": "111"
   },
   {
     "id": 217,
@@ -4158,7 +4376,8 @@
     "subregion": "Central Asia",
     "latitude": "39.00000000",
     "longitude": "71.00000000",
-    "emoji": "🇹🇯"
+    "emoji": "🇹🇯",
+    "regionid": "111"
   },
   {
     "id": 218,
@@ -4177,7 +4396,8 @@
     "subregion": "Eastern Africa",
     "latitude": "-6.00000000",
     "longitude": "35.00000000",
-    "emoji": "🇹🇿"
+    "emoji": "🇹🇿",
+    "regionid": "113"
   },
   {
     "id": 219,
@@ -4196,7 +4416,8 @@
     "subregion": "South-Eastern Asia",
     "latitude": "15.00000000",
     "longitude": "100.00000000",
-    "emoji": "🇹🇭"
+    "emoji": "🇹🇭",
+    "regionid": "111"
   },
   {
     "id": 17,
@@ -4215,7 +4436,8 @@
     "subregion": "Caribbean",
     "latitude": "24.25000000",
     "longitude": "-76.00000000",
-    "emoji": "🇧🇸"
+    "emoji": "🇧🇸",
+    "regionid": "115"
   },
   {
     "id": 220,
@@ -4234,7 +4456,8 @@
     "subregion": "Western Africa",
     "latitude": "8.00000000",
     "longitude": "1.16666666",
-    "emoji": "🇹🇬"
+    "emoji": "🇹🇬",
+    "regionid": "113"
   },
   {
     "id": 221,
@@ -4253,7 +4476,8 @@
     "subregion": "Polynesia",
     "latitude": "-9.00000000",
     "longitude": "-172.00000000",
-    "emoji": "🇹🇰"
+    "emoji": "🇹🇰",
+    "regionid": "114"
   },
   {
     "id": 222,
@@ -4272,7 +4496,8 @@
     "subregion": "Polynesia",
     "latitude": "-20.00000000",
     "longitude": "-175.00000000",
-    "emoji": "🇹🇴"
+    "emoji": "🇹🇴",
+    "regionid": "114"
   },
   {
     "id": 223,
@@ -4291,7 +4516,8 @@
     "subregion": "Caribbean",
     "latitude": "11.00000000",
     "longitude": "-61.00000000",
-    "emoji": "🇹🇹"
+    "emoji": "🇹🇹",
+    "regionid": "115"
   },
   {
     "id": 224,
@@ -4310,7 +4536,8 @@
     "subregion": "Northern Africa",
     "latitude": "34.00000000",
     "longitude": "9.00000000",
-    "emoji": "🇹🇳"
+    "emoji": "🇹🇳",
+    "regionid": "113"
   },
   {
     "id": 225,
@@ -4329,7 +4556,8 @@
     "subregion": "Western Asia",
     "latitude": "39.00000000",
     "longitude": "35.00000000",
-    "emoji": "🇹🇷"
+    "emoji": "🇹🇷",
+    "regionid": "111"
   },
   {
     "id": 226,
@@ -4348,7 +4576,8 @@
     "subregion": "Central Asia",
     "latitude": "40.00000000",
     "longitude": "60.00000000",
-    "emoji": "🇹🇲"
+    "emoji": "🇹🇲",
+    "regionid": "111"
   },
   {
     "id": 227,
@@ -4367,7 +4596,8 @@
     "subregion": "Caribbean",
     "latitude": "21.75000000",
     "longitude": "-71.58333333",
-    "emoji": "🇹🇨"
+    "emoji": "🇹🇨",
+    "regionid": "115"
   },
   {
     "id": 228,
@@ -4386,7 +4616,8 @@
     "subregion": "Polynesia",
     "latitude": "-8.00000000",
     "longitude": "178.00000000",
-    "emoji": "🇹🇻"
+    "emoji": "🇹🇻",
+    "regionid": "114"
   },
   {
     "id": 229,
@@ -4405,7 +4636,8 @@
     "subregion": "Eastern Africa",
     "latitude": "1.00000000",
     "longitude": "32.00000000",
-    "emoji": "🇺🇬"
+    "emoji": "🇺🇬",
+    "regionid": "113"
   },
   {
     "id": 230,
@@ -4424,7 +4656,8 @@
     "subregion": "Eastern Europe",
     "latitude": "49.00000000",
     "longitude": "32.00000000",
-    "emoji": "🇺🇦"
+    "emoji": "🇺🇦",
+    "regionid": "112"
   },
   {
     "id": 231,
@@ -4443,7 +4676,8 @@
     "subregion": "Western Asia",
     "latitude": "24.00000000",
     "longitude": "54.00000000",
-    "emoji": "🇦🇪"
+    "emoji": "🇦🇪",
+    "regionid": "111"
   },
   {
     "id": 232,
@@ -4462,7 +4696,8 @@
     "subregion": "Northern Europe",
     "latitude": "54.00000000",
     "longitude": "-2.00000000",
-    "emoji": "🇬🇧"
+    "emoji": "🇬🇧",
+    "regionid": "112"
   },
   {
     "id": 233,
@@ -4481,7 +4716,8 @@
     "subregion": "Northern America",
     "latitude": "38.00000000",
     "longitude": "-97.00000000",
-    "emoji": "🇺🇸"
+    "emoji": "🇺🇸",
+    "regionid": "115"
   },
   {
     "id": 234,
@@ -4500,7 +4736,8 @@
     "subregion": "Northern America",
     "latitude": "0.00000000",
     "longitude": "0.00000000",
-    "emoji": "🇺🇲"
+    "emoji": "🇺🇲",
+    "regionid": "115"
   },
   {
     "id": 235,
@@ -4519,7 +4756,8 @@
     "subregion": "South America",
     "latitude": "-33.00000000",
     "longitude": "-56.00000000",
-    "emoji": "🇺🇾"
+    "emoji": "🇺🇾",
+    "regionid": "115"
   },
   {
     "id": 236,
@@ -4538,7 +4776,8 @@
     "subregion": "Central Asia",
     "latitude": "41.00000000",
     "longitude": "64.00000000",
-    "emoji": "🇺🇿"
+    "emoji": "🇺🇿",
+    "regionid": "111"
   },
   {
     "id": 237,
@@ -4557,7 +4796,8 @@
     "subregion": "Melanesia",
     "latitude": "-16.00000000",
     "longitude": "167.00000000",
-    "emoji": "🇻🇺"
+    "emoji": "🇻🇺",
+    "regionid": "114"
   },
   {
     "id": 238,
@@ -4576,7 +4816,8 @@
     "subregion": "Southern Europe",
     "latitude": "41.90000000",
     "longitude": "12.45000000",
-    "emoji": "🇻🇦"
+    "emoji": "🇻🇦",
+    "regionid": "112"
   },
   {
     "id": 239,
@@ -4595,7 +4836,8 @@
     "subregion": "South America",
     "latitude": "8.00000000",
     "longitude": "-66.00000000",
-    "emoji": "🇻🇪"
+    "emoji": "🇻🇪",
+    "regionid": "115"
   },
   {
     "id": 240,
@@ -4614,7 +4856,8 @@
     "subregion": "South-Eastern Asia",
     "latitude": "16.16666666",
     "longitude": "107.83333333",
-    "emoji": "🇻🇳"
+    "emoji": "🇻🇳",
+    "regionid": "111"
   },
   {
     "id": 241,
@@ -4633,7 +4876,8 @@
     "subregion": "Caribbean",
     "latitude": "18.43138300",
     "longitude": "-64.62305000",
-    "emoji": "🇻🇬"
+    "emoji": "🇻🇬",
+    "regionid": "115"
   },
   {
     "id": 242,
@@ -4652,7 +4896,8 @@
     "subregion": "Caribbean",
     "latitude": "18.34000000",
     "longitude": "-64.93000000",
-    "emoji": "🇻🇮"
+    "emoji": "🇻🇮",
+    "regionid": "115"
   },
   {
     "id": 243,
@@ -4671,7 +4916,8 @@
     "subregion": "Polynesia",
     "latitude": "-13.30000000",
     "longitude": "-176.20000000",
-    "emoji": "🇼🇫"
+    "emoji": "🇼🇫",
+    "regionid": "114"
   },
   {
     "id": 244,
@@ -4690,7 +4936,8 @@
     "subregion": "Northern Africa",
     "latitude": "24.50000000",
     "longitude": "-13.00000000",
-    "emoji": "🇪🇭"
+    "emoji": "🇪🇭",
+    "regionid": "113"
   },
   {
     "id": 245,
@@ -4709,7 +4956,8 @@
     "subregion": "Western Asia",
     "latitude": "15.00000000",
     "longitude": "48.00000000",
-    "emoji": "🇾🇪"
+    "emoji": "🇾🇪",
+    "regionid": "111"
   },
   {
     "id": 246,
@@ -4728,7 +4976,8 @@
     "subregion": "Eastern Africa",
     "latitude": "-15.00000000",
     "longitude": "30.00000000",
-    "emoji": "🇿🇲"
+    "emoji": "🇿🇲",
+    "regionid": "113"
   },
   {
     "id": 247,
@@ -4747,6 +4996,7 @@
     "subregion": "Eastern Africa",
     "latitude": "-20.00000000",
     "longitude": "30.00000000",
-    "emoji": "🇿🇼"
+    "emoji": "🇿🇼",
+    "regionid": "113"
   }
 ]

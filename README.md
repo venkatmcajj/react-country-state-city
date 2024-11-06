@@ -13,6 +13,7 @@ $ import {
   CountrySelect,
   StateSelect,
   LanguageSelect,
+  RegionSelect
 } from "react-country-state-city";
 
 $ import "react-country-state-city/dist/react-country-state-city.css";
@@ -29,6 +30,7 @@ $ import "react-country-state-city/dist/react-country-state-city.css";
 - onChange and onTextChange callbacks.
 - And much more !
 - Language dropdown to list and search all languages in English and native too.
+- Regions or Continents dropdown to list and search all the regions from the world.
 
 ## The gist
 
@@ -40,15 +42,32 @@ import {
   CountrySelect,
   StateSelect,
   LanguageSelect,
+  RegionSelect
 } from "react-country-state-city";
 import "react-country-state-city/dist/react-country-state-city.css";
 
 function App() {
+  const [region, setRegion] = useState("");
   const [countryid, setCountryid] = useState(0);
   const [stateid, setstateid] = useState(0);
   return (
     <div>
+      <h6>Region / Continent</h6>
+      <RegionSelect
+        onChange={(e) => {
+          setRegion(e.name);
+        }}
+        placeHolder="Select Region"
+      />
       <h6>Country</h6>
+      <CountrySelect
+        onChange={(e) => {
+          setCountryid(e.id);
+        }}
+        placeHolder="Select Country"
+        region={region}
+      />
+      <h6>All Country</h6>
       <CountrySelect
         onChange={(e) => {
           setCountryid(e.id);
@@ -91,23 +110,29 @@ import {
   GetCountries,
   GetState,
   GetCity,
-  GetLanguages, //async functions
+  GetLanguages,
+  GetRegions //async functions
 } from "react-country-state-city";
 
 function App() {
+  const [region, setRegion] = useState("");
   const [countryid, setCountryid] = useState(0);
   const [stateid, setStateid] = useState(0);
   const [cityid, setCityid] = useState(0);
   const [language, setLanguage] = useState(0);
 
+  const [regionsList, setRegionsList] = useState([]);
   const [countriesList, setCountriesList] = useState([]);
   const [stateList, setStateList] = useState([]);
   const [cityList, setCityList] = useState([]);
   const [languageList, setLanguageList] = useState([]);
 
   useEffect(() => {
+    GetRegions().then((result) => {
+      setRegionsList(result);
+    });
     GetCountries().then((result) => {
-      setCountries(result);
+      setCountriesList(result);
     });
 
     GetLanguages().then((result) => {
@@ -116,6 +141,20 @@ function App() {
   }, []);
   return (
     <div>
+      <h6>Region</h6>
+      <select
+        onChange={(e) => {
+          const _region = regionsList[e.target.value];
+          setRegion(country.name);
+        }}
+        value={region}
+      >
+        {regionsList.map((item, index) => (
+          <option key={index} value={index}>
+            {item.name}
+          </option>
+        ))}
+      </select>
       <h6>Country</h6>
       <select
         onChange={(e) => {
@@ -245,6 +284,13 @@ longitude: string;
 ...
 ]
 
+
+### Languages Example
+
+<img src="https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/example/src/example4.png" alt="React country state city example screenshot"/>
+
+<img src="https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/example/src/example5.png" alt="React country state city example screenshot"/>
+
 ### GetLanguages - Result
 
 [
@@ -252,6 +298,21 @@ longitude: string;
 code: string;
 name: string;
 native: string;
+},
+...
+]
+
+
+### Regions Example
+
+<img src="https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/example/src/example6.png" alt="React country state city example screenshot"/>
+
+### GetRegions - Result
+
+[
+{
+id: string;
+name: string;
 },
 ...
 ]
@@ -301,6 +362,10 @@ Properties used to customise the rendering:
 | placeHolder        | string   | `optional` Placeholder text displayed in empty input                                                                                       |
 | displayNative      | boolean  | `optional` value are used to display the languages in native language when is true and display in english when is false. default is false. |
 
+## Region Select Properties
+
+The same country select properties 
+
 ## Demo
 
 [A demo is worth a thousand words](https://venkatmcajj.github.io/react-country-state-city/example)
@@ -311,7 +376,9 @@ Show your ❤️ and support by giving a ⭐. Any suggestions are welcome! venka
 
 ## Financial Contributors
 
-Become a financial contributor and help us sustain our community. [Contribute](https://opencollective.com/react-country-state-city)
+Buy me a cup of coffee,
+
+Binance Smart Chain or Ethereum - 0x7C6Bfb7f240f6028Fd2a0039924826eD8B879635
 
 ## License
 

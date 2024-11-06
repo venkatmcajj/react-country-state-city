@@ -5,15 +5,38 @@ import {
   CountrySelect,
   StateSelect,
   LanguageSelect,
+  RegionSelect
 } from "react-country-state-city";
 import "react-country-state-city/dist/react-country-state-city.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 export default function App() {
+  const [region, setRegion] = useState("");
   const [countryid, setCountryid] = useState(0);
   const [stateid, setstateid] = useState(0);
   return (
     <div className="col-lg-6 mx-auto">
+      <h6>Region / Continent</h6>
+      <RegionSelect
+        onChange={(e) => {
+          setRegion(e.name);
+        }}
+        placeHolder="Select Region"
+      />
+
       <h6 className="mt-3 mb-3">Country</h6>
+      <CountrySelect
+        region={region}
+        containerClassName="form-group"
+        inputClassName=""
+        onChange={(e) => {
+          setCountryid(e.id);
+        }}
+        onTextChange={(e) => {
+          console.log(e);
+        }}
+        placeHolder="Select Country"
+      />
+      <h6 className="mt-3 mb-3">All Country</h6>
       <CountrySelect
         containerClassName="form-group"
         inputClassName=""

@@ -4,14 +4,27 @@ import {
   CountryState,
   CountryStateCity,
   Language,
+  Region,
   State,
 } from "../types";
 
-export const GetCountries = async (): Promise<Country[] | []> => {
+export const GetRegions = async (): Promise<Region[] | []> => {
+  const regions = await fetch(
+    "https://venkatmcajj.github.io/react-country-state-city/data/regionsminified.json"
+  ).then((res) => res.json());
+  return regions as Array<Region>;
+};
+export const GetCountries = async (_region?: string): Promise<Country[] | []> => {
   const countries = await fetch(
     "https://venkatmcajj.github.io/react-country-state-city/data/countriesminified.json"
   ).then((res) => res.json());
-  return countries as Array<Country>;
+  let filtered = countries as Array<Country>;
+  if(_region){
+    filtered = filtered.filter((country:Country)=>{
+      return country.region === _region;
+    })
+  }
+  return filtered;
 };
 
 export const GetLanguages = async (): Promise<Language[] | []> => {

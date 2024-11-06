@@ -18,6 +18,10 @@ export interface Country {
   latitude: string;
   longitude: string;
 }
+export interface Region {
+  id: number;
+  name: string;
+}
 export interface State {
   id: number;
   name: string;

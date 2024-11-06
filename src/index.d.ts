@@ -17,6 +17,11 @@ export interface Country {
   tld: string;
   latitude: string;
   longitude: string;
+  regionid:string;
+}
+export interface Region {
+  id: number;
+  name: string;
 }
 export interface State {
   id: number;
@@ -49,6 +54,7 @@ export interface CountryStateCity {
     }
   ];
 }
+export function GetRegions(): Promise<Region[] | []>;
 export function GetCountries(): Promise<Country[] | []>;
 export function GetState(id: number): Promise<Array<State> | []>;
 export function GetCity(
