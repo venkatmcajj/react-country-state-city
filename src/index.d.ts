@@ -17,7 +17,7 @@ export interface Country {
   tld: string;
   latitude: string;
   longitude: string;
-  regionid:string;
+  regionid: string;
 }
 export interface Region {
   id: number;

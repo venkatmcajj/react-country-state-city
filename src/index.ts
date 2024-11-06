@@ -3,7 +3,13 @@ import StateSelect from "./components/StateSelect";
 import CitySelect from "./components/CitySelect";
 import LanguageSelect from "./components/LanguageSelect";
 import RegionSelect from "./components/RegionSelect";
-import { GetCountries, GetState, GetCity, GetLanguages,GetRegions } from "./utils";
+import {
+  GetCountries,
+  GetState,
+  GetCity,
+  GetLanguages,
+  GetRegions,
+} from "./utils";
 import "./styles/style.scss";
 export {
   CountrySelect,

@@ -14,15 +14,17 @@ export const GetRegions = async (): Promise<Region[] | []> => {
   ).then((res) => res.json());
   return regions as Array<Region>;
 };
-export const GetCountries = async (_region?: string): Promise<Country[] | []> => {
+export const GetCountries = async (
+  _region?: string
+): Promise<Country[] | []> => {
   const countries = await fetch(
     "https://venkatmcajj.github.io/react-country-state-city/data/countriesminified.json"
   ).then((res) => res.json());
   let filtered = countries as Array<Country>;
-  if(_region){
-    filtered = filtered.filter((country:Country)=>{
+  if (_region) {
+    filtered = filtered.filter((country: Country) => {
       return country.region === _region;
-    })
+    });
   }
   return filtered;
 };

@@ -16,7 +16,7 @@ type PageProps = InputHTMLAttributes<HTMLInputElement> & {
   onTextChange?: (e: ChangeEvent<HTMLInputElement>) => void;
   placeHolder?: string;
   showFlag?: boolean;
-  region?:string;
+  region?: string;
 };
 const CountrySelect = ({
   containerClassName,
@@ -34,7 +34,7 @@ const CountrySelect = ({
     GetCountries(region).then((data) => {
       setCountries(data);
     });
-  }, []);
+  }, [region]);
   return (
     <>
       <div className={containerClassName} style={{ position: "relative" }}>

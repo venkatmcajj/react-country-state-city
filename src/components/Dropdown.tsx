@@ -34,7 +34,9 @@ const Dropdown = ({
   ...props
 }: ComponentProps) => {
   const [showMenu, setShowMenu] = useState(false);
-  const [selectedValue, setSelectedValue] = useState<Region | Country | State | City>();
+  const [selectedValue, setSelectedValue] = useState<
+    Region | Country | State | City
+  >();
   const [searchValue, setSearchValue] = useState("");
   const searchRef = useRef<HTMLInputElement>(null);
   const inputRef = useRef<HTMLDivElement>(null);
