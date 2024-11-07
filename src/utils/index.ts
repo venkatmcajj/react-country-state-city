@@ -4,6 +4,7 @@ import {
   CountryState,
   CountryStateCity,
   Language,
+  Phonecodes,
   Region,
   State,
 } from "../types";
@@ -13,6 +14,27 @@ export const GetRegions = async (): Promise<Region[] | []> => {
     "https://venkatmcajj.github.io/react-country-state-city/data/regionsminified.json"
   ).then((res) => res.json());
   return regions as Array<Region>;
+};
+export const GetPhonecodes = async (
+  _region?: string
+): Promise<Phonecodes[] | []> => {
+  const countries = await fetch(
+    "https://venkatmcajj.github.io/react-country-state-city/data/countriesminified.json"
+  ).then((res) => res.json());
+  let filtered = countries as Array<Phonecodes>;
+  if (_region) {
+    filtered = filtered.filter((country: Phonecodes) => {
+      return country.region === _region;
+    });
+  }
+  return filtered.map((item)=>{
+    return {
+      id:item.id,
+      name:item.name,
+      phone_code:item.phone_code,
+      region:item.region
+    }
+  });
 };
 export const GetCountries = async (
   _region?: string

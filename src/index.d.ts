@@ -19,6 +19,12 @@ export interface Country {
   longitude: string;
   regionid: string;
 }
+export interface Phonecodes {
+  id: number;
+  name: string;
+  phone_code:number;
+  region:string;
+}
 export interface Region {
   id: number;
   name: string;
@@ -54,6 +60,7 @@ export interface CountryStateCity {
     }
   ];
 }
+export function GetPhonecodes(): Promise<Phonecodes[] | []>;
 export function GetRegions(): Promise<Region[] | []>;
 export function GetCountries(): Promise<Country[] | []>;
 export function GetState(id: number): Promise<Array<State> | []>;

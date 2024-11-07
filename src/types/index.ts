@@ -18,6 +18,12 @@ export interface Country {
   latitude: string;
   longitude: string;
 }
+export interface Phonecodes {
+  id: number;
+  name: string;
+  phone_code:number;
+  region:string;
+}
 export interface Region {
   id: number;
   name: string;

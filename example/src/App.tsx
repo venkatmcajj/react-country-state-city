@@ -6,6 +6,7 @@ import {
   StateSelect,
   LanguageSelect,
   RegionSelect,
+  PhonecodeSelect,
 } from "react-country-state-city";
 import "react-country-state-city/dist/react-country-state-city.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -23,7 +24,7 @@ export default function App() {
         placeHolder="Select Region"
       />
 
-      {/* <h6 className="mt-3 mb-3">Country</h6>
+      <h6 className="mt-3 mb-3">Country</h6>
       <CountrySelect
         region={region}
         containerClassName="form-group"
@@ -47,6 +48,19 @@ export default function App() {
           console.log(e);
         }}
         placeHolder="Select Country"
+      />
+      <h6 className="mt-3 mb-3">Phone Code</h6>
+      <PhonecodeSelect
+        region={region}
+        containerClassName="form-group"
+        inputClassName=""
+        onChange={(e) => {
+          setCountryid(e.id);
+        }}
+        onTextChange={(e) => {
+          console.log(e);
+        }}
+        placeHolder="Select Phonecode"
       />
       <h6 className="mt-3 mb-3">State</h6>
       <StateSelect
@@ -87,7 +101,7 @@ export default function App() {
         }}
         displayNative={false}
         placeHolder="Select Language"
-      /> */}
+      />
     </div>
   );
 }

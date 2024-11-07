@@ -5,7 +5,7 @@ import React, {
   useRef,
   useState,
 } from "react";
-import { City, Country, Region, State } from "../types";
+import { Country } from "../types";
 const Icon = () => {
   return (
     <svg height="20" width="20" viewBox="0 0 20 20">
@@ -16,14 +16,14 @@ const Icon = () => {
 
 type ComponentProps = InputHTMLAttributes<HTMLInputElement> & {
   placeHolder?: string;
-  options: Array<Region | Country | State | City>;
+  options: Array<Country>;
   inputClassName?: string;
   onTextChange?: (e: ChangeEvent<HTMLInputElement>) => void;
-  defaultValue?: Region | Country | State | City;
-  onChange: (e: Region | Country | State | City) => void;
+  defaultValue?: Country;
+  onChange: (e: Country) => void;
   showFlag?: boolean;
 };
-const Dropdown = ({
+const PhonecodeDropdown = ({
   placeHolder,
   options,
   onChange,
@@ -34,9 +34,7 @@ const Dropdown = ({
   ...props
 }: ComponentProps) => {
   const [showMenu, setShowMenu] = useState(false);
-  const [selectedValue, setSelectedValue] = useState<
-    Region | Country | State | City
-  >();
+  const [selectedValue, setSelectedValue] = useState<Country>();
   const [searchValue, setSearchValue] = useState("");
   const searchRef = useRef<HTMLInputElement>(null);
   const inputRef = useRef<HTMLDivElement>(null);
@@ -72,15 +70,15 @@ const Dropdown = ({
     }
     return `${
       showFlag && "emoji" in selectedValue ? selectedValue.emoji : ""
-    } ${selectedValue.name}`;
+    } +${selectedValue.phone_code.toString()}`;
   };
 
-  const onItemClick = (option: Region | Country | State | City) => {
+  const onItemClick = (option: Country) => {
     setSelectedValue(option);
     onChange(option);
   };
 
-  const isSelected = (option: Region | Country | State | City) => {
+  const isSelected = (option: Country) => {
     if (!selectedValue) {
       return false;
     }
@@ -101,7 +99,11 @@ const Dropdown = ({
     }
     return options.filter(
       (option) =>
-        option.name.toLowerCase().indexOf(searchValue.toLowerCase()) >= 0
+        option.name.toLowerCase().indexOf(searchValue.toLowerCase()) >= 0 ||
+        option.phone_code
+          .toString()
+          .toLowerCase()
+          .indexOf(searchValue.toLowerCase()) >= 0
     );
   };
 
@@ -136,8 +138,10 @@ const Dropdown = ({
                 isSelected(option) && "selected"
               }`}
             >
-              {showFlag && <span>{"emoji" in option ? option.emoji : ""} </span>}
-              {option.name}
+              {showFlag && (
+                <span>{"emoji" in option ? option.emoji : ""} +</span>
+              )}
+              {option.phone_code.toString()}
             </div>
           ))}
         </div>
@@ -146,4 +150,4 @@ const Dropdown = ({
   );
 };
 
-export default Dropdown;
+export default PhonecodeDropdown;
