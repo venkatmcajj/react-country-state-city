@@ -1,6 +1,6 @@
 # React-country-state-city
 
-React-country-state-city allows you to create a responsive country, state, city dropdown with search options. And also provide the option to create a language select dropdown to list all Languages.
+A lightweight and easy-to-use React library that provides a comprehensive list of regions or continents, countries, states, cities and languages for creating dynamic and searchable dropdowns. Ideal for building forms and input fields that require accurate and up-to-date geographical selections, with seamless integration for improved user experience.
 
 ## Installation
 
