@@ -16,7 +16,7 @@ type PageProps = InputHTMLAttributes<HTMLInputElement> & {
   onTextChange?: (e: ChangeEvent<HTMLInputElement>) => void;
   placeHolder?: string;
   displayNative?: boolean;
-  src?:string;
+  src?: string;
 };
 const LanguageSelect = ({
   containerClassName,

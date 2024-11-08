@@ -15,7 +15,7 @@ type PageProps = InputHTMLAttributes<HTMLInputElement> & {
   onChange?: (e: Region) => void;
   onTextChange?: (e: ChangeEvent<HTMLInputElement>) => void;
   placeHolder?: string;
-  src?:string
+  src?: string;
 };
 const RegionSelect = ({
   containerClassName,

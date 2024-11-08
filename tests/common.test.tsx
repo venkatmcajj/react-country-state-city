@@ -9,7 +9,7 @@ import {
   GetRegions,
   GetCountriesByRegion,
   GetPhonecodes,
-  GetPhonecodesByRegion
+  GetPhonecodesByRegion,
 } from "../src";
 import fetchmock from "jest-fetch-mock";
 fetchmock.dontMock();

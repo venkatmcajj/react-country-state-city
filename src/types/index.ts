@@ -21,8 +21,8 @@ export interface Country {
 export interface Phonecodes {
   id: number;
   name: string;
-  phone_code:string;
-  region:string;
+  phone_code: string;
+  region: string;
 }
 export interface Region {
   id: number;

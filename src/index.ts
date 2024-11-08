@@ -12,7 +12,7 @@ import {
   GetLanguages,
   GetRegions,
   GetPhonecodes,
-  GetCountriesByRegion
+  GetCountriesByRegion,
 } from "./utils";
 import "./styles/style.scss";
 export {
@@ -29,5 +29,5 @@ export {
   GetLanguages,
   GetRegions,
   GetPhonecodes,
-  GetPhonecodesByRegion
+  GetPhonecodesByRegion,
 };

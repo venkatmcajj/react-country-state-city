@@ -17,7 +17,7 @@ type PageProps = InputHTMLAttributes<HTMLInputElement> & {
   placeHolder?: string;
   showFlag?: boolean;
   region?: string;
-  src?:string
+  src?: string;
 };
 const PhonecodeSelect = ({
   containerClassName,
@@ -41,7 +41,7 @@ const PhonecodeSelect = ({
       GetCountries(src).then((data) => {
         setCountries(data);
       });
-  }, [region,src]);
+  }, [region, src]);
   return (
     <>
       <div className={containerClassName} style={{ position: "relative" }}>

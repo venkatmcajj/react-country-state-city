@@ -136,7 +136,11 @@ const Dropdown = ({
                 isSelected(option) && "selected"
               }`}
             >
-              {showFlag && <span className="stdropdown-flag">{"emoji" in option ? option.emoji : ""} </span>}
+              {showFlag && (
+                <span className="stdropdown-flag">
+                  {"emoji" in option ? option.emoji : ""}{" "}
+                </span>
+              )}
               {option.name}
             </div>
           ))}

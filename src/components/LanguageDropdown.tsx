@@ -97,8 +97,8 @@ const LanguageDropdown = ({
     }
     return options.filter(
       (option) =>
-        option.name.toLowerCase().indexOf(searchValue.toLowerCase()) >= 0 || 
-      option.native.toLowerCase().indexOf(searchValue.toLowerCase()) >= 0
+        option.name.toLowerCase().indexOf(searchValue.toLowerCase()) >= 0 ||
+        option.native.toLowerCase().indexOf(searchValue.toLowerCase()) >= 0
     );
   };
 

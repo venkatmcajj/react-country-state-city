@@ -46,7 +46,7 @@ export const GetPhonecodes = async (
     "https://venkatmcajj.github.io/react-country-state-city/data/countriesminified.json";
   if (src) url = src + "/countriesminified.json";
   const countries = await fetch(url).then((res) => res.json());
-  let filtered = countries as Array<Phonecodes>;
+  const filtered = countries as Array<Phonecodes>;
   return filtered.map((item) => {
     return {
       id: item.id,
@@ -77,8 +77,7 @@ export const GetCountries = async (src?: string): Promise<Country[] | []> => {
     "https://venkatmcajj.github.io/react-country-state-city/data/countriesminified.json";
   if (src) url = src + "/countriesminified.json";
   const countries = await fetch(url).then((res) => res.json());
-  let filtered = countries as Array<Country>;
-  return filtered;
+  return countries as Array<Country>;
 };
 
 export const GetLanguages = async (src?: string): Promise<Language[] | []> => {
