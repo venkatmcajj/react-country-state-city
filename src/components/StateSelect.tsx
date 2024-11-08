@@ -15,6 +15,7 @@ type PageProps = InputHTMLAttributes<HTMLInputElement> & {
   defaultValue?: State;
   countryid: number;
   placeHolder?: string;
+  src?: string;
 };
 
 const StateSelect = ({
@@ -25,16 +26,17 @@ const StateSelect = ({
   onChange,
   countryid,
   placeHolder,
+  src,
   ...props
 }: PageProps) => {
   const [states, setStates] = useState<State[]>([]);
   useEffect(() => {
     if (countryid) {
-      GetState(countryid).then((data) => {
+      GetState(countryid, src).then((data) => {
         setStates(data);
       });
     }
-  }, [countryid]);
+  }, [countryid, src]);
   return (
     <>
       <div className={containerClassName} style={{ position: "relative" }}>

@@ -15,6 +15,7 @@ type PageProps = InputHTMLAttributes<HTMLInputElement> & {
   onChange?: (e: Region) => void;
   onTextChange?: (e: ChangeEvent<HTMLInputElement>) => void;
   placeHolder?: string;
+  src?:string
 };
 const RegionSelect = ({
   containerClassName,
@@ -23,14 +24,15 @@ const RegionSelect = ({
   defaultValue,
   onChange,
   placeHolder,
+  src,
   ...props
 }: PageProps) => {
   const [regionsunfiltered, setRegions] = useState<Region[]>([]);
   useEffect(() => {
-    GetRegions().then((data) => {
+    GetRegions(src).then((data) => {
       setRegions(data);
     });
-  }, []);
+  }, [src]);
   return (
     <>
       <div className={containerClassName} style={{ position: "relative" }}>

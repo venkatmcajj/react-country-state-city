@@ -6,11 +6,13 @@ import RegionSelect from "./components/RegionSelect";
 import PhonecodeSelect from "./components/PhonecodeSelect";
 import {
   GetCountries,
+  GetPhonecodesByRegion,
   GetState,
   GetCity,
   GetLanguages,
   GetRegions,
-  GetPhonecodes
+  GetPhonecodes,
+  GetCountriesByRegion
 } from "./utils";
 import "./styles/style.scss";
 export {
@@ -21,9 +23,11 @@ export {
   RegionSelect,
   PhonecodeSelect,
   GetCountries,
+  GetCountriesByRegion,
   GetState,
   GetCity,
   GetLanguages,
   GetRegions,
-  GetPhonecodes
+  GetPhonecodes,
+  GetPhonecodesByRegion
 };

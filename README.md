@@ -13,7 +13,8 @@ $ import {
   CountrySelect,
   StateSelect,
   LanguageSelect,
-  RegionSelect
+  RegionSelect,
+  PhonecodeSelect
 } from "react-country-state-city";
 
 $ import "react-country-state-city/dist/react-country-state-city.css";
@@ -31,6 +32,12 @@ $ import "react-country-state-city/dist/react-country-state-city.css";
 - And much more !
 - Language dropdown to list and search all languages in English and native too.
 - Regions or Continents dropdown to list and search all the regions from the world.
+- Phonecode dropdown to list and search all the codes based on country name or phone codes.
+
+## Data
+
+By default, the control will load the github hosted data files. Alternatively, you can [download the data](https://github.com/venkatmcajj/react-country-state-city/tree/master/data) json file and host it yourself. Simply download the JSON files, and supply the src property to each control to tell it where to download from.
+
 
 ## The gist
 
@@ -42,12 +49,14 @@ import {
   CountrySelect,
   StateSelect,
   LanguageSelect,
-  RegionSelect
+  RegionSelect,
+  PhonecodeSelect
 } from "react-country-state-city";
 import "react-country-state-city/dist/react-country-state-city.css";
 
 function App() {
   const [region, setRegion] = useState("");
+  const [phonecode, setPhoneCode] = useState("");
   const [countryid, setCountryid] = useState(0);
   const [stateid, setstateid] = useState(0);
   return (
@@ -59,6 +68,7 @@ function App() {
         }}
         placeHolder="Select Region"
       />
+      
       <h6>Country</h6>
       <CountrySelect
         onChange={(e) => {
@@ -73,6 +83,13 @@ function App() {
           setCountryid(e.id);
         }}
         placeHolder="Select Country"
+      />
+      <h6>Phone Code</h6>
+      <RegionSelect
+        onChange={(e) => {
+          setPhoneCode(e.phone_code);
+        }}
+        placeHolder="Select Phone Code"
       />
       <h6>State</h6>
       <StateSelect
@@ -111,7 +128,8 @@ import {
   GetState,
   GetCity,
   GetLanguages,
-  GetRegions //async functions
+  GetRegions,
+  GetPhonecodes //async functions
 } from "react-country-state-city";
 
 function App() {
@@ -120,7 +138,9 @@ function App() {
   const [stateid, setStateid] = useState(0);
   const [cityid, setCityid] = useState(0);
   const [language, setLanguage] = useState(0);
+  const [phoneCode, setPhoneCode] = useState("");
 
+  const [phonecodeList, setPhonecodeList] = useState([]);
   const [regionsList, setRegionsList] = useState([]);
   const [countriesList, setCountriesList] = useState([]);
   const [stateList, setStateList] = useState([]);
@@ -128,6 +148,9 @@ function App() {
   const [languageList, setLanguageList] = useState([]);
 
   useEffect(() => {
+    GetPhonecodes().then((result) => {
+      setPhonecodeList(result);
+    });
     GetRegions().then((result) => {
       setRegionsList(result);
     });
@@ -169,6 +192,19 @@ function App() {
         {countryList.map((item, index) => (
           <option key={index} value={index}>
             {item.name}
+          </option>
+        ))}
+      </select>
+      <h6>Phone Code</h6>
+      <select
+        onChange={(e) => {
+          setRegion(e.target.value);
+        }}
+        value={phoneCode}
+      >
+        {regionsList.map((item, index) => (
+          <option key={index} value={item.phone_code}>
+            +{item.phone_code} - {item.name}
           </option>
         ))}
       </select>
@@ -319,12 +355,30 @@ name: string;
 ...
 ]
 
+### Phonecode Example
+
+<img src="https://raw.githubusercontent.com/venkatmcajj/react-country-state-city/master/example/src/example7.png" alt="React country state city example screenshot"/>
+
+### GetPhonecodes - Result
+
+[
+{
+id: string;
+name: string;
+region:string;
+phone_code:string;
+},
+...
+]
+
+
 ## The Country Select Properties
 
 Properties used to customise the rendering:
 
 | Name               | Type     | Description                                                                             |
 | ------------------ | -------- | --------------------------------------------------------------------------------------- |
+| src       | string  | `optional` The relative or absolute URL where the data files are hosted. Default is to serve from hosted CDN. e.g., https://venkatmcajj.github.io/react-country-state-city/data                                          |
 | defaultValue       | Country  | `optional` The current value: a country object                                          |
 | containerClassName | string   | `optional` styles for a container                                                       |
 | inputClassName     | string   | `optional` styles for input box                                                         |
@@ -339,6 +393,7 @@ The same country select properties and additionally
 
 | Name      | Type   | Description                                      |
 | --------- | ------ | ------------------------------------------------ |
+| src       | string  | `optional` The relative or absolute URL where the data files are hosted. Default is to serve from hosted CDN. e.g., https://venkatmcajj.github.io/react-country-state-city/data                                          |
 | countryid | number | `required` The id of the selected country object |
 
 ## City Select Properties
@@ -347,6 +402,7 @@ The same country select properties and additionally
 
 | Name      | Type   | Description                                      |
 | --------- | ------ | ------------------------------------------------ |
+| src       | string  | `optional` The relative or absolute URL where the data files are hosted. Default is to serve from hosted CDN. e.g., https://venkatmcajj.github.io/react-country-state-city/data                                          |
 | countryid | number | `required` The id of the selected country object |
 | stateid   | number | `required` The id of the selected state object   |
 
@@ -356,6 +412,7 @@ Properties used to customise the rendering:
 
 | Name               | Type     | Description                                                                                                                                |
 | ------------------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| src       | string  | `optional` The relative or absolute URL where the data files are hosted. Default is to serve from hosted CDN. e.g., https://venkatmcajj.github.io/react-country-state-city/data                                          |
 | defaultValue       | Country  | `optional` The current value: a country object                                                                                             |
 | containerClassName | string   | `optional` styles for a container                                                                                                          |
 | inputClassName     | string   | `optional` styles for input box                                                                                                            |
@@ -365,6 +422,10 @@ Properties used to customise the rendering:
 | displayNative      | boolean  | `optional` value are used to display the languages in native language when is true and display in english when is false. default is false. |
 
 ## Region Select Properties
+
+The same country select properties 
+
+## Phonecode Select Properties
 
 The same country select properties 
 

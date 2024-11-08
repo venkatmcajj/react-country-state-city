@@ -4,7 +4,7 @@ export interface Country {
   iso3: string;
   iso2: string;
   numeric_code: string;
-  phone_code: number;
+  phone_code: string;
   capital: string;
   currency: string;
   currency_name: string;
@@ -21,7 +21,7 @@ export interface Country {
 export interface Phonecodes {
   id: number;
   name: string;
-  phone_code:number;
+  phone_code:string;
   region:string;
 }
 export interface Region {

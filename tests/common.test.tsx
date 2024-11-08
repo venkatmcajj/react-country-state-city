@@ -7,6 +7,9 @@ import {
   GetCountries,
   GetState,
   GetRegions,
+  GetCountriesByRegion,
+  GetPhonecodes,
+  GetPhonecodesByRegion
 } from "../src";
 import fetchmock from "jest-fetch-mock";
 fetchmock.dontMock();
@@ -18,7 +21,7 @@ describe("Common render", () => {
     const allcountry = await GetCountries();
     expect(allcountry.length).toBe(250);
 
-    const country = await GetCountries("Asia");
+    const country = await GetCountriesByRegion("Asia");
     expect(country.length).toBe(50);
 
     const state = await GetState(101);
@@ -26,6 +29,12 @@ describe("Common render", () => {
 
     const city = await GetCity(101, 4035);
     expect(city[0].name).toBe("Abiramam");
+
+    const allphonecodes = await GetPhonecodes();
+    expect(allphonecodes.length).toBe(250);
+
+    const phonecodes = await GetPhonecodesByRegion("Asia");
+    expect(phonecodes.length).toBe(50);
   });
   it("should render correctly without crash", () => {
     const tree = renderer.create(<CountrySelect />).toJSON();

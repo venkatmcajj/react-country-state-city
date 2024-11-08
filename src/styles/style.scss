@@ -10,9 +10,11 @@
   border: 1px solid #ccc;
   position: relative;
   border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.stdropdown-flag{
   font-family: "Twemoji Mozilla" !important;
 }
-
 .stdropdown-menu::-webkit-scrollbar {
   width: 2px;
 }

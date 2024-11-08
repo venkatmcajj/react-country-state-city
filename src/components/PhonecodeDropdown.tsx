@@ -70,7 +70,7 @@ const PhonecodeDropdown = ({
     }
     return `${
       showFlag && "emoji" in selectedValue ? selectedValue.emoji : ""
-    } +${selectedValue.phone_code.toString()}`;
+    } +${selectedValue.phone_code}`;
   };
 
   const onItemClick = (option: Country) => {
@@ -100,10 +100,8 @@ const PhonecodeDropdown = ({
     return options.filter(
       (option) =>
         option.name.toLowerCase().indexOf(searchValue.toLowerCase()) >= 0 ||
-        option.phone_code
-          .toString()
-          .toLowerCase()
-          .indexOf(searchValue.toLowerCase()) >= 0
+        option.phone_code.indexOf(searchValue) >= 0 ||
+        ("+" + option.phone_code).indexOf(searchValue) >= 0
     );
   };
 
@@ -139,9 +137,11 @@ const PhonecodeDropdown = ({
               }`}
             >
               {showFlag && (
-                <span>{"emoji" in option ? option.emoji : ""} +</span>
+                <span className="stdropdown-flag">
+                  {"emoji" in option ? option.emoji : ""}{" "}
+                </span>
               )}
-              {option.phone_code.toString()}
+              +{option.phone_code}
             </div>
           ))}
         </div>

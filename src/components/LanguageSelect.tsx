@@ -16,6 +16,7 @@ type PageProps = InputHTMLAttributes<HTMLInputElement> & {
   onTextChange?: (e: ChangeEvent<HTMLInputElement>) => void;
   placeHolder?: string;
   displayNative?: boolean;
+  src?:string;
 };
 const LanguageSelect = ({
   containerClassName,
@@ -25,14 +26,15 @@ const LanguageSelect = ({
   onChange,
   placeHolder,
   displayNative,
+  src,
   ...props
 }: PageProps) => {
   const [languagesunfiltered, setLanguages] = useState<Language[]>([]);
   useEffect(() => {
-    GetLanguages().then((data) => {
+    GetLanguages(src).then((data) => {
       setLanguages(data);
     });
-  }, []);
+  }, [src]);
   return (
     <>
       <div className={containerClassName} style={{ position: "relative" }}>

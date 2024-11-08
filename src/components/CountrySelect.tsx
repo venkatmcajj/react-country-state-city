@@ -5,7 +5,7 @@ import React, {
   useState,
 } from "react";
 import { Country } from "../types";
-import { GetCountries } from "../utils";
+import { GetCountries, GetCountriesByRegion } from "../utils";
 import Dropdown from "./Dropdown";
 
 type PageProps = InputHTMLAttributes<HTMLInputElement> & {
@@ -17,6 +17,7 @@ type PageProps = InputHTMLAttributes<HTMLInputElement> & {
   placeHolder?: string;
   showFlag?: boolean;
   region?: string;
+  src?: string;
 };
 const CountrySelect = ({
   containerClassName,
@@ -27,14 +28,20 @@ const CountrySelect = ({
   placeHolder,
   showFlag,
   region,
+  src,
   ...props
 }: PageProps) => {
   const [countriesunfiltered, setCountries] = useState<Country[]>([]);
   useEffect(() => {
-    GetCountries(region).then((data) => {
-      setCountries(data);
-    });
-  }, [region]);
+    if (region)
+      GetCountriesByRegion(region, src).then((data) => {
+        setCountries(data);
+      });
+    else
+      GetCountries(src).then((data) => {
+        setCountries(data);
+      });
+  }, [region, src]);
   return (
     <>
       <div className={containerClassName} style={{ position: "relative" }}>

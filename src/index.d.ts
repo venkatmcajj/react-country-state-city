@@ -4,7 +4,7 @@ export interface Country {
   iso3: string;
   iso2: string;
   numeric_code: string;
-  phone_code: number;
+  phone_code: string;
   capital: string;
   currency: string;
   currency_name: string;
@@ -22,8 +22,8 @@ export interface Country {
 export interface Phonecodes {
   id: number;
   name: string;
-  phone_code:number;
-  region:string;
+  phone_code: string;
+  region: string;
 }
 export interface Region {
   id: number;
@@ -60,12 +60,21 @@ export interface CountryStateCity {
     }
   ];
 }
-export function GetPhonecodes(): Promise<Phonecodes[] | []>;
-export function GetRegions(): Promise<Region[] | []>;
-export function GetCountries(): Promise<Country[] | []>;
-export function GetState(id: number): Promise<Array<State> | []>;
+export function GetPhonecodesByRegion(
+  region: string,
+  src?: string
+): Promise<Phonecodes[] | []>;
+export function GetPhonecodes(src?: string): Promise<Phonecodes[] | []>;
+export function GetCountriesByRegion(
+  region: string,
+  src?: string
+): Promise<Phonecodes[] | []>;
+export function GetRegions(src?: string): Promise<Region[] | []>;
+export function GetCountries(src?: string): Promise<Country[] | []>;
+export function GetState(id: number, src?: string): Promise<Array<State> | []>;
 export function GetCity(
   countryid: number,
-  stateid: number
+  stateid: number,
+  src?: string
 ): Promise<Array<City> | []>;
-export function GetLanguages(): Promise<Language[] | []>;
+export function GetLanguages(src?: string): Promise<Language[] | []>;
