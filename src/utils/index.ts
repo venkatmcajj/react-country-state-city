@@ -94,7 +94,7 @@ export const GetState = async (
 ): Promise<Array<State> | []> => {
   let url =
     "https://venkatmcajj.github.io/react-country-state-city/data/statesminified.json";
-  if (src) url = src + "/languagesminified.json";
+  if (src) url = src + "/statesminified.json";
   const states = await fetch(url).then((res) => res.json());
   const record = states as Array<CountryState>;
   const statesone = record.find((e: CountryState) => e.id === id);
