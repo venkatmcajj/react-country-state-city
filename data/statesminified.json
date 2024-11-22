@@ -178,237 +178,237 @@
     "states": [
       {
         "id": 603,
-        "name": "Berat County",
+        "name": "Berat",
         "state_code": "01"
       },
       {
         "id": 629,
-        "name": "Berat District",
+        "name": "Berat",
         "state_code": "BR"
       },
       {
         "id": 607,
-        "name": "Bulqizë District",
+        "name": "Bulqizë",
         "state_code": "BU"
       },
       {
         "id": 618,
-        "name": "Delvinë District",
+        "name": "Delvinë",
         "state_code": "DL"
       },
       {
         "id": 608,
-        "name": "Devoll District",
+        "name": "Devoll",
         "state_code": "DV"
       },
       {
         "id": 610,
-        "name": "Dibër County",
+        "name": "Dibër",
         "state_code": "09"
       },
       {
         "id": 605,
-        "name": "Dibër District",
+        "name": "Dibër",
         "state_code": "DI"
       },
       {
         "id": 632,
-        "name": "Durrës County",
+        "name": "Durrës",
         "state_code": "02"
       },
       {
         "id": 639,
-        "name": "Durrës District",
+        "name": "Durrës",
         "state_code": "DR"
       },
       {
         "id": 598,
-        "name": "Elbasan County",
+        "name": "Elbasan",
         "state_code": "03"
       },
       {
         "id": 631,
-        "name": "Fier County",
+        "name": "Fier",
         "state_code": "04"
       },
       {
         "id": 627,
-        "name": "Fier District",
+        "name": "Fier",
         "state_code": "FR"
       },
       {
         "id": 604,
-        "name": "Gjirokastër County",
+        "name": "Gjirokastër",
         "state_code": "05"
       },
       {
         "id": 621,
-        "name": "Gjirokastër District",
+        "name": "Gjirokastër",
         "state_code": "GJ"
       },
       {
         "id": 617,
-        "name": "Gramsh District",
+        "name": "Gramsh",
         "state_code": "GR"
       },
       {
         "id": 600,
-        "name": "Has District",
+        "name": "Has",
         "state_code": "HA"
       },
       {
         "id": 594,
-        "name": "Kavajë District",
+        "name": "Kavajë",
         "state_code": "KA"
       },
       {
         "id": 628,
-        "name": "Kolonjë District",
+        "name": "Kolonjë",
         "state_code": "ER"
       },
       {
         "id": 630,
-        "name": "Korçë County",
+        "name": "Korçë ",
         "state_code": "06"
       },
       {
         "id": 597,
-        "name": "Korçë District",
+        "name": "Korçë",
         "state_code": "KO"
       },
       {
         "id": 614,
-        "name": "Krujë District",
+        "name": "Krujë",
         "state_code": "KR"
       },
       {
         "id": 612,
-        "name": "Kuçovë District",
+        "name": "Kuçovë",
         "state_code": "KC"
       },
       {
         "id": 601,
-        "name": "Kukës County",
+        "name": "Kukës",
         "state_code": "07"
       },
       {
         "id": 623,
-        "name": "Kukës District",
+        "name": "Kukës",
         "state_code": "KU"
       },
       {
         "id": 622,
-        "name": "Kurbin District",
+        "name": "Kurbin",
         "state_code": "KB"
       },
       {
         "id": 609,
-        "name": "Lezhë County",
+        "name": "Lezhë",
         "state_code": "08"
       },
       {
         "id": 595,
-        "name": "Lezhë District",
+        "name": "Lezhë",
         "state_code": "LE"
       },
       {
         "id": 596,
-        "name": "Librazhd District",
+        "name": "Librazhd",
         "state_code": "LB"
       },
       {
         "id": 599,
-        "name": "Lushnjë District",
+        "name": "Lushnjë",
         "state_code": "LU"
       },
       {
         "id": 602,
-        "name": "Malësi e Madhe District",
+        "name": "Malësi e Madhe",
         "state_code": "MM"
       },
       {
         "id": 637,
-        "name": "Mallakastër District",
+        "name": "Mallakastër",
         "state_code": "MK"
       },
       {
         "id": 635,
-        "name": "Mat District",
+        "name": "Mat",
         "state_code": "MT"
       },
       {
         "id": 638,
-        "name": "Mirditë District",
+        "name": "Mirditë",
         "state_code": "MR"
       },
       {
         "id": 619,
-        "name": "Peqin District",
+        "name": "Peqin",
         "state_code": "PQ"
       },
       {
         "id": 625,
-        "name": "Përmet District",
+        "name": "Përmet",
         "state_code": "PR"
       },
       {
         "id": 606,
-        "name": "Pogradec District",
+        "name": "Pogradec",
         "state_code": "PG"
       },
       {
         "id": 620,
-        "name": "Pukë District",
+        "name": "Pukë",
         "state_code": "PU"
       },
       {
         "id": 624,
-        "name": "Sarandë District",
+        "name": "Sarandë",
         "state_code": "SR"
       },
       {
         "id": 611,
-        "name": "Shkodër County",
+        "name": "Shkodër",
         "state_code": "10"
       },
       {
         "id": 626,
-        "name": "Shkodër District",
+        "name": "Shkodër",
         "state_code": "SH"
       },
       {
         "id": 593,
-        "name": "Skrapar District",
+        "name": "Skrapar",
         "state_code": "SK"
       },
       {
         "id": 616,
-        "name": "Tepelenë District",
+        "name": "Tepelenë",
         "state_code": "TE"
       },
       {
         "id": 615,
-        "name": "Tirana County",
+        "name": "Tirana",
         "state_code": "11"
       },
       {
         "id": 633,
-        "name": "Tirana District",
+        "name": "Tirana",
         "state_code": "TR"
       },
       {
         "id": 636,
-        "name": "Tropojë District",
+        "name": "Tropojë",
         "state_code": "TP"
       },
       {
         "id": 634,
-        "name": "Vlorë County",
+        "name": "Vlorë",
         "state_code": "12"
       },
       {
         "id": 613,
-        "name": "Vlorë District",
+        "name": "Vlorë",
         "state_code": "VL"
       }
     ]
