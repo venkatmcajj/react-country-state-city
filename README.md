@@ -181,7 +181,7 @@ function App() {
       <h6>Country</h6>
       <select
         onChange={(e) => {
-          const country = stateList[e.target.value]; //here you will get full country object.
+          const country = countriesList[e.target.value]; //here you will get full country object.
           setCountryid(country.id);
           GetState(country.id).then((result) => {
             setStateList(result);
@@ -189,7 +189,7 @@ function App() {
         }}
         value={countryid}
       >
-        {countryList.map((item, index) => (
+        {countriesList.map((item, index) => (
           <option key={index} value={index}>
             {item.name}
           </option>
@@ -198,11 +198,11 @@ function App() {
       <h6>Phone Code</h6>
       <select
         onChange={(e) => {
-          setRegion(e.target.value);
+          setPhoneCode(e.target.value);
         }}
         value={phoneCode}
       >
-        {regionsList.map((item, index) => (
+        {phonecodeList.map((item, index) => (
           <option key={index} value={item.phone_code}>
             +{item.phone_code} - {item.name}
           </option>

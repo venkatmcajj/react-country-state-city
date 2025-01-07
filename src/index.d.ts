@@ -77,4 +77,5 @@ export function GetCity(
   stateid: number,
   src?: string
 ): Promise<Array<City> | []>;
+export function GetAllCities(src?: string): Promise<Array<City> | []>;
 export function GetLanguages(src?: string): Promise<Language[] | []>;

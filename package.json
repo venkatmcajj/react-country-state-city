@@ -1,6 +1,6 @@
 {
   "name": "react-country-state-city",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "A lightweight and easy-to-use React library that provides a comprehensive list of regions or continents, countries, states, cities languages, and country phone codes for creating dynamic and searchable dropdowns. Ideal for building forms and input fields that require accurate and up-to-date geographical selections, with seamless integration for improved user experience.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

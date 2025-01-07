@@ -121,3 +121,14 @@ export const GetCity = async (
     return [];
   }
 };
+export const GetAllCities = async (src?: string): Promise<Array<City> | []> => {
+  let url =
+    "https://venkatmcajj.github.io/react-country-state-city/data/citiesminified.json";
+  if (src) url = src + "/citiesminified.json";
+  const cities = await fetch(url).then((res) => res.json());
+  const record = cities as Array<CountryStateCity>;
+  const allCities = record.flatMap((country) =>
+    country.states.flatMap((state) => state.cities)
+  );
+  return allCities;
+};
