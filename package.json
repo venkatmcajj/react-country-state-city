@@ -60,7 +60,7 @@
   "bugs": {
     "url": "https://github.com/venkatmcajj/react-country-state-city/issues"
   },
-  "homepage": "https://github.com/venkatmcajj/react-country-state-city#readme",
+  "homepage": "https://venkatmcajj.github.io/react-country-state-city-docs/",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.1.0",
     "@rollup/plugin-image": "^3.0.3",
