@@ -71,8 +71,8 @@ const Dropdown = ({
       return searchValue ? searchValue : "";
     }
     return `${
-      showFlag && "emoji" in selectedValue ? selectedValue.emoji : ""
-    } ${selectedValue.name}`;
+      showFlag && "emoji" in selectedValue ? (selectedValue.emoji+" ") : ""
+    }${selectedValue.name}`;
   };
 
   const onItemClick = (option: Region | Country | State | City) => {

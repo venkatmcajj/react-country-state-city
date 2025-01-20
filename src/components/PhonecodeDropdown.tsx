@@ -69,8 +69,8 @@ const PhonecodeDropdown = ({
       return searchValue ? searchValue : "";
     }
     return `${
-      showFlag && "emoji" in selectedValue ? selectedValue.emoji : ""
-    } +${selectedValue.phone_code}`;
+      showFlag && "emoji" in selectedValue ? (selectedValue.emoji+" ") : ""
+    }+${selectedValue.phone_code}`;
   };
 
   const onItemClick = (option: Country) => {
