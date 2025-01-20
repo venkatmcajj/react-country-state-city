@@ -71,7 +71,7 @@ const Dropdown = ({
       return searchValue ? searchValue : "";
     }
     return `${
-      showFlag && "emoji" in selectedValue ? (selectedValue.emoji+" ") : ""
+      showFlag && "emoji" in selectedValue ? selectedValue.emoji + " " : ""
     }${selectedValue.name}`;
   };
 
