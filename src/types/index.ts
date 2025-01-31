@@ -17,6 +17,7 @@ export interface Country {
   tld: string;
   latitude: string;
   longitude: string;
+  hasStates: boolean;
 }
 export interface Phonecodes {
   id: number;
@@ -27,6 +28,7 @@ export interface Phonecodes {
 export interface Region {
   id: number;
   name: string;
+  hasCountries: boolean;
 }
 export interface State {
   id: number;
@@ -34,6 +36,7 @@ export interface State {
   state_code: string;
   latitude: string;
   longitude: string;
+  hasCities: boolean;
 }
 export interface Language {
   code: string;
