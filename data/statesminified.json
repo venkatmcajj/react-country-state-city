@@ -6,80 +6,266 @@
         "id": 3901,
         "name": "Badakhshan",
         "state_code": "BDS",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "36.8040254",
+        "longitude": "71.367658"
       },
-      { "id": 3871, "name": "Badghis", "state_code": "BDG", "hasCities": true },
-      { "id": 3875, "name": "Baghlan", "state_code": "BGL", "hasCities": true },
-      { "id": 3884, "name": "Balkh", "state_code": "BAL", "hasCities": true },
-      { "id": 3872, "name": "Bamyan", "state_code": "BAM", "hasCities": true },
+      {
+        "id": 3871,
+        "name": "Badghis",
+        "state_code": "BDG",
+        "hasCities": true,
+        "latitude": "35.0",
+        "longitude": "63.75"
+      },
+      {
+        "id": 3875,
+        "name": "Baghlan",
+        "state_code": "BGL",
+        "hasCities": true,
+        "latitude": "35.75",
+        "longitude": "69.0"
+      },
+      {
+        "id": 3884,
+        "name": "Balkh",
+        "state_code": "BAL",
+        "hasCities": true,
+        "latitude": "36.7991624",
+        "longitude": "67.2372587"
+      },
+      {
+        "id": 3872,
+        "name": "Bamyan",
+        "state_code": "BAM",
+        "hasCities": true,
+        "latitude": "34.75",
+        "longitude": "67.25"
+      },
       {
         "id": 3892,
         "name": "Daykundi",
         "state_code": "DAY",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "33.725113",
+        "longitude": "66.2196554"
       },
-      { "id": 3899, "name": "Farah", "state_code": "FRA", "hasCities": true },
-      { "id": 3889, "name": "Faryab", "state_code": "FYB", "hasCities": true },
-      { "id": 3870, "name": "Ghazni", "state_code": "GHA", "hasCities": true },
-      { "id": 3888, "name": "Ghōr", "state_code": "GHO", "hasCities": true },
-      { "id": 3873, "name": "Helmand", "state_code": "HEL", "hasCities": true },
-      { "id": 3887, "name": "Herat", "state_code": "HER", "hasCities": true },
-      { "id": 3886, "name": "Jowzjan", "state_code": "JOW", "hasCities": true },
-      { "id": 3902, "name": "Kabul", "state_code": "KAB", "hasCities": true },
+      {
+        "id": 3899,
+        "name": "Farah",
+        "state_code": "FRA",
+        "hasCities": true,
+        "latitude": "32.607111",
+        "longitude": "62.671011"
+      },
+      {
+        "id": 3889,
+        "name": "Faryab",
+        "state_code": "FYB",
+        "hasCities": true,
+        "latitude": "35.9261784",
+        "longitude": "64.6237758"
+      },
+      {
+        "id": 3870,
+        "name": "Ghazni",
+        "state_code": "GHA",
+        "hasCities": true,
+        "latitude": "33.3149631",
+        "longitude": "67.828989"
+      },
+      {
+        "id": 3888,
+        "name": "Ghōr",
+        "state_code": "GHO",
+        "hasCities": true,
+        "latitude": "34.1605257",
+        "longitude": "64.9201949"
+      },
+      {
+        "id": 3873,
+        "name": "Helmand",
+        "state_code": "HEL",
+        "hasCities": true,
+        "latitude": "31.0",
+        "longitude": "64.0"
+      },
+      {
+        "id": 3887,
+        "name": "Herat",
+        "state_code": "HER",
+        "hasCities": true,
+        "latitude": "34.1577182",
+        "longitude": "62.2905676"
+      },
+      {
+        "id": 3886,
+        "name": "Jowzjan",
+        "state_code": "JOW",
+        "hasCities": true,
+        "latitude": "36.9665706",
+        "longitude": "65.9560232"
+      },
+      {
+        "id": 3902,
+        "name": "Kabul",
+        "state_code": "KAB",
+        "hasCities": true,
+        "latitude": "34.5",
+        "longitude": "69.416667"
+      },
       {
         "id": 3890,
         "name": "Kandahar",
         "state_code": "KAN",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "30.9910033",
+        "longitude": "65.7068525"
       },
-      { "id": 3879, "name": "Kapisa", "state_code": "KAP", "hasCities": true },
-      { "id": 3878, "name": "Khost", "state_code": "KHO", "hasCities": true },
-      { "id": 3876, "name": "Kunar", "state_code": "KNR", "hasCities": true },
+      {
+        "id": 3879,
+        "name": "Kapisa",
+        "state_code": "KAP",
+        "hasCities": true,
+        "latitude": "34.905556",
+        "longitude": "69.741667"
+      },
+      {
+        "id": 3878,
+        "name": "Khost",
+        "state_code": "KHO",
+        "hasCities": true,
+        "latitude": "33.4014634",
+        "longitude": "69.8912294"
+      },
+      {
+        "id": 3876,
+        "name": "Kunar",
+        "state_code": "KNR",
+        "hasCities": true,
+        "latitude": "34.95",
+        "longitude": "71.133333"
+      },
       {
         "id": 3900,
         "name": "Kunduz Province",
         "state_code": "KDZ",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "36.8707187",
+        "longitude": "68.7563528"
       },
-      { "id": 3891, "name": "Laghman", "state_code": "LAG", "hasCities": true },
-      { "id": 3897, "name": "Logar", "state_code": "LOG", "hasCities": true },
+      {
+        "id": 3891,
+        "name": "Laghman",
+        "state_code": "LAG",
+        "hasCities": true,
+        "latitude": "34.783333",
+        "longitude": "70.183333"
+      },
+      {
+        "id": 3897,
+        "name": "Logar",
+        "state_code": "LOG",
+        "hasCities": true,
+        "latitude": "34.0653595",
+        "longitude": "69.160172"
+      },
       {
         "id": 3882,
         "name": "Nangarhar",
         "state_code": "NAN",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "34.220389",
+        "longitude": "70.3800314"
       },
-      { "id": 3896, "name": "Nimruz", "state_code": "NIM", "hasCities": true },
+      {
+        "id": 3896,
+        "name": "Nimruz",
+        "state_code": "NIM",
+        "hasCities": true,
+        "latitude": "30.7753811",
+        "longitude": "62.4793088"
+      },
       {
         "id": 3880,
         "name": "Nuristan",
         "state_code": "NUR",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "35.3",
+        "longitude": "70.833333"
       },
-      { "id": 3894, "name": "Paktia", "state_code": "PIA", "hasCities": true },
-      { "id": 3877, "name": "Paktika", "state_code": "PKA", "hasCities": true },
+      {
+        "id": 3894,
+        "name": "Paktia",
+        "state_code": "PIA",
+        "hasCities": true,
+        "latitude": "33.705724",
+        "longitude": "69.4083555"
+      },
+      {
+        "id": 3877,
+        "name": "Paktika",
+        "state_code": "PKA",
+        "hasCities": true,
+        "latitude": "32.3936231",
+        "longitude": "68.7036514"
+      },
       {
         "id": 3881,
         "name": "Panjshir",
         "state_code": "PAN",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "35.4338536",
+        "longitude": "69.7930899"
       },
-      { "id": 3895, "name": "Parwan", "state_code": "PAR", "hasCities": true },
+      {
+        "id": 3895,
+        "name": "Parwan",
+        "state_code": "PAR",
+        "hasCities": true,
+        "latitude": "34.9797014",
+        "longitude": "68.9146703"
+      },
       {
         "id": 3883,
         "name": "Samangan",
         "state_code": "SAM",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "36.0",
+        "longitude": "67.666667"
       },
       {
         "id": 3885,
         "name": "Sar-e Pol",
         "state_code": "SAR",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "35.5532126",
+        "longitude": "66.2426766"
       },
-      { "id": 3893, "name": "Takhar", "state_code": "TAK", "hasCities": true },
-      { "id": 3898, "name": "Urozgan", "state_code": "URU", "hasCities": true },
-      { "id": 3874, "name": "Zabul", "state_code": "ZAB", "hasCities": true }
+      {
+        "id": 3893,
+        "name": "Takhar",
+        "state_code": "TAK",
+        "hasCities": true,
+        "latitude": "36.5940732",
+        "longitude": "69.7938996"
+      },
+      {
+        "id": 3898,
+        "name": "Urozgan",
+        "state_code": "URU",
+        "hasCities": true,
+        "latitude": "32.8129681",
+        "longitude": "66.0183185"
+      },
+      {
+        "id": 3874,
+        "name": "Zabul",
+        "state_code": "ZAB",
+        "hasCities": true,
+        "latitude": "32.3068942",
+        "longitude": "67.129904"
+      }
     ]
   },
   { "id": 2, "states": [] },
@@ -87,14 +273,8 @@
     "id": 3,
     "states": [
       {
-        "id": 603,
-        "name": "Berat County",
-        "state_code": "01",
-        "hasCities": false
-      },
-      {
         "id": 629,
-        "name": "Berat District",
+        "name": "Berat County",
         "state_code": "BR",
         "hasCities": true
       },
@@ -119,24 +299,12 @@
       {
         "id": 610,
         "name": "Dibër County",
-        "state_code": "09",
+        "state_code": "DI",
         "hasCities": true
       },
       {
-        "id": 605,
-        "name": "Dibër District",
-        "state_code": "DI",
-        "hasCities": false
-      },
-      {
-        "id": 632,
-        "name": "Durrës County",
-        "state_code": "02",
-        "hasCities": false
-      },
-      {
         "id": 639,
-        "name": "Durrës District",
+        "name": "Durrës",
         "state_code": "DR",
         "hasCities": true
       },
@@ -149,20 +317,8 @@
       {
         "id": 631,
         "name": "Fier County",
-        "state_code": "04",
-        "hasCities": true
-      },
-      {
-        "id": 627,
-        "name": "Fier District",
         "state_code": "FR",
-        "hasCities": false
-      },
-      {
-        "id": 604,
-        "name": "Gjirokastër County",
-        "state_code": "05",
-        "hasCities": false
+        "hasCities": true
       },
       {
         "id": 621,
@@ -373,178 +529,469 @@
   {
     "id": 4,
     "states": [
-      { "id": 1118, "name": "Adrar", "state_code": "01", "hasCities": true },
+      {
+        "id": 1118,
+        "name": "Adrar",
+        "state_code": "01",
+        "hasCities": true,
+        "latitude": "26.4888155",
+        "longitude": "-1.3582442169365363"
+      },
       {
         "id": 1119,
         "name": "Aïn Defla",
         "state_code": "44",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "36.15868425",
+        "longitude": "2.084281730358365"
       },
       {
         "id": 1122,
         "name": "Aïn Témouchent",
         "state_code": "46",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "35.36512965",
+        "longitude": "-0.9452170664335665"
       },
-      { "id": 1144, "name": "Algiers", "state_code": "16", "hasCities": true },
-      { "id": 1103, "name": "Annaba", "state_code": "23", "hasCities": true },
-      { "id": 1142, "name": "Batna", "state_code": "05", "hasCities": true },
-      { "id": 1108, "name": "Béchar", "state_code": "08", "hasCities": true },
-      { "id": 1128, "name": "Béjaïa", "state_code": "06", "hasCities": true },
+      {
+        "id": 1144,
+        "name": "Algiers",
+        "state_code": "16",
+        "hasCities": true,
+        "latitude": "36.70005095",
+        "longitude": "3.029126556356098"
+      },
+      {
+        "id": 1103,
+        "name": "Annaba",
+        "state_code": "23",
+        "hasCities": true,
+        "latitude": "36.843844849999996",
+        "longitude": "7.598173831663802"
+      },
+      {
+        "id": 1142,
+        "name": "Batna",
+        "state_code": "05",
+        "hasCities": true,
+        "latitude": "35.3384291",
+        "longitude": "5.731545299000572"
+      },
+      {
+        "id": 1108,
+        "name": "Béchar",
+        "state_code": "08",
+        "hasCities": true,
+        "latitude": "31.385726",
+        "longitude": "-2.011595847987405"
+      },
+      {
+        "id": 1128,
+        "name": "Béjaïa",
+        "state_code": "06",
+        "hasCities": true,
+        "latitude": "36.5569005",
+        "longitude": "4.785892522272571"
+      },
       {
         "id": 4909,
         "name": "Béni Abbès",
         "state_code": "53",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "29.083202",
+        "longitude": "-2.65900601043017"
       },
-      { "id": 1114, "name": "Biskra", "state_code": "07", "hasCities": true },
-      { "id": 1111, "name": "Blida", "state_code": "09", "hasCities": true },
+      {
+        "id": 1114,
+        "name": "Biskra",
+        "state_code": "07",
+        "hasCities": true,
+        "latitude": "34.784563500000004",
+        "longitude": "5.812435334419206"
+      },
+      {
+        "id": 1111,
+        "name": "Blida",
+        "state_code": "09",
+        "hasCities": true,
+        "latitude": "36.5012595",
+        "longitude": "2.9517665558061674"
+      },
       {
         "id": 4908,
         "name": "Bordj Baji Mokhtar",
         "state_code": "52",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "22.626146050000003",
+        "longitude": "0.12758168507861467"
       },
       {
         "id": 1116,
         "name": "Bordj Bou Arréridj",
         "state_code": "34",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "36.09620285",
+        "longitude": "4.660274234539607"
       },
-      { "id": 1104, "name": "Bouïra", "state_code": "10", "hasCities": true },
+      {
+        "id": 1104,
+        "name": "Bouïra",
+        "state_code": "10",
+        "hasCities": true,
+        "latitude": "36.2316481",
+        "longitude": "3.9082579191011253"
+      },
       {
         "id": 1125,
         "name": "Boumerdès",
         "state_code": "35",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "36.7358032",
+        "longitude": "3.6163045700585252"
       },
-      { "id": 1105, "name": "Chlef", "state_code": "02", "hasCities": true },
+      {
+        "id": 1105,
+        "name": "Chlef",
+        "state_code": "02",
+        "hasCities": true,
+        "latitude": "36.203419999999994",
+        "longitude": "1.2680696005416272"
+      },
       {
         "id": 1121,
         "name": "Constantine",
         "state_code": "25",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "36.3584165",
+        "longitude": "6.667167381153502"
       },
-      { "id": 4912, "name": "Djanet", "state_code": "56", "hasCities": false },
-      { "id": 1098, "name": "Djelfa", "state_code": "17", "hasCities": true },
+      {
+        "id": 4912,
+        "name": "Djanet",
+        "state_code": "56",
+        "hasCities": false,
+        "latitude": "24.071521",
+        "longitude": "9.615584725366856"
+      },
+      {
+        "id": 1098,
+        "name": "Djelfa",
+        "state_code": "17",
+        "hasCities": true,
+        "latitude": "34.342841",
+        "longitude": "3.217253079090331"
+      },
       {
         "id": 1129,
         "name": "El Bayadh",
         "state_code": "32",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "32.570302999999996",
+        "longitude": "1.1259581442818078"
       },
       {
         "id": 4905,
         "name": "El M'ghair",
         "state_code": "49",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "33.95807",
+        "longitude": "5.701126230439295"
       },
       {
         "id": 4906,
         "name": "El Menia",
         "state_code": "50",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "30.7071885",
+        "longitude": "3.048062480049727"
       },
-      { "id": 1099, "name": "El Oued", "state_code": "39", "hasCities": true },
-      { "id": 1100, "name": "El Tarf", "state_code": "36", "hasCities": true },
-      { "id": 1127, "name": "Ghardaïa", "state_code": "47", "hasCities": true },
-      { "id": 1137, "name": "Guelma", "state_code": "24", "hasCities": true },
-      { "id": 1112, "name": "Illizi", "state_code": "33", "hasCities": true },
+      {
+        "id": 1099,
+        "name": "El Oued",
+        "state_code": "39",
+        "hasCities": true,
+        "latitude": "33.215441",
+        "longitude": "7.155321399098325"
+      },
+      {
+        "id": 1100,
+        "name": "El Tarf",
+        "state_code": "36",
+        "hasCities": true,
+        "latitude": "36.67135625",
+        "longitude": "8.070134002053635"
+      },
+      {
+        "id": 1127,
+        "name": "Ghardaïa",
+        "state_code": "47",
+        "hasCities": true,
+        "latitude": "32.440827",
+        "longitude": "3.5618208521628776"
+      },
+      {
+        "id": 1137,
+        "name": "Guelma",
+        "state_code": "24",
+        "hasCities": true,
+        "latitude": "36.3491635",
+        "longitude": "7.409498952760461"
+      },
+      {
+        "id": 1112,
+        "name": "Illizi",
+        "state_code": "33",
+        "hasCities": true,
+        "latitude": "27.852850500000002",
+        "longitude": "7.8189636047396895"
+      },
       {
         "id": 4914,
         "name": "In Guezzam",
         "state_code": "58",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "20.427529999999997",
+        "longitude": "4.6766309838048326"
       },
       {
         "id": 4913,
         "name": "In Salah",
         "state_code": "57",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "27.197705499999998",
+        "longitude": "3.5212375793144277"
       },
-      { "id": 1113, "name": "Jijel", "state_code": "18", "hasCities": true },
+      {
+        "id": 1113,
+        "name": "Jijel",
+        "state_code": "18",
+        "hasCities": true,
+        "latitude": "36.72921875",
+        "longitude": "5.960777606253644"
+      },
       {
         "id": 1126,
         "name": "Khenchela",
         "state_code": "40",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "34.913345500000005",
+        "longitude": "6.905943093880865"
       },
-      { "id": 1138, "name": "Laghouat", "state_code": "03", "hasCities": true },
-      { "id": 1134, "name": "M'Sila", "state_code": "28", "hasCities": true },
-      { "id": 1124, "name": "Mascara", "state_code": "29", "hasCities": true },
-      { "id": 1109, "name": "Médéa", "state_code": "26", "hasCities": true },
-      { "id": 1132, "name": "Mila", "state_code": "43", "hasCities": true },
+      {
+        "id": 1138,
+        "name": "Laghouat",
+        "state_code": "03",
+        "hasCities": true,
+        "latitude": "33.750440499999996",
+        "longitude": "2.6431093610595155"
+      },
+      {
+        "id": 1134,
+        "name": "M'Sila",
+        "state_code": "28",
+        "hasCities": true,
+        "latitude": "35.1300205",
+        "longitude": "4.200310671358427"
+      },
+      {
+        "id": 1124,
+        "name": "Mascara",
+        "state_code": "29",
+        "hasCities": true,
+        "latitude": "35.397838500000006",
+        "longitude": "0.24301949927219488"
+      },
+      {
+        "id": 1109,
+        "name": "Médéa",
+        "state_code": "26",
+        "hasCities": true,
+        "latitude": "35.975204500000004",
+        "longitude": "3.012350405608216"
+      },
+      {
+        "id": 1132,
+        "name": "Mila",
+        "state_code": "43",
+        "hasCities": true,
+        "latitude": "36.2502135",
+        "longitude": "6.165216333385166"
+      },
       {
         "id": 1140,
         "name": "Mostaganem",
         "state_code": "27",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "36.0026915",
+        "longitude": "0.3686866818796205"
       },
-      { "id": 1102, "name": "Naama", "state_code": "45", "hasCities": true },
-      { "id": 1101, "name": "Oran", "state_code": "31", "hasCities": true },
-      { "id": 1139, "name": "Ouargla", "state_code": "30", "hasCities": true },
+      {
+        "id": 1102,
+        "name": "Naama",
+        "state_code": "45",
+        "hasCities": true,
+        "latitude": "33.2336851",
+        "longitude": "-0.8151958390775952"
+      },
+      {
+        "id": 1101,
+        "name": "Oran",
+        "state_code": "31",
+        "hasCities": true,
+        "latitude": "35.62158615",
+        "longitude": "-0.7016142676845641"
+      },
+      {
+        "id": 1139,
+        "name": "Ouargla",
+        "state_code": "30",
+        "hasCities": true,
+        "latitude": "30.9980145",
+        "longitude": "6.766453639443059"
+      },
       {
         "id": 4907,
         "name": "Ouled Djellal",
         "state_code": "51",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "34.104904000000005",
+        "longitude": "4.820300902475401"
       },
       {
         "id": 1136,
         "name": "Oum El Bouaghi",
         "state_code": "04",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "35.8105805",
+        "longitude": "7.018417796577514"
       },
-      { "id": 1130, "name": "Relizane", "state_code": "48", "hasCities": true },
-      { "id": 1123, "name": "Saïda", "state_code": "20", "hasCities": true },
-      { "id": 1141, "name": "Sétif", "state_code": "19", "hasCities": true },
+      {
+        "id": 1130,
+        "name": "Relizane",
+        "state_code": "48",
+        "hasCities": true,
+        "latitude": "35.836318500000004",
+        "longitude": "0.9118537366540664"
+      },
+      {
+        "id": 1123,
+        "name": "Saïda",
+        "state_code": "20",
+        "hasCities": true,
+        "latitude": "34.743349",
+        "longitude": "0.2440763627808458"
+      },
+      {
+        "id": 1141,
+        "name": "Sétif",
+        "state_code": "19",
+        "hasCities": true,
+        "latitude": "36.105661",
+        "longitude": "5.562027618601267"
+      },
       {
         "id": 4902,
         "name": "Sidi Bel Abbès",
         "state_code": "22",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "34.682268",
+        "longitude": "-0.43575550651239253"
       },
-      { "id": 1110, "name": "Skikda", "state_code": "21", "hasCities": true },
+      {
+        "id": 1110,
+        "name": "Skikda",
+        "state_code": "21",
+        "hasCities": true,
+        "latitude": "36.75451150000001",
+        "longitude": "6.885625492591183"
+      },
       {
         "id": 1143,
         "name": "Souk Ahras",
         "state_code": "41",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "36.1378681",
+        "longitude": "7.826242640053763"
       },
       {
         "id": 1135,
         "name": "Tamanghasset",
         "state_code": "11",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "24.3753438",
+        "longitude": "4.3208436"
       },
-      { "id": 1117, "name": "Tébessa", "state_code": "12", "hasCities": true },
-      { "id": 1106, "name": "Tiaret", "state_code": "14", "hasCities": true },
+      {
+        "id": 1117,
+        "name": "Tébessa",
+        "state_code": "12",
+        "hasCities": true,
+        "latitude": "35.124945",
+        "longitude": "7.901173504229375"
+      },
+      {
+        "id": 1106,
+        "name": "Tiaret",
+        "state_code": "14",
+        "hasCities": true,
+        "latitude": "34.8947575",
+        "longitude": "1.594579173136212"
+      },
       {
         "id": 4910,
         "name": "Timimoun",
         "state_code": "54",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "30.0244725",
+        "longitude": "0.8485978976216642"
       },
-      { "id": 1120, "name": "Tindouf", "state_code": "37", "hasCities": true },
-      { "id": 1115, "name": "Tipasa", "state_code": "42", "hasCities": true },
+      {
+        "id": 1120,
+        "name": "Tindouf",
+        "state_code": "37",
+        "hasCities": true,
+        "latitude": "27.54390695",
+        "longitude": "-6.240041058655946"
+      },
+      {
+        "id": 1115,
+        "name": "Tipasa",
+        "state_code": "42",
+        "hasCities": true,
+        "latitude": "36.527157",
+        "longitude": "2.1672011802712086"
+      },
       {
         "id": 1133,
         "name": "Tissemsilt",
         "state_code": "38",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "35.785897500000004",
+        "longitude": "1.8340956752427218"
       },
       {
         "id": 1131,
         "name": "Tizi Ouzou",
         "state_code": "15",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "36.6816175",
+        "longitude": "4.237186047040007"
       },
-      { "id": 1107, "name": "Tlemcen", "state_code": "13", "hasCities": true },
+      {
+        "id": 1107,
+        "name": "Tlemcen",
+        "state_code": "13",
+        "hasCities": true,
+        "latitude": "34.667468",
+        "longitude": "-1.297813226234569"
+      },
       {
         "id": 4911,
         "name": "Touggourt",
         "state_code": "55",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "32.98251965",
+        "longitude": "6.235443156542997"
       }
     ]
   },
@@ -559,20 +1006,38 @@
         "hasCities": true
       },
       { "id": 489, "name": "Canillo", "state_code": "02", "hasCities": true },
-      { "id": 487, "name": "Encamp", "state_code": "03", "hasCities": true },
+      {
+        "id": 487,
+        "name": "Encamp",
+        "state_code": "03",
+        "hasCities": true,
+        "latitude": "42.502355949999995",
+        "longitude": "1.6571452363070542"
+      },
       {
         "id": 492,
         "name": "Escaldes-Engordany",
         "state_code": "08",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "42.51276315",
+        "longitude": "1.5364744131311874"
       },
       {
         "id": 493,
         "name": "La Massana",
         "state_code": "04",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "42.544962850000005",
+        "longitude": "1.5165449472664485"
       },
-      { "id": 491, "name": "Ordino", "state_code": "05", "hasCities": true },
+      {
+        "id": 491,
+        "name": "Ordino",
+        "state_code": "05",
+        "hasCities": true,
+        "latitude": "42.6271621",
+        "longitude": "1.4912605793978895"
+      },
       {
         "id": 490,
         "name": "Sant Julià de Lòria",
@@ -588,103 +1053,137 @@
         "id": 221,
         "name": "Bengo Province",
         "state_code": "BGO",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-8.3196672",
+        "longitude": "13.8656195"
       },
       {
         "id": 218,
         "name": "Benguela Province",
         "state_code": "BGU",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-12.9104657",
+        "longitude": "14.0356608"
       },
       {
         "id": 212,
         "name": "Bié Province",
         "state_code": "BIE",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-12.2630485",
+        "longitude": "17.4967812"
       },
       {
         "id": 228,
         "name": "Cabinda Province",
         "state_code": "CAB",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-5.056395",
+        "longitude": "12.3211749"
       },
       {
         "id": 226,
         "name": "Cuando Cubango Province",
         "state_code": "CCU",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-16.0457694",
+        "longitude": "19.5621532"
       },
       {
         "id": 217,
         "name": "Cuanza Norte Province",
         "state_code": "CNO",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-9.0296752",
+        "longitude": "15.0926324"
       },
       {
         "id": 216,
         "name": "Cuanza Sul",
         "state_code": "CUS",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-10.7707527",
+        "longitude": "15.0975712"
       },
       {
         "id": 215,
         "name": "Cunene Province",
         "state_code": "CNN",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-16.5568536",
+        "longitude": "15.7867319"
       },
       {
         "id": 213,
         "name": "Huambo Province",
         "state_code": "HUA",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-12.6076318",
+        "longitude": "15.7411039"
       },
       {
         "id": 225,
         "name": "Huíla Province",
         "state_code": "HUI",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-14.6957808",
+        "longitude": "15.0976293"
       },
       {
         "id": 222,
         "name": "Luanda Province",
         "state_code": "LUA",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-9.51803445",
+        "longitude": "13.53567602042315"
       },
       {
         "id": 223,
         "name": "Lunda Norte Province",
         "state_code": "LNO",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-8.5088253",
+        "longitude": "19.7538618"
       },
       {
         "id": 220,
         "name": "Lunda Sul Province",
         "state_code": "LSU",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-10.1473779",
+        "longitude": "20.9907756"
       },
       {
         "id": 227,
         "name": "Malanje Province",
         "state_code": "MAL",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-9.535332",
+        "longitude": "16.9364293"
       },
       {
         "id": 219,
         "name": "Moxico Province",
         "state_code": "MOX",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-12.7287195",
+        "longitude": "21.2737637"
       },
       {
         "id": 224,
         "name": "Uíge Province",
         "state_code": "UIG",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-6.9516802",
+        "longitude": "15.4799164"
       },
       {
         "id": 214,
         "name": "Zaire Province",
         "state_code": "ZAI",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-6.6925131",
+        "longitude": "13.5293029"
       }
     ]
   },
@@ -693,8 +1192,22 @@
   {
     "id": 10,
     "states": [
-      { "id": 3708, "name": "Barbuda", "state_code": "10", "hasCities": true },
-      { "id": 3703, "name": "Redonda", "state_code": "11", "hasCities": false },
+      {
+        "id": 3708,
+        "name": "Barbuda",
+        "state_code": "10",
+        "hasCities": true,
+        "latitude": "17.6148748",
+        "longitude": "-61.85437614537078"
+      },
+      {
+        "id": 3703,
+        "name": "Redonda",
+        "state_code": "11",
+        "hasCities": false,
+        "latitude": "17.0244844",
+        "longitude": "-62.29362256990399"
+      },
       {
         "id": 3709,
         "name": "Saint George Parish",
@@ -740,61 +1253,194 @@
         "id": 3656,
         "name": "Buenos Aires",
         "state_code": "B",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-37.14984035",
+        "longitude": "-60.1319456430117"
       },
-      { "id": 3647, "name": "Catamarca", "state_code": "K", "hasCities": true },
-      { "id": 3640, "name": "Chaco", "state_code": "H", "hasCities": true },
-      { "id": 3651, "name": "Chubut", "state_code": "U", "hasCities": true },
+      {
+        "id": 3647,
+        "name": "Catamarca",
+        "state_code": "K",
+        "hasCities": true,
+        "latitude": "-27.1910825",
+        "longitude": "-67.105374"
+      },
+      {
+        "id": 3640,
+        "name": "Chaco",
+        "state_code": "H",
+        "hasCities": true,
+        "latitude": "-26.3829647",
+        "longitude": "-60.8816092"
+      },
+      {
+        "id": 3651,
+        "name": "Chubut",
+        "state_code": "U",
+        "hasCities": true,
+        "latitude": "-43.7128356",
+        "longitude": "-68.7461817"
+      },
       {
         "id": 4880,
         "name": "Ciudad Autónoma de Buenos Aires",
         "state_code": "C",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "-34.61612315",
+        "longitude": "-58.435620572580476"
       },
-      { "id": 3642, "name": "Córdoba", "state_code": "X", "hasCities": true },
+      {
+        "id": 3642,
+        "name": "Córdoba",
+        "state_code": "X",
+        "hasCities": true,
+        "latitude": "-32.0967361",
+        "longitude": "-63.7940923"
+      },
       {
         "id": 3638,
         "name": "Corrientes",
         "state_code": "W",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-28.99565115",
+        "longitude": "-57.81245796667342"
       },
       {
         "id": 3654,
         "name": "Entre Ríos",
         "state_code": "E",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-31.6252842",
+        "longitude": "-59.3539578"
       },
-      { "id": 3652, "name": "Formosa", "state_code": "P", "hasCities": true },
-      { "id": 3645, "name": "Jujuy", "state_code": "Y", "hasCities": true },
-      { "id": 3655, "name": "La Pampa", "state_code": "L", "hasCities": true },
-      { "id": 3653, "name": "La Rioja", "state_code": "F", "hasCities": true },
-      { "id": 3646, "name": "Mendoza", "state_code": "M", "hasCities": true },
-      { "id": 3644, "name": "Misiones", "state_code": "N", "hasCities": true },
-      { "id": 3648, "name": "Neuquén", "state_code": "Q", "hasCities": true },
-      { "id": 3639, "name": "Río Negro", "state_code": "R", "hasCities": true },
-      { "id": 3643, "name": "Salta", "state_code": "A", "hasCities": true },
-      { "id": 3634, "name": "San Juan", "state_code": "J", "hasCities": true },
-      { "id": 3636, "name": "San Luis", "state_code": "D", "hasCities": true },
+      {
+        "id": 3652,
+        "name": "Formosa",
+        "state_code": "P",
+        "hasCities": true,
+        "latitude": "-24.5955306",
+        "longitude": "-60.4289718"
+      },
+      {
+        "id": 3645,
+        "name": "Jujuy",
+        "state_code": "Y",
+        "hasCities": true,
+        "latitude": "-23.3161458",
+        "longitude": "-65.7595288"
+      },
+      {
+        "id": 3655,
+        "name": "La Pampa",
+        "state_code": "L",
+        "hasCities": true,
+        "latitude": "-37.2314643",
+        "longitude": "-65.3972948"
+      },
+      {
+        "id": 3653,
+        "name": "La Rioja",
+        "state_code": "F",
+        "hasCities": true,
+        "latitude": "-29.9729781",
+        "longitude": "-67.0487944"
+      },
+      {
+        "id": 3646,
+        "name": "Mendoza",
+        "state_code": "M",
+        "hasCities": true,
+        "latitude": "-34.787093049999996",
+        "longitude": "-68.43818677312292"
+      },
+      {
+        "id": 3644,
+        "name": "Misiones",
+        "state_code": "N",
+        "hasCities": true,
+        "latitude": "-26.737224",
+        "longitude": "-54.4315257"
+      },
+      {
+        "id": 3648,
+        "name": "Neuquén",
+        "state_code": "Q",
+        "hasCities": true,
+        "latitude": "-38.3695057",
+        "longitude": "-69.832275"
+      },
+      {
+        "id": 3639,
+        "name": "Río Negro",
+        "state_code": "R",
+        "hasCities": true,
+        "latitude": "-40.4811973",
+        "longitude": "-67.6145911"
+      },
+      {
+        "id": 3643,
+        "name": "Salta",
+        "state_code": "A",
+        "hasCities": true,
+        "latitude": "-25.1076701",
+        "longitude": "-64.3494964"
+      },
+      {
+        "id": 3634,
+        "name": "San Juan",
+        "state_code": "J",
+        "hasCities": true,
+        "latitude": "-30.7054363",
+        "longitude": "-69.1988222"
+      },
+      {
+        "id": 3636,
+        "name": "San Luis",
+        "state_code": "D",
+        "hasCities": true,
+        "latitude": "-33.2762202",
+        "longitude": "-65.9515546"
+      },
       {
         "id": 3649,
         "name": "Santa Cruz",
         "state_code": "Z",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-48.5693327",
+        "longitude": "-70.1606767"
       },
-      { "id": 3641, "name": "Santa Fe", "state_code": "S", "hasCities": true },
+      {
+        "id": 3641,
+        "name": "Santa Fe",
+        "state_code": "S",
+        "hasCities": true,
+        "latitude": "-30.3154739",
+        "longitude": "-61.1645076"
+      },
       {
         "id": 3635,
         "name": "Santiago del Estero",
         "state_code": "G",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-27.6431016",
+        "longitude": "-63.5408542"
       },
       {
         "id": 3650,
         "name": "Tierra del Fuego",
         "state_code": "V",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-54.4071064",
+        "longitude": "-67.8974895"
       },
-      { "id": 3637, "name": "Tucumán", "state_code": "T", "hasCities": true }
+      {
+        "id": 3637,
+        "name": "Tucumán",
+        "state_code": "T",
+        "hasCities": true,
+        "latitude": "-26.5643582",
+        "longitude": "-64.882397"
+      }
     ]
   },
   {
@@ -810,7 +1456,9 @@
         "id": 2024,
         "name": "Ararat Province",
         "state_code": "AR",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "40.0053589",
+        "longitude": "44.7315157"
       },
       {
         "id": 2026,
@@ -822,7 +1470,9 @@
         "id": 2028,
         "name": "Gegharkunik Province",
         "state_code": "GR",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "40.3030726",
+        "longitude": "45.375739"
       },
       {
         "id": 2033,
@@ -846,7 +1496,9 @@
         "id": 2027,
         "name": "Syunik Province",
         "state_code": "SU",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "39.3281408",
+        "longitude": "46.1530296"
       },
       {
         "id": 2032,
@@ -860,7 +1512,14 @@
         "state_code": "VD",
         "hasCities": true
       },
-      { "id": 2030, "name": "Yerevan", "state_code": "ER", "hasCities": true }
+      {
+        "id": 2030,
+        "name": "Yerevan",
+        "state_code": "ER",
+        "hasCities": true,
+        "latitude": "40.1777112",
+        "longitude": "44.5126233"
+      }
     ]
   },
   { "id": 13, "states": [] },
@@ -871,49 +1530,65 @@
         "id": 3907,
         "name": "Australian Capital Territory",
         "state_code": "ACT",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-35.4883502",
+        "longitude": "149.0026942"
       },
       {
         "id": 3909,
         "name": "New South Wales",
         "state_code": "NSW",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-31.8759835",
+        "longitude": "147.2869493"
       },
       {
         "id": 3910,
         "name": "Northern Territory",
         "state_code": "NT",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-19.8516101",
+        "longitude": "133.2303375"
       },
       {
         "id": 3905,
         "name": "Queensland",
         "state_code": "QLD",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-22.1646782",
+        "longitude": "144.5844903"
       },
       {
         "id": 3904,
         "name": "South Australia",
         "state_code": "SA",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-30.5343665",
+        "longitude": "135.6301212"
       },
       {
         "id": 3908,
         "name": "Tasmania",
         "state_code": "TAS",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-42.035067",
+        "longitude": "146.6366887"
       },
       {
         "id": 3903,
         "name": "Victoria",
         "state_code": "VIC",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-36.5986096",
+        "longitude": "144.6780052"
       },
       {
         "id": 3906,
         "name": "Western Australia",
         "state_code": "WA",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-25.2303005",
+        "longitude": "121.0187246"
       }
     ]
   },
@@ -924,26 +1599,74 @@
         "id": 2062,
         "name": "Burgenland",
         "state_code": "1",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "47.5000001",
+        "longitude": "16.4166666"
       },
-      { "id": 2057, "name": "Carinthia", "state_code": "2", "hasCities": true },
+      {
+        "id": 2057,
+        "name": "Carinthia",
+        "state_code": "2",
+        "hasCities": true,
+        "latitude": "46.7500001",
+        "longitude": "13.8333333"
+      },
       {
         "id": 2065,
         "name": "Lower Austria",
         "state_code": "3",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "48.2817813",
+        "longitude": "15.7632457"
       },
-      { "id": 2061, "name": "Salzburg", "state_code": "5", "hasCities": true },
-      { "id": 2059, "name": "Styria", "state_code": "6", "hasCities": true },
-      { "id": 2064, "name": "Tyrol", "state_code": "7", "hasCities": true },
+      {
+        "id": 2061,
+        "name": "Salzburg",
+        "state_code": "5",
+        "hasCities": true,
+        "latitude": "47.4166667",
+        "longitude": "13.25"
+      },
+      {
+        "id": 2059,
+        "name": "Styria",
+        "state_code": "6",
+        "hasCities": true,
+        "latitude": "47.2500001",
+        "longitude": "15.1666665"
+      },
+      {
+        "id": 2064,
+        "name": "Tyrol",
+        "state_code": "7",
+        "hasCities": true,
+        "latitude": "47.223193",
+        "longitude": "11.5261028"
+      },
       {
         "id": 2058,
         "name": "Upper Austria",
         "state_code": "4",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "48.25",
+        "longitude": "14.0"
       },
-      { "id": 2060, "name": "Vienna", "state_code": "9", "hasCities": true },
-      { "id": 2063, "name": "Vorarlberg", "state_code": "8", "hasCities": true }
+      {
+        "id": 2060,
+        "name": "Vienna",
+        "state_code": "9",
+        "hasCities": true,
+        "latitude": "48.2083537",
+        "longitude": "16.3725042"
+      },
+      {
+        "id": 2063,
+        "name": "Vorarlberg",
+        "state_code": "8",
+        "hasCities": true,
+        "latitude": "47.25",
+        "longitude": "9.9166667"
+      }
     ]
   },
   {
@@ -997,7 +1720,14 @@
         "state_code": "BAB",
         "hasCities": false
       },
-      { "id": 552, "name": "Baku", "state_code": "BA", "hasCities": true },
+      {
+        "id": 552,
+        "name": "Baku",
+        "state_code": "BA",
+        "hasCities": true,
+        "latitude": "40.3698536",
+        "longitude": "49.953885176184734"
+      },
       {
         "id": 560,
         "name": "Balakan District",
@@ -1034,8 +1764,22 @@
         "state_code": "FUZ",
         "hasCities": true
       },
-      { "id": 585, "name": "Ganja", "state_code": "GA", "hasCities": true },
-      { "id": 589, "name": "Gədəbəy", "state_code": "GAD", "hasCities": true },
+      {
+        "id": 585,
+        "name": "Ganja",
+        "state_code": "GA",
+        "hasCities": true,
+        "latitude": "40.4117051",
+        "longitude": "46.1372844"
+      },
+      {
+        "id": 589,
+        "name": "Gədəbəy",
+        "state_code": "GAD",
+        "hasCities": true,
+        "latitude": "40.6143568",
+        "longitude": "45.8175292"
+      },
       {
         "id": 573,
         "name": "Gobustan District",
@@ -1137,7 +1881,9 @@
         "id": 587,
         "name": "Lankaran",
         "state_code": "LAN",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "38.919020450000005",
+        "longitude": "48.737364874353986"
       },
       {
         "id": 558,
@@ -1162,13 +1908,17 @@
         "id": 580,
         "name": "Mingachevir",
         "state_code": "MI",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "40.920632850000004",
+        "longitude": "46.75710073946399"
       },
       {
         "id": 562,
         "name": "Nakhchivan Autonomous Republic",
         "state_code": "NX",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "39.3194099",
+        "longitude": "45.519028184088405"
       },
       {
         "id": 530,
@@ -1291,7 +2041,14 @@
         "state_code": "SAR",
         "hasCities": false
       },
-      { "id": 520, "name": "Shirvan", "state_code": "SR", "hasCities": true },
+      {
+        "id": 520,
+        "name": "Shirvan",
+        "state_code": "SR",
+        "hasCities": true,
+        "latitude": "39.947542",
+        "longitude": "48.9034893"
+      },
       {
         "id": 592,
         "name": "Shusha District",
@@ -1304,7 +2061,14 @@
         "state_code": "SIY",
         "hasCities": true
       },
-      { "id": 582, "name": "Sumqayit", "state_code": "SM", "hasCities": true },
+      {
+        "id": 582,
+        "name": "Sumqayit",
+        "state_code": "SM",
+        "hasCities": true,
+        "latitude": "40.6026817",
+        "longitude": "49.687863"
+      },
       {
         "id": 519,
         "name": "Tartar District",
@@ -1359,9 +2123,23 @@
   {
     "id": 18,
     "states": [
-      { "id": 1992, "name": "Capital", "state_code": "13", "hasCities": true },
+      {
+        "id": 1992,
+        "name": "Capital",
+        "state_code": "13",
+        "hasCities": true,
+        "latitude": "26.4243233",
+        "longitude": "50.47472512345479"
+      },
       { "id": 1996, "name": "Central", "state_code": "16", "hasCities": true },
-      { "id": 1995, "name": "Muharraq", "state_code": "15", "hasCities": true },
+      {
+        "id": 1995,
+        "name": "Muharraq",
+        "state_code": "15",
+        "hasCities": true,
+        "latitude": "26.413466149999998",
+        "longitude": "50.67972870771858"
+      },
       {
         "id": 1994,
         "name": "Northern",
@@ -1403,7 +2181,9 @@
         "id": 807,
         "name": "Barisal Division",
         "state_code": "A",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "22.4934035",
+        "longitude": "90.3548015"
       },
       {
         "id": 756,
@@ -1445,7 +2225,9 @@
         "id": 803,
         "name": "Chittagong Division",
         "state_code": "B",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "22.6800466",
+        "longitude": "91.8839938"
       },
       {
         "id": 788,
@@ -1475,7 +2257,9 @@
         "id": 760,
         "name": "Dhaka Division",
         "state_code": "C",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "23.9456166",
+        "longitude": "90.2526382"
       },
       {
         "id": 783,
@@ -1565,7 +2349,9 @@
         "id": 775,
         "name": "Khulna Division",
         "state_code": "D",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "22.9372087",
+        "longitude": "89.2852741"
       },
       {
         "id": 779,
@@ -1631,7 +2417,9 @@
         "id": 758,
         "name": "Mymensingh Division",
         "state_code": "H",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "24.8889305",
+        "longitude": "90.3845187"
       },
       {
         "id": 814,
@@ -1715,7 +2503,9 @@
         "id": 753,
         "name": "Rajshahi Division",
         "state_code": "E",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "24.6285432",
+        "longitude": "89.0376862"
       },
       {
         "id": 809,
@@ -1733,7 +2523,9 @@
         "id": 750,
         "name": "Rangpur Division",
         "state_code": "F",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "25.6376135",
+        "longitude": "89.0826381"
       },
       {
         "id": 799,
@@ -1775,13 +2567,17 @@
         "id": 765,
         "name": "Sylhet Division",
         "state_code": "G",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "24.7358854",
+        "longitude": "91.6852476"
       },
       {
         "id": 782,
         "name": "Tangail District",
         "state_code": "63",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "24.26262565",
+        "longitude": "89.9210825173373"
       },
       {
         "id": 804,
@@ -1869,38 +2665,57 @@
         "id": 2959,
         "name": "Brest Region",
         "state_code": "BR",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "52.4121685",
+        "longitude": "25.2547709"
       },
       {
         "id": 2955,
         "name": "Gomel Region",
         "state_code": "HO",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "52.3128262",
+        "longitude": "29.5418527"
       },
       {
         "id": 2956,
         "name": "Grodno Region",
         "state_code": "HR",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "53.7021118",
+        "longitude": "25.0711803"
       },
-      { "id": 2958, "name": "Minsk", "state_code": "HM", "hasCities": true },
+      {
+        "id": 2958,
+        "name": "Minsk",
+        "state_code": "HM",
+        "hasCities": true,
+        "latitude": "53.9024716",
+        "longitude": "27.5618225"
+      },
       {
         "id": 2957,
         "name": "Minsk Region",
         "state_code": "MI",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "53.6099039",
+        "longitude": "27.5910208"
       },
       {
         "id": 2954,
         "name": "Mogilev Region",
         "state_code": "MA",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "53.7254147",
+        "longitude": "30.3863145"
       },
       {
         "id": 2960,
         "name": "Vitebsk Region",
         "state_code": "VI",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "55.2381972",
+        "longitude": "28.7742203"
       }
     ]
   },
@@ -1911,69 +2726,105 @@
         "id": 1381,
         "name": "Antwerp",
         "state_code": "VAN",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "51.24773665",
+        "longitude": "4.776534056048172"
       },
       {
         "id": 1376,
         "name": "Brussels-Capital Region",
         "state_code": "BRU",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "50.83879505",
+        "longitude": "4.375304132256188"
       },
       {
         "id": 1377,
         "name": "East Flanders",
         "state_code": "VOV",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "51.0375423",
+        "longitude": "3.8117830113324556"
       },
       {
         "id": 1373,
         "name": "Flanders",
         "state_code": "VLG",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "51.096246199999996",
+        "longitude": "4.178629103169916"
       },
       {
         "id": 1374,
         "name": "Flemish Brabant",
         "state_code": "VBR",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "50.8686516",
+        "longitude": "4.7886237984620905"
       },
       {
         "id": 1375,
         "name": "Hainaut",
         "state_code": "WHT",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "50.36192",
+        "longitude": "4.125216975993737"
       },
-      { "id": 1384, "name": "Liège", "state_code": "WLG", "hasCities": false },
+      {
+        "id": 1384,
+        "name": "Liège",
+        "state_code": "WLG",
+        "hasCities": false,
+        "latitude": "50.47081585",
+        "longitude": "5.773545903524977"
+      },
       {
         "id": 1372,
         "name": "Limburg",
         "state_code": "VLI",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "50.9977937",
+        "longitude": "5.445357520264672"
       },
       {
         "id": 1379,
         "name": "Luxembourg",
         "state_code": "WLX",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "49.96379985",
+        "longitude": "5.439803941614714"
       },
-      { "id": 1378, "name": "Namur", "state_code": "WNA", "hasCities": false },
+      {
+        "id": 1378,
+        "name": "Namur",
+        "state_code": "WNA",
+        "hasCities": false,
+        "latitude": "50.21692965",
+        "longitude": "4.801161997672262"
+      },
       {
         "id": 1380,
         "name": "Wallonia",
         "state_code": "WAL",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "50.154540049999994",
+        "longitude": "5.399359762971196"
       },
       {
         "id": 1382,
         "name": "Walloon Brabant",
         "state_code": "WBR",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "50.6663106",
+        "longitude": "4.5500074156703025"
       },
       {
         "id": 1383,
         "name": "West Flanders",
         "state_code": "VWV",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "51.04047465",
+        "longitude": "2.9994213387887116"
       }
     ]
   },
@@ -1984,37 +2835,49 @@
         "id": 264,
         "name": "Belize District",
         "state_code": "BZ",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "17.28318125",
+        "longitude": "-87.93820085335867"
       },
       {
         "id": 269,
         "name": "Cayo District",
         "state_code": "CY",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "16.94978965",
+        "longitude": "-88.89406460190608"
       },
       {
         "id": 266,
         "name": "Corozal District",
         "state_code": "CZL",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "18.227632399999997",
+        "longitude": "-88.29212566651148"
       },
       {
         "id": 268,
         "name": "Orange Walk District",
         "state_code": "OW",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "17.7831833",
+        "longitude": "-88.8620282875666"
       },
       {
         "id": 265,
         "name": "Stann Creek District",
         "state_code": "SC",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "16.747584",
+        "longitude": "-88.34317192500001"
       },
       {
         "id": 267,
         "name": "Toledo District",
         "state_code": "TOL",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "16.2802675",
+        "longitude": "-88.55405264612399"
       }
     ]
   },
@@ -2025,73 +2888,97 @@
         "id": 3077,
         "name": "Alibori Department",
         "state_code": "AL",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "11.4649482",
+        "longitude": "2.7938798"
       },
       {
         "id": 3076,
         "name": "Atakora Department",
         "state_code": "AK",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "10.7160515",
+        "longitude": "1.5331527"
       },
       {
         "id": 3079,
         "name": "Atlantique Department",
         "state_code": "AQ",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "6.540829",
+        "longitude": "2.223095"
       },
       {
         "id": 3078,
         "name": "Borgou Department",
         "state_code": "BO",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "9.7097453",
+        "longitude": "2.7422648"
       },
       {
         "id": 3070,
         "name": "Collines Department",
         "state_code": "CO",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "8.1085479",
+        "longitude": "2.1853101"
       },
       {
         "id": 3072,
         "name": "Donga Department",
         "state_code": "DO",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "9.2679806",
+        "longitude": "1.7170684"
       },
       {
         "id": 3071,
         "name": "Kouffo Department",
         "state_code": "KO",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "7.1312662",
+        "longitude": "1.7567394"
       },
       {
         "id": 3081,
         "name": "Littoral Department",
         "state_code": "LI",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "6.3663195",
+        "longitude": "2.4170608"
       },
       {
         "id": 3075,
         "name": "Mono Department",
         "state_code": "MO",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "6.457624",
+        "longitude": "1.867408"
       },
       {
         "id": 3080,
         "name": "Ouémé Department",
         "state_code": "OU",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "6.6013531",
+        "longitude": "2.550566"
       },
       {
         "id": 3074,
         "name": "Plateau Department",
         "state_code": "PL",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "7.1002602",
+        "longitude": "2.6409144"
       },
       {
         "id": 3073,
         "name": "Zou Department",
         "state_code": "ZO",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "7.2834335",
+        "longitude": "2.1227604"
       }
     ]
   },
@@ -2161,115 +3048,153 @@
         "id": 240,
         "name": "Bumthang District",
         "state_code": "33",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "27.707913249999997",
+        "longitude": "90.76974352912633"
       },
       {
         "id": 239,
         "name": "Chukha District",
         "state_code": "12",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "26.943123",
+        "longitude": "89.3770528"
       },
       {
         "id": 238,
         "name": "Dagana District",
         "state_code": "22",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "27.0711389",
+        "longitude": "89.820104"
       },
       {
         "id": 229,
         "name": "Gasa District",
         "state_code": "GA",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "27.9190875",
+        "longitude": "89.7875318"
       },
       {
         "id": 232,
         "name": "Haa District",
         "state_code": "13",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "27.3596658",
+        "longitude": "89.2357556"
       },
       {
         "id": 234,
         "name": "Lhuntse District",
         "state_code": "44",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "27.7287448",
+        "longitude": "91.13636238901876"
       },
       {
         "id": 242,
         "name": "Mongar District",
         "state_code": "42",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "27.2065089",
+        "longitude": "91.0900363"
       },
       {
         "id": 237,
         "name": "Paro District",
         "state_code": "11",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "27.4646365",
+        "longitude": "89.3183409"
       },
       {
         "id": 244,
         "name": "Pemagatshel District",
         "state_code": "43",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "27.0030415",
+        "longitude": "91.3677054"
       },
       {
         "id": 235,
         "name": "Punakha District",
         "state_code": "23",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "27.6685526",
+        "longitude": "89.7089548"
       },
       {
         "id": 243,
         "name": "Samdrup Jongkhar District",
         "state_code": "45",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "26.8751197",
+        "longitude": "91.5511211"
       },
       {
         "id": 246,
         "name": "Samtse District",
         "state_code": "14",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "27.0352532",
+        "longitude": "89.0147344"
       },
       {
         "id": 247,
         "name": "Sarpang District",
         "state_code": "31",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "26.9863897",
+        "longitude": "90.3800673"
       },
       {
         "id": 241,
         "name": "Thimphu District",
         "state_code": "15",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "27.5583211",
+        "longitude": "89.5524789"
       },
       {
         "id": 236,
         "name": "Trashigang District",
         "state_code": "41",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "27.2843778",
+        "longitude": "91.5742509"
       },
       {
         "id": 245,
         "name": "Trongsa District",
         "state_code": "32",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "27.4982491",
+        "longitude": "90.4691469"
       },
       {
         "id": 230,
         "name": "Tsirang District",
         "state_code": "21",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "26.933333",
+        "longitude": "90.1"
       },
       {
         "id": 231,
         "name": "Wangdue Phodrang District",
         "state_code": "24",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "27.544634",
+        "longitude": "89.955581"
       },
       {
         "id": 233,
         "name": "Zhemgang District",
         "state_code": "34",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "27.08211485",
+        "longitude": "90.84089839206902"
       }
     ]
   },
@@ -2310,19 +3235,25 @@
         "id": 3379,
         "name": "Pando Department",
         "state_code": "N",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-11.183333",
+        "longitude": "-67.183333"
       },
       {
         "id": 3383,
         "name": "Potosí Department",
         "state_code": "P",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-20.666667",
+        "longitude": "-66.666667"
       },
       {
         "id": 3377,
         "name": "Santa Cruz Department",
         "state_code": "S",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-17.333333",
+        "longitude": "-61.5"
       },
       {
         "id": 3378,
@@ -2358,7 +3289,9 @@
         "id": 460,
         "name": "Brčko District",
         "state_code": "BRC",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "44.84375945",
+        "longitude": "18.79841088405394"
       },
       {
         "id": 471,
@@ -2376,7 +3309,9 @@
         "id": 467,
         "name": "Federation of Bosnia and Herzegovina",
         "state_code": "BIH",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "43.91674105",
+        "longitude": "17.548207214822682"
       },
       {
         "id": 463,
@@ -2394,7 +3329,9 @@
         "id": 470,
         "name": "Republika Srpska",
         "state_code": "SRP",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "44.669577200000006",
+        "longitude": "17.365715484504605"
       },
       {
         "id": 466,
@@ -2435,31 +3372,41 @@
         "id": 3067,
         "name": "Central District",
         "state_code": "CE",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-21.4790187",
+        "longitude": "26.2154174"
       },
       {
         "id": 3061,
         "name": "Ghanzi District",
         "state_code": "GH",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-22.145794",
+        "longitude": "22.7610828"
       },
       {
         "id": 3066,
         "name": "Kgalagadi District",
         "state_code": "KG",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-24.8490576",
+        "longitude": "21.7883349"
       },
       {
         "id": 3062,
         "name": "Kgatleng District",
         "state_code": "KL",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-24.134085",
+        "longitude": "26.41772458295927"
       },
       {
         "id": 3069,
         "name": "Kweneng District",
         "state_code": "KW",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-23.9028101",
+        "longitude": "24.9214122"
       },
       {
         "id": 3060,
@@ -2471,25 +3418,33 @@
         "id": 3068,
         "name": "North-East District",
         "state_code": "NE",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-21.0244816",
+        "longitude": "27.5147504"
       },
       {
         "id": 3065,
         "name": "North-West District",
         "state_code": "NW",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-19.3893529",
+        "longitude": "23.267951"
       },
       {
         "id": 3064,
         "name": "South-East District",
         "state_code": "SE",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-24.62994925",
+        "longitude": "26.045475779882622"
       },
       {
         "id": 3063,
         "name": "Southern District",
         "state_code": "SO",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-24.7998688",
+        "longitude": "24.5800692"
       }
     ]
   },
@@ -2497,88 +3452,222 @@
   {
     "id": 31,
     "states": [
-      { "id": 2012, "name": "Acre", "state_code": "AC", "hasCities": true },
-      { "id": 2007, "name": "Alagoas", "state_code": "AL", "hasCities": true },
-      { "id": 1999, "name": "Amapá", "state_code": "AP", "hasCities": true },
-      { "id": 2004, "name": "Amazonas", "state_code": "AM", "hasCities": true },
-      { "id": 2002, "name": "Bahia", "state_code": "BA", "hasCities": true },
-      { "id": 2016, "name": "Ceará", "state_code": "CE", "hasCities": true },
+      {
+        "id": 2012,
+        "name": "Acre",
+        "state_code": "AC",
+        "hasCities": true,
+        "latitude": "-9.0478679",
+        "longitude": "-70.5264976"
+      },
+      {
+        "id": 2007,
+        "name": "Alagoas",
+        "state_code": "AL",
+        "hasCities": true,
+        "latitude": "-9.6611661",
+        "longitude": "-36.6502426"
+      },
+      {
+        "id": 1999,
+        "name": "Amapá",
+        "state_code": "AP",
+        "hasCities": true,
+        "latitude": "1.3545442",
+        "longitude": "-51.9161977"
+      },
+      {
+        "id": 2004,
+        "name": "Amazonas",
+        "state_code": "AM",
+        "hasCities": true,
+        "latitude": "-3.3260273",
+        "longitude": "-60.6439924"
+      },
+      {
+        "id": 2002,
+        "name": "Bahia",
+        "state_code": "BA",
+        "hasCities": true,
+        "latitude": "-12.285251",
+        "longitude": "-41.9294776"
+      },
+      {
+        "id": 2016,
+        "name": "Ceará",
+        "state_code": "CE",
+        "hasCities": true,
+        "latitude": "-5.3264703",
+        "longitude": "-39.7156073"
+      },
       {
         "id": 2017,
         "name": "Distrito Federal",
         "state_code": "DF",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-15.7754462",
+        "longitude": "-47.7970891"
       },
       {
         "id": 2018,
         "name": "Espírito Santo",
         "state_code": "ES",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-19.5687682",
+        "longitude": "-40.1721991"
       },
-      { "id": 2000, "name": "Goiás", "state_code": "GO", "hasCities": true },
-      { "id": 2015, "name": "Maranhão", "state_code": "MA", "hasCities": true },
+      {
+        "id": 2000,
+        "name": "Goiás",
+        "state_code": "GO",
+        "hasCities": true,
+        "latitude": "-15.9323662",
+        "longitude": "-50.1392928"
+      },
+      {
+        "id": 2015,
+        "name": "Maranhão",
+        "state_code": "MA",
+        "hasCities": true,
+        "latitude": "-5.2085503",
+        "longitude": "-45.3930262"
+      },
       {
         "id": 2011,
         "name": "Mato Grosso",
         "state_code": "MT",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-12.2115009",
+        "longitude": "-55.5716547"
       },
       {
         "id": 2010,
         "name": "Mato Grosso do Sul",
         "state_code": "MS",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-19.5852564",
+        "longitude": "-54.4794731"
       },
       {
         "id": 1998,
         "name": "Minas Gerais",
         "state_code": "MG",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-18.5264844",
+        "longitude": "-44.1588654"
       },
-      { "id": 2009, "name": "Pará", "state_code": "PA", "hasCities": true },
-      { "id": 2005, "name": "Paraíba", "state_code": "PB", "hasCities": true },
-      { "id": 2022, "name": "Paraná", "state_code": "PR", "hasCities": true },
+      {
+        "id": 2009,
+        "name": "Pará",
+        "state_code": "PA",
+        "hasCities": true,
+        "latitude": "-4.7493933",
+        "longitude": "-52.8973006"
+      },
+      {
+        "id": 2005,
+        "name": "Paraíba",
+        "state_code": "PB",
+        "hasCities": true,
+        "latitude": "-7.1219366",
+        "longitude": "-36.7246845"
+      },
+      {
+        "id": 2022,
+        "name": "Paraná",
+        "state_code": "PR",
+        "hasCities": true,
+        "latitude": "-24.4842187",
+        "longitude": "-51.8148872"
+      },
       {
         "id": 2006,
         "name": "Pernambuco",
         "state_code": "PE",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-8.4116316",
+        "longitude": "-37.5919699"
       },
-      { "id": 2008, "name": "Piauí", "state_code": "PI", "hasCities": true },
+      {
+        "id": 2008,
+        "name": "Piauí",
+        "state_code": "PI",
+        "hasCities": true,
+        "latitude": "-7.6992782",
+        "longitude": "-42.5043787"
+      },
       {
         "id": 1997,
         "name": "Rio de Janeiro",
         "state_code": "RJ",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-22.2752762",
+        "longitude": "-42.419415"
       },
       {
         "id": 2019,
         "name": "Rio Grande do Norte",
         "state_code": "RN",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-5.6781175",
+        "longitude": "-36.4781776"
       },
       {
         "id": 2001,
         "name": "Rio Grande do Sul",
         "state_code": "RS",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-29.8425284",
+        "longitude": "-53.7680577"
       },
-      { "id": 2013, "name": "Rondônia", "state_code": "RO", "hasCities": true },
-      { "id": 4858, "name": "Roraima", "state_code": "RR", "hasCities": true },
+      {
+        "id": 2013,
+        "name": "Rondônia",
+        "state_code": "RO",
+        "hasCities": true,
+        "latitude": "-10.943145",
+        "longitude": "-62.8277863"
+      },
+      {
+        "id": 4858,
+        "name": "Roraima",
+        "state_code": "RR",
+        "hasCities": true,
+        "latitude": "2.135138",
+        "longitude": "-61.3631922"
+      },
       {
         "id": 2014,
         "name": "Santa Catarina",
         "state_code": "SC",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-27.0628367",
+        "longitude": "-51.114965"
       },
       {
         "id": 2021,
         "name": "São Paulo",
         "state_code": "SP",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-22.0702705",
+        "longitude": "-48.4333875"
       },
-      { "id": 2003, "name": "Sergipe", "state_code": "SE", "hasCities": true },
-      { "id": 2020, "name": "Tocantins", "state_code": "TO", "hasCities": true }
+      {
+        "id": 2003,
+        "name": "Sergipe",
+        "state_code": "SE",
+        "hasCities": true,
+        "latitude": "-10.6743911",
+        "longitude": "-37.3773519"
+      },
+      {
+        "id": 2020,
+        "name": "Tocantins",
+        "state_code": "TO",
+        "hasCities": true,
+        "latitude": "-10.8855129",
+        "longitude": "-48.3716912"
+      }
     ]
   },
   { "id": 32, "states": [] },
@@ -2589,25 +3678,33 @@
         "id": 1217,
         "name": "Belait District",
         "state_code": "BE",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "4.43499385",
+        "longitude": "114.49465242052787"
       },
       {
         "id": 1216,
         "name": "Brunei-Muara District",
         "state_code": "BM",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "4.9752098",
+        "longitude": "114.93676633062489"
       },
       {
         "id": 1218,
         "name": "Temburong District",
         "state_code": "TE",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "4.629184",
+        "longitude": "115.163440819921"
       },
       {
         "id": 1219,
         "name": "Tutong District",
         "state_code": "TU",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "4.682681",
+        "longitude": "114.6562706290643"
       }
     ]
   },
@@ -2704,7 +3801,14 @@
         "state_code": "18",
         "hasCities": true
       },
-      { "id": 4882, "name": "Shumen", "state_code": "27", "hasCities": true },
+      {
+        "id": 4882,
+        "name": "Shumen",
+        "state_code": "27",
+        "hasCities": true,
+        "latitude": "43.30881875",
+        "longitude": "27.019726110054684"
+      },
       {
         "id": 4708,
         "name": "Silistra Province",
@@ -2810,7 +3914,9 @@
         "id": 3138,
         "name": "Boucle du Mouhoun Region",
         "state_code": "01",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "12.4777805",
+        "longitude": "-3.5879571310124456"
       },
       {
         "id": 3121,
@@ -2822,38 +3928,57 @@
         "id": 3131,
         "name": "Boulgou",
         "state_code": "BLG",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "11.7884199",
+        "longitude": "-0.554037"
       },
       {
         "id": 3153,
         "name": "Cascades Region",
         "state_code": "02",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "10.30718125",
+        "longitude": "-4.435189320350396"
       },
-      { "id": 3136, "name": "Centre", "state_code": "03", "hasCities": true },
+      {
+        "id": 3136,
+        "name": "Centre",
+        "state_code": "03",
+        "hasCities": true,
+        "latitude": "12.36732",
+        "longitude": "-1.5430869129979032"
+      },
       {
         "id": 3162,
         "name": "Centre-Est Region",
         "state_code": "04",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "11.734933000000002",
+        "longitude": "-0.2921055677472593"
       },
       {
         "id": 3127,
         "name": "Centre-Nord Region",
         "state_code": "05",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "13.238710000000001",
+        "longitude": "-1.0349831514084509"
       },
       {
         "id": 3115,
         "name": "Centre-Ouest Region",
         "state_code": "06",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "11.9067933",
+        "longitude": "-2.3044800659164646"
       },
       {
         "id": 3149,
         "name": "Centre-Sud Region",
         "state_code": "07",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "11.5833646",
+        "longitude": "-1.0556300580745341"
       },
       {
         "id": 3167,
@@ -2865,7 +3990,9 @@
         "id": 3158,
         "name": "Est Region",
         "state_code": "08",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "12.255555",
+        "longitude": "1.0095763618883151"
       },
       {
         "id": 3148,
@@ -2889,7 +4016,9 @@
         "id": 3165,
         "name": "Hauts-Bassins Region",
         "state_code": "09",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "11.389027500000001",
+        "longitude": "-4.041364986476256"
       },
       {
         "id": 3129,
@@ -2967,7 +4096,9 @@
         "id": 3123,
         "name": "Mouhoun",
         "state_code": "MOU",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "11.9493245",
+        "longitude": "-3.9822539"
       },
       {
         "id": 3116,
@@ -3021,7 +4152,9 @@
         "id": 3125,
         "name": "Plateau-Central Region",
         "state_code": "11",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "12.40414",
+        "longitude": "-0.8864160224616928"
       },
       {
         "id": 3163,
@@ -3033,7 +4166,9 @@
         "id": 3114,
         "name": "Sahel Region",
         "state_code": "12",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "14.0279165",
+        "longitude": "-0.7717775666263393"
       },
       {
         "id": 3154,
@@ -3075,7 +4210,9 @@
         "id": 3140,
         "name": "Sud-Ouest Region",
         "state_code": "13",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "10.38692085",
+        "longitude": "-3.283188627811005"
       },
       {
         "id": 3128,
@@ -3140,13 +4277,17 @@
         "id": 3200,
         "name": "Bujumbura Rural Province",
         "state_code": "BL",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "-3.4759817",
+        "longitude": "29.4535702"
       },
       {
         "id": 3202,
         "name": "Bururi Province",
         "state_code": "BR",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-3.8581592",
+        "longitude": "29.584379"
       },
       {
         "id": 3201,
@@ -3164,13 +4305,17 @@
         "id": 3197,
         "name": "Gitega Province",
         "state_code": "GI",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-3.5382336",
+        "longitude": "29.910701"
       },
       {
         "id": 3194,
         "name": "Karuzi Province",
         "state_code": "KR",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-3.1255377",
+        "longitude": "30.0978347"
       },
       {
         "id": 3192,
@@ -3194,7 +4339,9 @@
         "id": 3193,
         "name": "Muramvya Province",
         "state_code": "MU",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-3.2751181",
+        "longitude": "29.6307855"
       },
       {
         "id": 3186,
@@ -3206,7 +4353,9 @@
         "id": 3187,
         "name": "Mwaro Province",
         "state_code": "MW",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-3.4650043",
+        "longitude": "29.6708508"
       },
       {
         "id": 3199,
@@ -3224,13 +4373,17 @@
         "id": 3189,
         "name": "Rutana Province",
         "state_code": "RT",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-3.8618714",
+        "longitude": "30.0676979"
       },
       {
         "id": 3191,
         "name": "Ruyigi Province",
         "state_code": "RY",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-3.4573515500000003",
+        "longitude": "30.348830297112265"
       }
     ]
   },
@@ -3241,189 +4394,388 @@
         "id": 3984,
         "name": "Banteay Meanchey",
         "state_code": "1",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "13.7989147",
+        "longitude": "102.8862666"
       },
       {
         "id": 3976,
         "name": "Battambang",
         "state_code": "2",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "12.9256791",
+        "longitude": "103.23171364274523"
       },
       {
         "id": 3991,
         "name": "Kampong Cham",
         "state_code": "3",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "12.1174857",
+        "longitude": "105.20800220742942"
       },
       {
         "id": 3979,
         "name": "Kampong Chhnang",
         "state_code": "4",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "12.1382025",
+        "longitude": "104.3354098"
       },
       {
         "id": 3988,
         "name": "Kampong Speu",
         "state_code": "5",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "11.57753675",
+        "longitude": "104.27140233242656"
       },
       {
         "id": 5070,
         "name": "Kampong Thom",
         "state_code": "6",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "12.6687923",
+        "longitude": "104.8879197"
       },
-      { "id": 3981, "name": "Kampot", "state_code": "7", "hasCities": true },
-      { "id": 3983, "name": "Kandal", "state_code": "8", "hasCities": true },
-      { "id": 3978, "name": "Kep", "state_code": "23", "hasCities": true },
-      { "id": 3982, "name": "Koh Kong", "state_code": "9", "hasCities": true },
-      { "id": 3986, "name": "Kratie", "state_code": "10", "hasCities": true },
+      {
+        "id": 3981,
+        "name": "Kampot",
+        "state_code": "7",
+        "hasCities": true,
+        "latitude": "10.6314754",
+        "longitude": "104.132637"
+      },
+      {
+        "id": 3983,
+        "name": "Kandal",
+        "state_code": "8",
+        "hasCities": true,
+        "latitude": "11.396262499999999",
+        "longitude": "105.02078685074581"
+      },
+      {
+        "id": 3978,
+        "name": "Kep",
+        "state_code": "23",
+        "hasCities": true,
+        "latitude": "10.402153949999999",
+        "longitude": "104.26506181616313"
+      },
+      {
+        "id": 3982,
+        "name": "Koh Kong",
+        "state_code": "9",
+        "hasCities": true,
+        "latitude": "11.6813417",
+        "longitude": "103.0258043"
+      },
+      {
+        "id": 3986,
+        "name": "Kratie",
+        "state_code": "10",
+        "hasCities": true,
+        "latitude": "12.678301699999999",
+        "longitude": "106.05817329824376"
+      },
       {
         "id": 3985,
         "name": "Mondulkiri",
         "state_code": "11",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "12.7396075",
+        "longitude": "107.00879873640628"
       },
       {
         "id": 3987,
         "name": "Oddar Meanchey",
         "state_code": "22",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "14.1585631",
+        "longitude": "103.78279595655918"
       },
-      { "id": 3980, "name": "Pailin", "state_code": "24", "hasCities": true },
+      {
+        "id": 3980,
+        "name": "Pailin",
+        "state_code": "24",
+        "hasCities": true,
+        "latitude": "12.89053285",
+        "longitude": "102.62946042446026"
+      },
       {
         "id": 3994,
         "name": "Phnom Penh",
         "state_code": "12",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "11.5730391",
+        "longitude": "104.857807"
       },
       {
         "id": 3973,
         "name": "Preah Vihear",
         "state_code": "13",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "13.746298150000001",
+        "longitude": "104.97403002709669"
       },
       {
         "id": 3974,
         "name": "Prey Veng",
         "state_code": "14",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "11.365959700000001",
+        "longitude": "105.45572772976189"
       },
-      { "id": 3977, "name": "Pursat", "state_code": "15", "hasCities": true },
+      {
+        "id": 3977,
+        "name": "Pursat",
+        "state_code": "15",
+        "hasCities": true,
+        "latitude": "12.4662592",
+        "longitude": "103.7426829518918"
+      },
       {
         "id": 3990,
         "name": "Ratanakiri",
         "state_code": "16",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "13.9312399",
+        "longitude": "107.03910880702057"
       },
       {
         "id": 3992,
         "name": "Siem Reap",
         "state_code": "17",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "13.314962",
+        "longitude": "103.805433"
       },
       {
         "id": 3989,
         "name": "Sihanoukville",
         "state_code": "18",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "10.7321989",
+        "longitude": "103.7595806"
       },
       {
         "id": 3993,
         "name": "Stung Treng",
         "state_code": "19",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "13.852468",
+        "longitude": "106.0889848986395"
       },
       {
         "id": 3972,
         "name": "Svay Rieng",
         "state_code": "20",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "11.19500815",
+        "longitude": "105.79679668507217"
       },
-      { "id": 3975, "name": "Takeo", "state_code": "21", "hasCities": true }
+      {
+        "id": 3975,
+        "name": "Takeo",
+        "state_code": "21",
+        "hasCities": true,
+        "latitude": "10.93539205",
+        "longitude": "104.78988300047047"
+      }
     ]
   },
   {
     "id": 38,
     "states": [
-      { "id": 2663, "name": "Adamawa", "state_code": "AD", "hasCities": true },
-      { "id": 2660, "name": "Centre", "state_code": "CE", "hasCities": true },
-      { "id": 2661, "name": "East", "state_code": "ES", "hasCities": true },
+      {
+        "id": 2663,
+        "name": "Adamawa",
+        "state_code": "AD",
+        "hasCities": true,
+        "latitude": "6.8496708",
+        "longitude": "13.2163222"
+      },
+      {
+        "id": 2660,
+        "name": "Centre",
+        "state_code": "CE",
+        "hasCities": true,
+        "latitude": "4.686267",
+        "longitude": "11.9414512"
+      },
+      {
+        "id": 2661,
+        "name": "East",
+        "state_code": "ES",
+        "hasCities": true,
+        "latitude": "3.9894393",
+        "longitude": "14.178373"
+      },
       {
         "id": 2656,
         "name": "Far North",
         "state_code": "EN",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "10.6377186",
+        "longitude": "14.2738156"
       },
-      { "id": 2662, "name": "Littoral", "state_code": "LT", "hasCities": true },
-      { "id": 2665, "name": "North", "state_code": "NO", "hasCities": true },
+      {
+        "id": 2662,
+        "name": "Littoral",
+        "state_code": "LT",
+        "hasCities": true,
+        "latitude": "4.203033",
+        "longitude": "10.0563057"
+      },
+      {
+        "id": 2665,
+        "name": "North",
+        "state_code": "NO",
+        "hasCities": true,
+        "latitude": "8.7712794",
+        "longitude": "13.7803627"
+      },
       {
         "id": 2657,
         "name": "Northwest",
         "state_code": "NW",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "6.3775255",
+        "longitude": "10.3864171"
       },
-      { "id": 2659, "name": "South", "state_code": "SU", "hasCities": true },
+      {
+        "id": 2659,
+        "name": "South",
+        "state_code": "SU",
+        "hasCities": true,
+        "latitude": "2.7312374",
+        "longitude": "11.6254622"
+      },
       {
         "id": 2658,
         "name": "Southwest",
         "state_code": "SW",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "5.0577606",
+        "longitude": "9.2289407"
       },
-      { "id": 2664, "name": "West", "state_code": "OU", "hasCities": true }
+      {
+        "id": 2664,
+        "name": "West",
+        "state_code": "OU",
+        "hasCities": true,
+        "latitude": "5.53563825",
+        "longitude": "10.582882586016343"
+      }
     ]
   },
   {
     "id": 39,
     "states": [
-      { "id": 872, "name": "Alberta", "state_code": "AB", "hasCities": true },
+      {
+        "id": 872,
+        "name": "Alberta",
+        "state_code": "AB",
+        "hasCities": true,
+        "latitude": "55.001251",
+        "longitude": "-115.002136"
+      },
       {
         "id": 875,
         "name": "British Columbia",
         "state_code": "BC",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "55.001251",
+        "longitude": "-125.002441"
       },
-      { "id": 867, "name": "Manitoba", "state_code": "MB", "hasCities": true },
+      {
+        "id": 867,
+        "name": "Manitoba",
+        "state_code": "MB",
+        "hasCities": true,
+        "latitude": "55.001251",
+        "longitude": "-97.001038"
+      },
       {
         "id": 868,
         "name": "New Brunswick",
         "state_code": "NB",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "46.500283",
+        "longitude": "-66.750183"
       },
       {
         "id": 877,
         "name": "Newfoundland and Labrador",
         "state_code": "NL",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "53.8217327",
+        "longitude": "-61.2295532"
       },
       {
         "id": 878,
         "name": "Northwest Territories",
         "state_code": "NT",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "65.0000004",
+        "longitude": "-118.0"
       },
       {
         "id": 874,
         "name": "Nova Scotia",
         "state_code": "NS",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "45.1960403",
+        "longitude": "-63.1653789"
       },
-      { "id": 876, "name": "Nunavut", "state_code": "NU", "hasCities": true },
-      { "id": 866, "name": "Ontario", "state_code": "ON", "hasCities": true },
+      {
+        "id": 876,
+        "name": "Nunavut",
+        "state_code": "NU",
+        "hasCities": true,
+        "latitude": "65.0377727",
+        "longitude": "-92.5540791"
+      },
+      {
+        "id": 866,
+        "name": "Ontario",
+        "state_code": "ON",
+        "hasCities": true,
+        "latitude": "50.000678",
+        "longitude": "-86.000977"
+      },
       {
         "id": 871,
         "name": "Prince Edward Island",
         "state_code": "PE",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "46.3355508",
+        "longitude": "-63.1466676"
       },
-      { "id": 873, "name": "Quebec", "state_code": "QC", "hasCities": true },
+      {
+        "id": 873,
+        "name": "Quebec",
+        "state_code": "QC",
+        "hasCities": true,
+        "latitude": "52.4760892",
+        "longitude": "-71.8258668"
+      },
       {
         "id": 870,
         "name": "Saskatchewan",
         "state_code": "SK",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "55.5321257",
+        "longitude": "-106.141224"
       },
-      { "id": 869, "name": "Yukon", "state_code": "YT", "hasCities": true }
+      {
+        "id": 869,
+        "name": "Yukon",
+        "state_code": "YT",
+        "hasCities": true,
+        "latitude": "63.000147",
+        "longitude": "-136.002502"
+      }
     ]
   },
   {
@@ -3433,15 +4785,26 @@
         "id": 2994,
         "name": "Barlavento Islands",
         "state_code": "B",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "17.05552855",
+        "longitude": "-25.172304911363636"
       },
       {
         "id": 2999,
         "name": "Boa Vista",
         "state_code": "BV",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "16.099508999999998",
+        "longitude": "-22.800941096303617"
       },
-      { "id": 2996, "name": "Brava", "state_code": "BR", "hasCities": true },
+      {
+        "id": 2996,
+        "name": "Brava",
+        "state_code": "BR",
+        "hasCities": true,
+        "latitude": "14.85194265",
+        "longitude": "-24.70869390903308"
+      },
       {
         "id": 2991,
         "name": "Maio Municipality",
@@ -3459,7 +4822,9 @@
         "id": 2989,
         "name": "Porto Novo",
         "state_code": "PN",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "17.018492549999998",
+        "longitude": "-25.081616357643885"
       },
       { "id": 2988, "name": "Praia", "state_code": "PR", "hasCities": true },
       {
@@ -3472,7 +4837,9 @@
         "id": 3002,
         "name": "Ribeira Grande",
         "state_code": "RG",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "17.1809419",
+        "longitude": "-25.0734479"
       },
       {
         "id": 2984,
@@ -3480,7 +4847,14 @@
         "state_code": "RS",
         "hasCities": true
       },
-      { "id": 2998, "name": "Sal", "state_code": "SL", "hasCities": true },
+      {
+        "id": 2998,
+        "name": "Sal",
+        "state_code": "SL",
+        "hasCities": true,
+        "latitude": "16.720455649999998",
+        "longitude": "-22.938676127026316"
+      },
       {
         "id": 2985,
         "name": "Santa Catarina",
@@ -3503,13 +4877,17 @@
         "id": 2986,
         "name": "São Domingos",
         "state_code": "SD",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "15.0271971",
+        "longitude": "-23.4894907"
       },
       {
         "id": 3000,
         "name": "São Filipe",
         "state_code": "SF",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "14.9562832",
+        "longitude": "-23.5100843"
       },
       {
         "id": 2993,
@@ -3527,15 +4905,26 @@
         "id": 3001,
         "name": "São Vicente",
         "state_code": "SV",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "16.84944115",
+        "longitude": "-24.971879177747315"
       },
       {
         "id": 2992,
         "name": "Sotavento Islands",
         "state_code": "S",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "15.1200758",
+        "longitude": "-23.634818134026133"
       },
-      { "id": 2983, "name": "Tarrafal", "state_code": "TA", "hasCities": true },
+      {
+        "id": 2983,
+        "name": "Tarrafal",
+        "state_code": "TA",
+        "hasCities": true,
+        "latitude": "16.9687633",
+        "longitude": "-25.2969331"
+      },
       {
         "id": 3003,
         "name": "Tarrafal de São Nicolau",
@@ -3554,7 +4943,14 @@
         "state_code": "BB",
         "hasCities": true
       },
-      { "id": 1262, "name": "Bangui", "state_code": "BGF", "hasCities": true },
+      {
+        "id": 1262,
+        "name": "Bangui",
+        "state_code": "BGF",
+        "hasCities": true,
+        "latitude": "4.3635118",
+        "longitude": "18.5835913"
+      },
       {
         "id": 1264,
         "name": "Basse-Kotto Prefecture",
@@ -3577,7 +4973,9 @@
         "id": 1263,
         "name": "Kémo Prefecture",
         "state_code": "KG",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "5.9480074",
+        "longitude": "19.2158871"
       },
       {
         "id": 1256,
@@ -3589,7 +4987,9 @@
         "id": 1257,
         "name": "Mambéré-Kadéï",
         "state_code": "HS",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "4.5662762",
+        "longitude": "15.8671403"
       },
       {
         "id": 1266,
@@ -3607,7 +5007,9 @@
         "id": 1260,
         "name": "Nana-Mambéré Prefecture",
         "state_code": "NM",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "5.2231625",
+        "longitude": "15.3517922"
       },
       {
         "id": 1255,
@@ -3625,25 +5027,33 @@
         "id": 1254,
         "name": "Ouham Prefecture",
         "state_code": "AC",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "6.7057282",
+        "longitude": "16.1443202"
       },
       {
         "id": 1267,
         "name": "Ouham-Pendé Prefecture",
         "state_code": "OP",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "6.7057282",
+        "longitude": "16.1443202"
       },
       {
         "id": 1252,
         "name": "Sangha-Mbaéré",
         "state_code": "SE",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "3.6754895",
+        "longitude": "16.3246915"
       },
       {
         "id": 1261,
         "name": "Vakaga Prefecture",
         "state_code": "VK",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "9.8250502",
+        "longitude": "22.376363"
       }
     ]
   },
@@ -3654,80 +5064,186 @@
         "id": 3583,
         "name": "Bahr el Gazel",
         "state_code": "BG",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "14.4682468",
+        "longitude": "16.9416836"
       },
-      { "id": 3590, "name": "Batha", "state_code": "BA", "hasCities": true },
-      { "id": 3574, "name": "Borkou", "state_code": "BO", "hasCities": true },
+      {
+        "id": 3590,
+        "name": "Batha",
+        "state_code": "BA",
+        "hasCities": true,
+        "latitude": "13.8367731",
+        "longitude": "18.9649806"
+      },
+      {
+        "id": 3574,
+        "name": "Borkou",
+        "state_code": "BO",
+        "hasCities": true,
+        "latitude": "17.2658129",
+        "longitude": "18.3695288"
+      },
       {
         "id": 5114,
         "name": "Chari-Baguirmi",
         "state_code": "CB",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "11.3345348",
+        "longitude": "16.2884311"
       },
       {
         "id": 3575,
         "name": "Ennedi-Est",
         "state_code": "EE",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "17.6219737",
+        "longitude": "23.3133676"
       },
       {
         "id": 3584,
         "name": "Ennedi-Ouest",
         "state_code": "EO",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "18.1636803",
+        "longitude": "21.5082709"
       },
-      { "id": 3576, "name": "Guéra", "state_code": "GR", "hasCities": true },
+      {
+        "id": 3576,
+        "name": "Guéra",
+        "state_code": "GR",
+        "hasCities": true,
+        "latitude": "11.6753817",
+        "longitude": "18.4910031"
+      },
       {
         "id": 3573,
         "name": "Hadjer-Lamis",
         "state_code": "HL",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "12.6903906",
+        "longitude": "16.3352648"
       },
-      { "id": 3588, "name": "Kanem", "state_code": "KA", "hasCities": true },
-      { "id": 3577, "name": "Lac", "state_code": "LC", "hasCities": true },
+      {
+        "id": 3588,
+        "name": "Kanem",
+        "state_code": "KA",
+        "hasCities": true,
+        "latitude": "15.2264398",
+        "longitude": "15.3151191"
+      },
+      {
+        "id": 3577,
+        "name": "Lac",
+        "state_code": "LC",
+        "hasCities": true,
+        "latitude": "13.5820827",
+        "longitude": "14.3788329"
+      },
       {
         "id": 3585,
         "name": "Logone Occidental",
         "state_code": "LO",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "8.7795637",
+        "longitude": "15.9126749"
       },
       {
         "id": 3591,
         "name": "Logone Oriental",
         "state_code": "LR",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "8.2047152",
+        "longitude": "16.470181"
       },
-      { "id": 3589, "name": "Mandoul", "state_code": "MA", "hasCities": true },
+      {
+        "id": 3589,
+        "name": "Mandoul",
+        "state_code": "MA",
+        "hasCities": true,
+        "latitude": "8.727509999999999",
+        "longitude": "17.58417712733185"
+      },
       {
         "id": 3580,
         "name": "Mayo-Kebbi Est",
         "state_code": "ME",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "10.126618",
+        "longitude": "15.818345"
       },
       {
         "id": 3571,
         "name": "Mayo-Kebbi Ouest",
         "state_code": "MO",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "9.2640383",
+        "longitude": "14.7151598"
       },
       {
         "id": 3570,
         "name": "Moyen-Chari",
         "state_code": "MC",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "9.4407768",
+        "longitude": "18.8160927"
       },
       {
         "id": 3586,
         "name": "N'Djamena",
         "state_code": "ND",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "12.1191543",
+        "longitude": "15.0502758"
       },
-      { "id": 3582, "name": "Ouaddaï", "state_code": "OD", "hasCities": true },
-      { "id": 3592, "name": "Salamat", "state_code": "SA", "hasCities": true },
-      { "id": 3572, "name": "Sila", "state_code": "SI", "hasCities": true },
-      { "id": 3579, "name": "Tandjilé", "state_code": "TA", "hasCities": true },
-      { "id": 3587, "name": "Tibesti", "state_code": "TI", "hasCities": true },
-      { "id": 3581, "name": "Wadi Fira", "state_code": "WF", "hasCities": true }
+      {
+        "id": 3582,
+        "name": "Ouaddaï",
+        "state_code": "OD",
+        "hasCities": true,
+        "latitude": "13.4613569",
+        "longitude": "21.288445"
+      },
+      {
+        "id": 3592,
+        "name": "Salamat",
+        "state_code": "SA",
+        "hasCities": true,
+        "latitude": "10.7575596",
+        "longitude": "20.6934116"
+      },
+      {
+        "id": 3572,
+        "name": "Sila",
+        "state_code": "SI",
+        "hasCities": true,
+        "latitude": "12.11786",
+        "longitude": "21.4458848"
+      },
+      {
+        "id": 3579,
+        "name": "Tandjilé",
+        "state_code": "TA",
+        "hasCities": true,
+        "latitude": "9.5713051",
+        "longitude": "16.5294956"
+      },
+      {
+        "id": 3587,
+        "name": "Tibesti",
+        "state_code": "TI",
+        "hasCities": true,
+        "latitude": "21.2438074",
+        "longitude": "17.753176663955628"
+      },
+      {
+        "id": 3581,
+        "name": "Wadi Fira",
+        "state_code": "WF",
+        "hasCities": true,
+        "latitude": "15.0191449",
+        "longitude": "21.467319"
+      }
     ]
   },
   {
@@ -3737,118 +5253,295 @@
         "id": 2828,
         "name": "Aisén del General Carlos Ibañez del Campo",
         "state_code": "AI",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-46.4711556",
+        "longitude": "-73.5206714"
       },
       {
         "id": 2832,
         "name": "Antofagasta",
         "state_code": "AN",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-23.6041314",
+        "longitude": "-69.0842783"
       },
       {
         "id": 2829,
         "name": "Arica y Parinacota",
         "state_code": "AP",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-18.5713496",
+        "longitude": "-69.7884774"
       },
-      { "id": 2823, "name": "Atacama", "state_code": "AT", "hasCities": true },
-      { "id": 2827, "name": "Biobío", "state_code": "BI", "hasCities": true },
-      { "id": 2825, "name": "Coquimbo", "state_code": "CO", "hasCities": true },
+      {
+        "id": 2823,
+        "name": "Atacama",
+        "state_code": "AT",
+        "hasCities": true,
+        "latitude": "-24.5563029",
+        "longitude": "-69.4226479"
+      },
+      {
+        "id": 2827,
+        "name": "Biobío",
+        "state_code": "BI",
+        "hasCities": true,
+        "latitude": "-37.3391407",
+        "longitude": "-72.4106825"
+      },
+      {
+        "id": 2825,
+        "name": "Coquimbo",
+        "state_code": "CO",
+        "hasCities": true,
+        "latitude": "-30.7546652",
+        "longitude": "-70.9005536"
+      },
       {
         "id": 2826,
         "name": "La Araucanía",
         "state_code": "AR",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-38.6678955",
+        "longitude": "-72.2610066"
       },
       {
         "id": 2838,
         "name": "Libertador General Bernardo O'Higgins",
         "state_code": "LI",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-34.534538",
+        "longitude": "-71.0354822"
       },
       {
         "id": 2835,
         "name": "Los Lagos",
         "state_code": "LL",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-42.300844",
+        "longitude": "-73.105387"
       },
-      { "id": 2834, "name": "Los Ríos", "state_code": "LR", "hasCities": true },
+      {
+        "id": 2834,
+        "name": "Los Ríos",
+        "state_code": "LR",
+        "hasCities": true,
+        "latitude": "-39.9742747",
+        "longitude": "-72.6677006"
+      },
       {
         "id": 2836,
         "name": "Magallanes y de la Antártica Chilena",
         "state_code": "MA",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-53.3527518",
+        "longitude": "-71.5547782"
       },
-      { "id": 2833, "name": "Maule", "state_code": "ML", "hasCities": true },
-      { "id": 2831, "name": "Ñuble", "state_code": "NB", "hasCities": true },
+      {
+        "id": 2833,
+        "name": "Maule",
+        "state_code": "ML",
+        "hasCities": true,
+        "latitude": "-35.5972284",
+        "longitude": "-71.48868"
+      },
+      {
+        "id": 2831,
+        "name": "Ñuble",
+        "state_code": "NB",
+        "hasCities": true,
+        "latitude": "-36.6331577",
+        "longitude": "-71.9384821"
+      },
       {
         "id": 2824,
         "name": "Región Metropolitana de Santiago",
         "state_code": "RM",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-33.5739341",
+        "longitude": "-70.6205518"
       },
-      { "id": 2837, "name": "Tarapacá", "state_code": "TA", "hasCities": true },
+      {
+        "id": 2837,
+        "name": "Tarapacá",
+        "state_code": "TA",
+        "hasCities": true,
+        "latitude": "-20.1636672",
+        "longitude": "-69.5463448"
+      },
       {
         "id": 2830,
         "name": "Valparaíso",
         "state_code": "VS",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-32.5976089",
+        "longitude": "-70.8529753"
       }
     ]
   },
   {
     "id": 45,
     "states": [
-      { "id": 2251, "name": "Anhui", "state_code": "AH", "hasCities": true },
-      { "id": 2257, "name": "Beijing", "state_code": "BJ", "hasCities": true },
+      {
+        "id": 2251,
+        "name": "Anhui",
+        "state_code": "AH",
+        "hasCities": true,
+        "latitude": "32.0",
+        "longitude": "117.0"
+      },
+      {
+        "id": 2257,
+        "name": "Beijing",
+        "state_code": "BJ",
+        "hasCities": true,
+        "latitude": "40.190632",
+        "longitude": "116.412144"
+      },
       {
         "id": 2271,
         "name": "Chongqing",
         "state_code": "CQ",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "30.05518",
+        "longitude": "107.8748712"
       },
-      { "id": 2248, "name": "Fujian", "state_code": "FJ", "hasCities": true },
-      { "id": 2275, "name": "Gansu", "state_code": "GS", "hasCities": true },
+      {
+        "id": 2248,
+        "name": "Fujian",
+        "state_code": "FJ",
+        "hasCities": true,
+        "latitude": "26.193218",
+        "longitude": "118.2208721"
+      },
+      {
+        "id": 2275,
+        "name": "Gansu",
+        "state_code": "GS",
+        "hasCities": true,
+        "latitude": "38.0000001",
+        "longitude": "101.9999999"
+      },
       {
         "id": 2279,
         "name": "Guangdong",
         "state_code": "GD",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "23.1357694",
+        "longitude": "113.1982688"
       },
       {
         "id": 2278,
         "name": "Guangxi Zhuang",
         "state_code": "GX",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "24.0",
+        "longitude": "109.0"
       },
-      { "id": 2261, "name": "Guizhou", "state_code": "GZ", "hasCities": true },
-      { "id": 2273, "name": "Hainan", "state_code": "HI", "hasCities": true },
-      { "id": 2280, "name": "Hebei", "state_code": "HE", "hasCities": true },
+      {
+        "id": 2261,
+        "name": "Guizhou",
+        "state_code": "GZ",
+        "hasCities": true,
+        "latitude": "27.0",
+        "longitude": "107.0"
+      },
+      {
+        "id": 2273,
+        "name": "Hainan",
+        "state_code": "HI",
+        "hasCities": true,
+        "latitude": "19.2000001",
+        "longitude": "109.5999999"
+      },
+      {
+        "id": 2280,
+        "name": "Hebei",
+        "state_code": "HE",
+        "hasCities": true,
+        "latitude": "39.0000001",
+        "longitude": "116.0"
+      },
       {
         "id": 2265,
         "name": "Heilongjiang",
         "state_code": "HL",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "48.0000047",
+        "longitude": "127.999992"
       },
-      { "id": 2259, "name": "Henan", "state_code": "HA", "hasCities": true },
+      {
+        "id": 2259,
+        "name": "Henan",
+        "state_code": "HA",
+        "hasCities": true,
+        "latitude": "34.0000001",
+        "longitude": "113.9999999"
+      },
       {
         "id": 2267,
         "name": "Hong Kong SAR",
         "state_code": "HK",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "22.350627",
+        "longitude": "114.1849161"
       },
-      { "id": 2274, "name": "Hubei", "state_code": "HB", "hasCities": true },
-      { "id": 2258, "name": "Hunan", "state_code": "HN", "hasCities": true },
+      {
+        "id": 2274,
+        "name": "Hubei",
+        "state_code": "HB",
+        "hasCities": true,
+        "latitude": "31.15305035",
+        "longitude": "112.88064226239663"
+      },
+      {
+        "id": 2258,
+        "name": "Hunan",
+        "state_code": "HN",
+        "hasCities": true,
+        "latitude": "27.6662087",
+        "longitude": "111.7487063"
+      },
       {
         "id": 2269,
         "name": "Inner Mongolia",
         "state_code": "NM",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "43.2443242",
+        "longitude": "114.3251664"
       },
-      { "id": 2250, "name": "Jiangsu", "state_code": "JS", "hasCities": true },
-      { "id": 2256, "name": "Jiangxi", "state_code": "JX", "hasCities": true },
-      { "id": 2253, "name": "Jilin", "state_code": "JL", "hasCities": true },
-      { "id": 2268, "name": "Liaoning", "state_code": "LN", "hasCities": true },
+      {
+        "id": 2250,
+        "name": "Jiangsu",
+        "state_code": "JS",
+        "hasCities": true,
+        "latitude": "33.0000001",
+        "longitude": "119.9999999"
+      },
+      {
+        "id": 2256,
+        "name": "Jiangxi",
+        "state_code": "JX",
+        "hasCities": true,
+        "latitude": "28.0",
+        "longitude": "116.0"
+      },
+      {
+        "id": 2253,
+        "name": "Jilin",
+        "state_code": "JL",
+        "hasCities": true,
+        "latitude": "43.582583400000004",
+        "longitude": "126.12661770729827"
+      },
+      {
+        "id": 2268,
+        "name": "Liaoning",
+        "state_code": "LN",
+        "hasCities": true,
+        "latitude": "41.2374106",
+        "longitude": "122.9955469"
+      },
       {
         "id": 2266,
         "name": "Macau SAR",
@@ -3859,20 +5552,106 @@
         "id": 2262,
         "name": "Ningxia Huizu",
         "state_code": "NX",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "37.0000001",
+        "longitude": "105.9999999"
       },
-      { "id": 2270, "name": "Qinghai", "state_code": "QH", "hasCities": true },
-      { "id": 2272, "name": "Shaanxi", "state_code": "SN", "hasCities": true },
-      { "id": 2252, "name": "Shandong", "state_code": "SD", "hasCities": true },
-      { "id": 2249, "name": "Shanghai", "state_code": "SH", "hasCities": true },
-      { "id": 2254, "name": "Shanxi", "state_code": "SX", "hasCities": true },
-      { "id": 2277, "name": "Sichuan", "state_code": "SC", "hasCities": true },
-      { "id": 2255, "name": "Taiwan", "state_code": "TW", "hasCities": true },
-      { "id": 2276, "name": "Tianjin", "state_code": "TJ", "hasCities": true },
-      { "id": 2263, "name": "Xinjiang", "state_code": "XJ", "hasCities": true },
-      { "id": 2264, "name": "Xizang", "state_code": "XZ", "hasCities": true },
-      { "id": 2260, "name": "Yunnan", "state_code": "YN", "hasCities": true },
-      { "id": 2247, "name": "Zhejiang", "state_code": "ZJ", "hasCities": true }
+      {
+        "id": 2270,
+        "name": "Qinghai",
+        "state_code": "QH",
+        "hasCities": true,
+        "latitude": "35.40709525",
+        "longitude": "95.95211573241954"
+      },
+      {
+        "id": 2272,
+        "name": "Shaanxi",
+        "state_code": "SN",
+        "hasCities": true,
+        "latitude": "35.5895959",
+        "longitude": "109.3013107"
+      },
+      {
+        "id": 2252,
+        "name": "Shandong",
+        "state_code": "SD",
+        "hasCities": true,
+        "latitude": "36.398987",
+        "longitude": "118.5055691"
+      },
+      {
+        "id": 2249,
+        "name": "Shanghai",
+        "state_code": "SH",
+        "hasCities": true,
+        "latitude": "31.2312707",
+        "longitude": "121.4700152"
+      },
+      {
+        "id": 2254,
+        "name": "Shanxi",
+        "state_code": "SX",
+        "hasCities": true,
+        "latitude": "37.0",
+        "longitude": "112.0"
+      },
+      {
+        "id": 2277,
+        "name": "Sichuan",
+        "state_code": "SC",
+        "hasCities": true,
+        "latitude": "30.5000001",
+        "longitude": "102.4999999"
+      },
+      {
+        "id": 2255,
+        "name": "Taiwan",
+        "state_code": "TW",
+        "hasCities": true,
+        "latitude": "38.9131087",
+        "longitude": "113.5236167"
+      },
+      {
+        "id": 2276,
+        "name": "Tianjin",
+        "state_code": "TJ",
+        "hasCities": true,
+        "latitude": "39.3032619",
+        "longitude": "117.4163641"
+      },
+      {
+        "id": 2263,
+        "name": "Xinjiang",
+        "state_code": "XJ",
+        "hasCities": true,
+        "latitude": "42.4804953",
+        "longitude": "85.4633464"
+      },
+      {
+        "id": 2264,
+        "name": "Xizang",
+        "state_code": "XZ",
+        "hasCities": true,
+        "latitude": "29.8556443",
+        "longitude": "90.8749807"
+      },
+      {
+        "id": 2260,
+        "name": "Yunnan",
+        "state_code": "YN",
+        "hasCities": true,
+        "latitude": "25.0",
+        "longitude": "102.0"
+      },
+      {
+        "id": 2247,
+        "name": "Zhejiang",
+        "state_code": "ZJ",
+        "hasCities": true,
+        "latitude": "29.0000001",
+        "longitude": "119.9999999"
+      }
     ]
   },
   { "id": 46, "states": [] },
@@ -3884,123 +5663,295 @@
         "id": 2895,
         "name": "Amazonas",
         "state_code": "AMA",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-1.305299",
+        "longitude": "-71.4659212"
       },
       {
         "id": 2890,
         "name": "Antioquia",
         "state_code": "ANT",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "7.0000085",
+        "longitude": "-75.5000086"
       },
-      { "id": 2881, "name": "Arauca", "state_code": "ARA", "hasCities": true },
+      {
+        "id": 2881,
+        "name": "Arauca",
+        "state_code": "ARA",
+        "hasCities": true,
+        "latitude": "6.6666755",
+        "longitude": "-71.0000086"
+      },
       {
         "id": 2900,
         "name": "Archipiélago de San Andrés, Providencia y Santa Catalina",
         "state_code": "SAP",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "13.35311655",
+        "longitude": "-81.37498889457396"
       },
       {
         "id": 2880,
         "name": "Atlántico",
         "state_code": "ATL",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "10.6773422",
+        "longitude": "-74.9718666"
       },
       {
         "id": 4921,
         "name": "Bogotá D.C.",
         "state_code": "DC",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "4.2834715",
+        "longitude": "-74.17536060737828"
       },
-      { "id": 2893, "name": "Bolívar", "state_code": "BOL", "hasCities": true },
-      { "id": 2903, "name": "Boyacá", "state_code": "BOY", "hasCities": true },
-      { "id": 2887, "name": "Caldas", "state_code": "CAL", "hasCities": true },
-      { "id": 2891, "name": "Caquetá", "state_code": "CAQ", "hasCities": true },
+      {
+        "id": 2893,
+        "name": "Bolívar",
+        "state_code": "BOL",
+        "hasCities": true,
+        "latitude": "9.3660477",
+        "longitude": "-74.8023636"
+      },
+      {
+        "id": 2903,
+        "name": "Boyacá",
+        "state_code": "BOY",
+        "hasCities": true,
+        "latitude": "5.6278979",
+        "longitude": "-72.8268617"
+      },
+      {
+        "id": 2887,
+        "name": "Caldas",
+        "state_code": "CAL",
+        "hasCities": true,
+        "latitude": "5.3302514",
+        "longitude": "-75.2873471"
+      },
+      {
+        "id": 2891,
+        "name": "Caquetá",
+        "state_code": "CAQ",
+        "hasCities": true,
+        "latitude": "1.1153385",
+        "longitude": "-74.1056838"
+      },
       {
         "id": 2892,
         "name": "Casanare",
         "state_code": "CAS",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "5.5000085",
+        "longitude": "-71.5000086"
       },
-      { "id": 2884, "name": "Cauca", "state_code": "CAU", "hasCities": true },
-      { "id": 2899, "name": "Cesar", "state_code": "CES", "hasCities": true },
-      { "id": 2876, "name": "Chocó", "state_code": "CHO", "hasCities": true },
-      { "id": 2898, "name": "Córdoba", "state_code": "COR", "hasCities": true },
+      {
+        "id": 2884,
+        "name": "Cauca",
+        "state_code": "CAU",
+        "hasCities": true,
+        "latitude": "2.715645",
+        "longitude": "-76.662665"
+      },
+      {
+        "id": 2899,
+        "name": "Cesar",
+        "state_code": "CES",
+        "hasCities": true,
+        "latitude": "9.3333415",
+        "longitude": "-73.5000086"
+      },
+      {
+        "id": 2876,
+        "name": "Chocó",
+        "state_code": "CHO",
+        "hasCities": true,
+        "latitude": "6.0000085",
+        "longitude": "-77.0000086"
+      },
+      {
+        "id": 2898,
+        "name": "Córdoba",
+        "state_code": "COR",
+        "hasCities": true,
+        "latitude": "8.3344713",
+        "longitude": "-75.6666238"
+      },
       {
         "id": 2875,
         "name": "Cundinamarca",
         "state_code": "CUN",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "5.1096596",
+        "longitude": "-74.0995854"
       },
-      { "id": 2882, "name": "Guainía", "state_code": "GUA", "hasCities": true },
+      {
+        "id": 2882,
+        "name": "Guainía",
+        "state_code": "GUA",
+        "hasCities": true,
+        "latitude": "2.5000086",
+        "longitude": "-69.0000086"
+      },
       {
         "id": 2888,
         "name": "Guaviare",
         "state_code": "GUV",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "1.7899197999999998",
+        "longitude": "-72.37617840546258"
       },
-      { "id": 4871, "name": "Huila", "state_code": "HUI", "hasCities": true },
+      {
+        "id": 4871,
+        "name": "Huila",
+        "state_code": "HUI",
+        "hasCities": true,
+        "latitude": "2.4738993",
+        "longitude": "-75.5900113"
+      },
       {
         "id": 2889,
         "name": "La Guajira",
         "state_code": "LAG",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "11.4354118",
+        "longitude": "-72.9002161"
       },
       {
         "id": 2886,
         "name": "Magdalena",
         "state_code": "MAG",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "10.5808075",
+        "longitude": "-74.0685669"
       },
-      { "id": 2878, "name": "Meta", "state_code": "MET", "hasCities": true },
-      { "id": 2897, "name": "Nariño", "state_code": "NAR", "hasCities": true },
+      {
+        "id": 2878,
+        "name": "Meta",
+        "state_code": "MET",
+        "hasCities": true,
+        "latitude": "3.5000086",
+        "longitude": "-73.0000086"
+      },
+      {
+        "id": 2897,
+        "name": "Nariño",
+        "state_code": "NAR",
+        "hasCities": true,
+        "latitude": "1.5842268",
+        "longitude": "-77.8585766"
+      },
       {
         "id": 2877,
         "name": "Norte de Santander",
         "state_code": "NSA",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "8.4417924",
+        "longitude": "-73.0492505"
       },
       {
         "id": 2896,
         "name": "Putumayo",
         "state_code": "PUT",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "0.5000086",
+        "longitude": "-76.0000086"
       },
-      { "id": 2874, "name": "Quindío", "state_code": "QUI", "hasCities": true },
+      {
+        "id": 2874,
+        "name": "Quindío",
+        "state_code": "QUI",
+        "hasCities": true,
+        "latitude": "4.4028313",
+        "longitude": "-75.7025795"
+      },
       {
         "id": 2879,
         "name": "Risaralda",
         "state_code": "RIS",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "5.2102948",
+        "longitude": "-75.9842236"
       },
       {
         "id": 2901,
         "name": "Santander",
         "state_code": "SAN",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "7.0000085",
+        "longitude": "-73.2500086"
       },
-      { "id": 2902, "name": "Sucre", "state_code": "SUC", "hasCities": true },
-      { "id": 2883, "name": "Tolima", "state_code": "TOL", "hasCities": true },
+      {
+        "id": 2902,
+        "name": "Sucre",
+        "state_code": "SUC",
+        "hasCities": true,
+        "latitude": "9.0",
+        "longitude": "-75.0"
+      },
+      {
+        "id": 2883,
+        "name": "Tolima",
+        "state_code": "TOL",
+        "hasCities": true,
+        "latitude": "4.0355786",
+        "longitude": "-75.2086642"
+      },
       {
         "id": 2904,
         "name": "Valle del Cauca",
         "state_code": "VAC",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "3.6984053",
+        "longitude": "-76.5501996"
       },
-      { "id": 2885, "name": "Vaupés", "state_code": "VAU", "hasCities": true },
-      { "id": 2894, "name": "Vichada", "state_code": "VID", "hasCities": true }
+      {
+        "id": 2885,
+        "name": "Vaupés",
+        "state_code": "VAU",
+        "hasCities": true,
+        "latitude": "0.42281235",
+        "longitude": "-70.94683718027875"
+      },
+      {
+        "id": 2894,
+        "name": "Vichada",
+        "state_code": "VID",
+        "hasCities": true,
+        "latitude": "4.8686613",
+        "longitude": "-69.3736658"
+      }
     ]
   },
   {
     "id": 49,
     "states": [
-      { "id": 2821, "name": "Anjouan", "state_code": "A", "hasCities": true },
+      {
+        "id": 2821,
+        "name": "Anjouan",
+        "state_code": "A",
+        "hasCities": true,
+        "latitude": "-12.226568050000001",
+        "longitude": "44.41070486098224"
+      },
       {
         "id": 2822,
         "name": "Grande Comore",
         "state_code": "G",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-11.65256875",
+        "longitude": "43.33097059591782"
       },
-      { "id": 2820, "name": "Mohéli", "state_code": "M", "hasCities": true }
+      {
+        "id": 2820,
+        "name": "Mohéli",
+        "state_code": "M",
+        "hasCities": true,
+        "latitude": "-12.32045735",
+        "longitude": "43.720431326729724"
+      }
     ]
   },
   {
@@ -4010,67 +5961,89 @@
         "id": 2866,
         "name": "Bouenza Department",
         "state_code": "11",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-4.2868653",
+        "longitude": "13.3972129"
       },
       {
         "id": 2870,
         "name": "Brazzaville",
         "state_code": "BZV",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-4.2307153",
+        "longitude": "15.3082702"
       },
       {
         "id": 2864,
         "name": "Cuvette Department",
         "state_code": "8",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-0.4936855",
+        "longitude": "16.1602013"
       },
       {
         "id": 2869,
         "name": "Cuvette-Ouest Department",
         "state_code": "15",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "0.280252",
+        "longitude": "14.5292599"
       },
       {
         "id": 2867,
         "name": "Kouilou Department",
         "state_code": "5",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "-4.1960964",
+        "longitude": "11.9104388"
       },
       {
         "id": 2868,
         "name": "Lékoumou Department",
         "state_code": "2",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-3.2315605",
+        "longitude": "13.5211721"
       },
       {
         "id": 2865,
         "name": "Likouala Department",
         "state_code": "7",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "1.6788828",
+        "longitude": "17.4747723"
       },
       {
         "id": 2872,
         "name": "Niari Department",
         "state_code": "9",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-2.9077055",
+        "longitude": "12.3298313"
       },
       {
         "id": 2862,
         "name": "Plateaux Department",
         "state_code": "14",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-2.1709644",
+        "longitude": "15.2286129"
       },
       {
         "id": 2863,
         "name": "Pointe-Noire",
         "state_code": "16",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-4.8270628",
+        "longitude": "12.0260584"
       },
       {
         "id": 2873,
         "name": "Pool Department",
         "state_code": "12",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "-3.7298545",
+        "longitude": "15.053872"
       },
       {
         "id": 2871,
@@ -4088,7 +6061,9 @@
         "id": 1215,
         "name": "Alajuela Province",
         "state_code": "A",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "10.45233165",
+        "longitude": "-84.46632842680263"
       },
       {
         "id": 1209,
@@ -4100,31 +6075,41 @@
         "id": 1212,
         "name": "Heredia Province",
         "state_code": "H",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "10.376781300000001",
+        "longitude": "-84.01397213865732"
       },
       {
         "id": 1213,
         "name": "Limón Province",
         "state_code": "L",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "10.099908899999999",
+        "longitude": "-83.34318729447185"
       },
       {
         "id": 1211,
         "name": "Provincia de Cartago",
         "state_code": "C",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "9.8159326",
+        "longitude": "-83.69428210490865"
       },
       {
         "id": 1210,
         "name": "Puntarenas Province",
         "state_code": "P",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "9.09532795",
+        "longitude": "-84.20030379242806"
       },
       {
         "id": 1214,
         "name": "San José Province",
         "state_code": "SJ",
-        "hasCities": true
+        "hasCities": true,
+        "latitude": "9.6313549",
+        "longitude": "-84.06729722484822"
       }
     ]
   },
@@ -4330,12 +6315,21 @@
         "state_code": "19",
         "hasCities": true
       },
-      { "id": 743, "name": "Istria", "state_code": "18", "hasCities": true },
+      {
+        "id": 743,
+        "name": "Istria",
+        "state_code": "18",
+        "hasCities": true,
+        "latitude": "45.193434499999995",
+        "longitude": "13.915053587355306"
+      },
       {
         "id": 5069,
         "name": "Karlovac",
         "state_code": "04",
-        "hasCities": false
+        "hasCities": false,
+        "latitude": "46.0603617",
+        "longitude": "16.6887509"
       },
       {
         "id": 742,
@@ -4387,7 +6381,14 @@
         "state_code": "17",
         "hasCities": true
       },
-      { "id": 739, "name": "Varaždin", "state_code": "05", "hasCities": true },
+      {
+        "id": 739,
+        "name": "Varaždin",
+        "state_code": "05",
+        "hasCities": true,
+        "latitude": "46.308979699999995",
+        "longitude": "16.3226412685206"
+      },
       {
         "id": 732,
         "name": "Virovitica-Podravina",
@@ -4400,9 +6401,30 @@
         "state_code": "16",
         "hasCities": true
       },
-      { "id": 727, "name": "Zadar", "state_code": "13", "hasCities": true },
-      { "id": 736, "name": "Zagreb", "state_code": "01", "hasCities": true },
-      { "id": 738, "name": "Zagreb", "state_code": "21", "hasCities": true }
+      {
+        "id": 727,
+        "name": "Zadar",
+        "state_code": "13",
+        "hasCities": true,
+        "latitude": "44.1178297",
+        "longitude": "15.228611017614924"
+      },
+      {
+        "id": 736,
+        "name": "Zagreb",
+        "state_code": "01",
+        "hasCities": true,
+        "latitude": "45.7913722",
+        "longitude": "16.011544777793343"
+      },
+      {
+        "id": 738,
+        "name": "Zagreb",
+        "state_code": "21",
+        "hasCities": true,
+        "latitude": "45.7913722",
+        "longitude": "16.011544777793343"
+      }
     ]
   },
   {
