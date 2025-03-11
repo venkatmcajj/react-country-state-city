@@ -14,12 +14,15 @@ const Icon = () => {
   );
 };
 
-type ComponentProps = InputHTMLAttributes<HTMLInputElement> & {
+type ComponentProps = Omit<
+  InputHTMLAttributes<HTMLInputElement>,
+  "defaultValue" | "onChange"
+> & {
   placeHolder?: string;
   options: Array<Language>;
   inputClassName?: string;
   onTextChange?: (e: ChangeEvent<HTMLInputElement>) => void;
-  defaultValue?: Language;
+  defaultValue?: Language | string;
   onChange: (e: Language) => void;
   displayNative?: boolean;
 };
@@ -39,8 +42,15 @@ const LanguageDropdown = ({
   const searchRef = useRef<HTMLInputElement>(null);
   const inputRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    if (defaultValue) setSelectedValue(defaultValue);
-  }, [defaultValue]);
+    if (defaultValue) {
+      if (typeof defaultValue === "string") {
+        const matchedOption = options.find((obj) => obj.name === defaultValue);
+        if (matchedOption) setSelectedValue(matchedOption);
+      } else {
+        setSelectedValue(defaultValue); // No need for type assertion
+      }
+    }
+  }, [defaultValue, options]);
   useEffect(() => {
     setSearchValue("");
     if (showMenu && searchRef.current) {

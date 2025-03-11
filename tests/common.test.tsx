@@ -12,6 +12,9 @@ import {
   GetPhonecodesByRegion,
 } from "../src";
 import fetchmock from "jest-fetch-mock";
+import { City, Region, State } from "../src/types";
+import { render, screen } from "@testing-library/react";
+import Dropdown from "../src/components/Dropdown";
 fetchmock.dontMock();
 describe("Common render", () => {
   it("fetching records", async () => {
@@ -39,5 +42,59 @@ describe("Common render", () => {
   it("should render correctly without crash", () => {
     const tree = renderer.create(<CountrySelect />).toJSON();
     expect(tree).toMatchSnapshot();
+  });
+});
+describe("Dropdown Component", () => {
+  const mockOptionsRegion: Array<Region> = [
+    { id: 1, name: "Asia", hasCountries: true },
+  ];
+  const mockOptionsState: Array<State> = [
+    {
+      id: 3,
+      name: "California",
+      state_code: "CA",
+      latitude: "",
+      longitude: "",
+      hasCities: true,
+    },
+  ];
+  const mockOptionsCity: Array<City> = [
+    { id: 4, name: "Los Angeles", latitude: "", longitude: "" },
+  ];
+
+  test("sets defaultValue correctly when it's a string", () => {
+    render(
+      <Dropdown
+        options={mockOptionsRegion}
+        defaultValue="Asia"
+        onChange={jest.fn()}
+      />
+    );
+    const input = screen.getByRole("textbox") as HTMLInputElement;
+    expect(input.value).toBe("Asia");
+  });
+
+  test("sets defaultValue correctly when it's a number (matching id)", () => {
+    render(
+      <Dropdown
+        options={mockOptionsState}
+        defaultValue={3}
+        onChange={jest.fn()}
+      />
+    );
+    const input = screen.getByRole("textbox") as HTMLInputElement;
+    expect(input.value).toBe("California");
+  });
+
+  test("sets defaultValue correctly when it's an object", () => {
+    render(
+      <Dropdown
+        options={mockOptionsCity}
+        defaultValue={mockOptionsCity[0]}
+        onChange={jest.fn()}
+      />
+    );
+    const input = screen.getByRole("textbox") as HTMLInputElement;
+    expect(input.value).toBe("Los Angeles");
   });
 });
